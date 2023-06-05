@@ -25,9 +25,10 @@ Servidor de Minecraft 1.19.4 com mods fabric, configuravel com RadminVPN e Ultra
 	- Arquivos .bat
 		- 1° digite no console do servidor /save-all , isso fara com que o mundo seja salvo
 		- 2° Digite no console do servidor /stop , isso garantira que o mundo seja salvo com chances de corromper por isso o save anterior é feito, em seguida ou seu servidor automaticamente será fechado ou basta clicar qualquer tecla que fechara o console do servidor que consequetemente estara fechado seu servidor
-# O que não deve e deve ser alterado no server properties
+# O que pode e não pode ser alterado no server properties e pastas
 - Seed legal(não altere ela): -6476254842693137875
 - Não altere a pasta backup de mapas, apenas acrescente copias do mundo do servidor na pasta para caso der errado alguma coisa e seja nescessário fazer um uso do mapa backup
+- Pastas de sons e emotes podem ser adicionados seu proprio emote e sons que quiser desde que não sejá arquivo pesado
 - No arquivo sever.properties você deve pesquisar por 
 	- "sever-ip": coloque aqui seu ipv4 do radmin ou o ip do ultrasurf sem a porta, este será o ip do seu servidor
 	- "sever-port": 25565 é a porta padrão, não é recomendavel alterar na porta caso não saiba o que esteja fazendo
@@ -43,6 +44,8 @@ Para isto é necessário ter editor de texto como vscode, bloco de notas, notepa
 - 2G
 - 3G
 - 4G (Recomendavel)
+- 5G
+- 6G
 # Lista de mods
 - Amplified Nether
 - Better Third Person
@@ -92,3 +95,4 @@ Para isto é necessário ter editor de texto como vscode, bloco de notas, notepa
 - BSL v8.3
 - Sildurs Shaders enhanced fast
 # Configurações recomendadas no sodium para pc potato, low ou mediano
+As configurações devem ser de computador para computador, mas caso seu computador sejá realmente fraco, faça como nas imagens abaixo quando estiver disponivel as imagens.
