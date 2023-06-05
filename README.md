@@ -1,6 +1,24 @@
 # Minecraft_Server_dos_Guri_1.19.4_Fabric
 Servidor de Minecraft 1.19.4 com mods fabric, configuravel com radmin vpn
 
+# Sumário
+- Como ligar e desligar o servidor
+- O que não deve ser alterado no server properties
+- Como alterar quantia de consumo de ram do servidor
+- Lista de mods
+- Lista de Resource Pack
+- Lista de Shader Pack
+- Configurações recomendadas no sodium para pc potato, low ou mediano
+
+# Como ligar e desligar o servidor
+
+# O que não deve ser alterado no server properties
+# Como alterar quantia de consumo de ram do servidor
+# Lista de mods
+# Lista de Resource Pack
+# Lista de Shader Pack
+# Configurações recomendadas no sodium para pc potato, low ou mediano
+
 ¬Seed legal: -6476254842693137875
 
 ¬Para iniciar o servidor apenas clique duas vezes no ligar com mods pra funcionar o fabric com mods, assim vai  rodar o voice chat
