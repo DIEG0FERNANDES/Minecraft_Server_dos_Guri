@@ -37,6 +37,12 @@ Servidor de Minecraft 1.19.4 com mods fabric, configuravel com RadminVPN e Ultra
 	- "difficulty": está setado no easy, mas pode ser modificado para normal ou hard mode, lembrando que hard não hardcore mode
 	- "hardcore": true para modo hardcore e false para modo vanilla
 # Como alterar quantia de consumo de ram do servidor
+	Para isto é necessário ter editor de texto como vscode, bloco de notas, notepad++ou sublimetext para fazer tal alteração, basta abrir um dos arquivos .bat ou os dois ao mesmo tempo, e trocar os valores de "-Xmx3G -Xms3G" para uma das seguintes opções:
+	- 512M
+	- 1G
+	- 2G
+	- 3G
+	Recomendavel - 4G
 # Lista de mods
 # Lista de Resource Pack
 # Lista de Shader Pack
