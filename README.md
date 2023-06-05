@@ -37,13 +37,58 @@ Servidor de Minecraft 1.19.4 com mods fabric, configuravel com RadminVPN e Ultra
 	- "difficulty": está setado no easy, mas pode ser modificado para normal ou hard mode, lembrando que hard não hardcore mode
 	- "hardcore": true para modo hardcore e false para modo vanilla
 # Como alterar quantia de consumo de ram do servidor
-	Para isto é necessário ter editor de texto como vscode, bloco de notas, notepad++ou sublimetext para fazer tal alteração, basta abrir um dos arquivos .bat ou os dois ao mesmo tempo, e trocar os valores de "-Xmx3G -Xms3G" para uma das seguintes opções:
-	- 512M
-	- 1G
-	- 2G
-	- 3G
-	Recomendavel - 4G
+Para isto é necessário ter editor de texto como vscode, bloco de notas, notepad++ou sublimetext para fazer tal alteração, basta abrir um dos arquivos .bat ou os dois ao mesmo tempo, e trocar os valores de "-Xmx3G -Xms3G" para uma das seguintes opções:
+- 512M
+- 1G
+- 2G
+- 3G
+- 4G (Recomendavel)
 # Lista de mods
+- Amplified Nether
+- Better Third Person
+- CITResewn
+- Dynamic Sound Filter
+- Fast Load
+- Presence Footsteps
+- Wi Zoom
+- Audio Player
+- Axolot Buckets "não funciona por algum motivo"
+- Better Sodium Video Settings
+- Chat Heads
+- Cloth config
+- Complete config
+- Continuity
+- Dynamic FPS
+- Eating animation
+- Emote craft
+- Entity model features
+- Entity texture features
+- Entity culling
+- Fabric api
+- Ferrite core
+- Indium
+- Iris
+- Krypton
+- Lambdynamiclights
+- Language reload
+- Memoryleakfix
+- Modmenu
+- Reeses sodium
+- Smoothboot
+- Sodium extra
+- Sodium fabric
+- Sound physics
+- Starlight
+- Tooltipfix
+- Simple Voice Chat
+- Visuality
+- Voice chat fabric
 # Lista de Resource Pack
+- Fresh Animation 1.19
+- Bare Bones
 # Lista de Shader Pack
+- Complementary Shaders
+- Chocapic v6
+- BSL v8.3
+- Sildurs Shaders enhanced fast
 # Configurações recomendadas no sodium para pc potato, low ou mediano
