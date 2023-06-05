@@ -13,10 +13,18 @@ Servidor de Minecraft 1.19.4 com mods fabric, configuravel com RadminVPN e Ultra
 # Como ligar e desligar o servidor
 - Como ligar servidor
 	- Arquivos .jar
+		- clique duas vezes em ligar_fabric_server.jar
+		- ou clique duas vezes em ligar_server.jar
 	- Arquivos .bat
+		- clique duas vezes em ligar_fabric_server.jar
+		- ou clique duas vezes em ligar_server.jar
 - Como desligar servidor
 	- Arquivos .jar
+		- 1° digite no console do servidor /save-all , isso fara com que o mundo seja salvo
+		- 2° Digite no console do servidor /stop , isso garantira que o mundo seja salvo com chances de corromper por isso o save anterior é feito, em seguida ou seu servidor automaticamente será fechado ou basta clicar qualquer tecla que fechara o console do servidor que consequetemente estara fechado seu servidor
 	- Arquivos .bat
+		- 1° digite no console do servidor /save-all , isso fara com que o mundo seja salvo
+		- 2° Digite no console do servidor /stop , isso garantira que o mundo seja salvo com chances de corromper por isso o save anterior é feito, em seguida ou seu servidor automaticamente será fechado ou basta clicar qualquer tecla que fechara o console do servidor que consequetemente estara fechado seu servidor
 # O que não deve ser alterado no server properties
 - Seed legal: -6476254842693137875
 # Como alterar quantia de consumo de ram do servidor
