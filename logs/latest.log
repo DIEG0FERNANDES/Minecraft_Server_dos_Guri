@@ -1,6 +1,6 @@
-[18:48:52] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
-[18:48:52] [ForkJoinPool-1-worker-2/WARN]: Mod amplified_nether uses the version 1.2.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:48:53] [main/INFO]: Loading 66 mods:
+[17:11:14] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
+[17:11:15] [ForkJoinPool-1-worker-2/WARN]: Mod amplified_nether uses the version 1.2.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[17:11:15] [main/INFO]: Loading 66 mods:
 	- amplified_nether 1.2.1a
 	- audioplayer 1.19.4-1.5.2
 	- cloth-config 10.0.96
@@ -83,223 +83,94 @@
 	   \-- polymer-registry-sync-manipulator 0.4.0+1.19.4
 	- voicechat 1.19.4-2.4.8
 	   \-- fabric-key-binding-api-v1 1.0.32+c477957ed8
-[18:48:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/DiegoFernandes/Documents/Jogos/Minecraft%20da%20comunidade/sever/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[18:48:55] [main/INFO]: Compatibility level set to JAVA_17
-[18:48:58] [main/WARN]: Reference map 'Fastload-1.19.4-Extension-refmap.json' for fastload-1194-compat.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:49:01] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[18:49:01] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
-[18:49:01] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[18:49:01] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[18:49:02] [main/INFO]: Smooth Boot config initialized
-[18:49:42] [main/INFO]: Compression will use Java, encryption will use Java
-[18:49:42] [main/INFO]: Reloading reverb parameters
-[18:49:43] [main/INFO]: Compatibility version 17
-[18:49:43] [main/INFO]: Loading plugins
-[18:49:43] [main/INFO]: Loaded 3 plugin(s)
-[18:49:43] [main/INFO]: Initializing plugins
-[18:49:43] [main/INFO]: Initializing Simple Voice Chat integration
-[18:49:43] [main/INFO]: Initialized 3 plugin(s)
-[18:49:43] [main/INFO]: Registering events for audioplayer
-[18:49:43] [main/INFO]: Registering events for sound_physics_remastered
-[18:49:43] [main/INFO]: Registering events for vcinteraction
-[18:49:43] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
-[18:49:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:49:54] [main/INFO]: Loaded 7 recipes
-[18:49:55] [main/INFO]: Loaded 1179 advancements
-[18:49:57] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 5.210 ms
-[18:49:57] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[18:49:57] [Server thread/INFO]: Loading properties
-[18:49:57] [Server thread/INFO]: Default game type: SURVIVAL
-[18:49:57] [Server thread/INFO]: Generating keypair
-[18:49:58] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[18:49:58] [Server thread/INFO]: Using default channel type
-[18:50:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:50:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:50:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:50:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:50:00] [Server thread/INFO]: Preparing level "world"
-[18:50:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:50:41] [Server thread/INFO]: Time elapsed: 66781606 ms
-[18:50:41] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
-[18:50:43] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
-[18:50:43] [Server thread/INFO]: Done (42.839s)! For help, type "help"
-[18:50:43] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
-[18:50:43] [VoiceChatServerThread/INFO]: Using server-ip as bind address: 26.210.198.12
-[18:50:43] [VoiceChatServerThread/INFO]: Server started at port 24454
-[18:51:18] [Server thread/INFO]: Cookie[/26.210.198.12:54863] logged in with entity id 298 at (-136.5, 75.0, -53.5)
-[18:51:19] [Server thread/INFO]: Cookie joined the game
-[18:51:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2293ms or 45 ticks behind
-[18:51:24] [Server thread/INFO]: Received secret request of Cookie (17)
-[18:51:24] [Server thread/INFO]: Sent secret to Cookie
-[18:51:32] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[18:51:33] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[18:51:33] [VoiceChatPacketProcessingThread/INFO]: Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
-[18:51:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16219ms or 324 ticks behind
-[18:52:04] [VoiceChatPacketProcessingThread/INFO]: Player 4b606ad1-db9a-38e1-aa6c-07063fccc62e timed out
-[18:52:04] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Cookie
-[18:52:05] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Cookie
-[18:52:09] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[18:52:10] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[18:52:10] [VoiceChatPacketProcessingThread/INFO]: Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
-[18:52:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10667ms or 213 ticks behind
-[18:52:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
-[18:52:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8431ms or 168 ticks behind
-[18:53:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6470ms or 129 ticks behind
-[18:53:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[18:53:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[18:54:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11773ms or 235 ticks behind
-[18:54:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6210ms or 124 ticks behind
-[18:55:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4877ms or 97 ticks behind
-[18:55:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8817ms or 176 ticks behind
-[18:55:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6477ms or 129 ticks behind
-[18:56:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12192ms or 243 ticks behind
-[18:56:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5236ms or 104 ticks behind
-[18:57:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10368ms or 207 ticks behind
-[18:57:14] [VoiceChatPacketProcessingThread/WARN]: Dropping voice chat packets! Your Server might be overloaded!
-[18:57:14] [VoiceChatPacketProcessingThread/WARN]: Packet queue has 82 packets
-[18:57:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17469ms or 349 ticks behind
-[18:57:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8081ms or 161 ticks behind
-[18:58:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10551ms or 211 ticks behind
-[18:58:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2228ms or 44 ticks behind
-[18:59:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6045ms or 120 ticks behind
-[18:59:29] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
-[18:59:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38096ms or 761 ticks behind
-[19:00:37] [Server thread/INFO]: Cookie lost connection: Disconnected
-[19:00:37] [Server thread/INFO]: Cookie left the game
-[19:00:37] [Server thread/INFO]: Disconnecting client Cookie
-[19:00:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[19:25:27] [Server thread/INFO]: griefer_hunter[/26.179.31.251:55110] logged in with entity id 1246 at (-134.5, 77.0, -53.5)
-[19:25:27] [Server thread/INFO]: griefer_hunter joined the game
-[19:25:28] [Server thread/INFO]: Received secret request of griefer_hunter (17)
-[19:25:28] [Server thread/INFO]: Sent secret to griefer_hunter
-[19:25:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[19:25:38] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[19:25:40] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[19:25:40] [VoiceChatPacketProcessingThread/INFO]: Player griefer_hunter (4ff08100-f10e-37be-95ce-b05fdc883f02) successfully connected to voice chat
-[19:28:01] [Server thread/INFO]: griefer_hunter has made the advancement [Stone Age]
-[19:28:10] [Server thread/INFO]: griefer_hunter has made the advancement [Getting an Upgrade]
-[19:28:35] [Server thread/INFO]: griefer_hunter has made the advancement [Monster Hunter]
-[19:28:47] [Server thread/INFO]: griefer_hunter was shot by Skeleton
-[19:36:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2893ms or 57 ticks behind
-[19:37:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2213ms or 44 ticks behind
-[19:41:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[19:41:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10718ms or 214 ticks behind
-[19:41:52] [Server thread/INFO]: griefer_hunter has made the advancement [Sweet Dreams]
-[19:44:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2504ms or 50 ticks behind
-[19:44:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2735ms or 54 ticks behind
-[19:46:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:46:01] [Server thread/INFO]: ope/help<--[HERE]
-[19:46:05] [Server thread/INFO]: /advancement (grant|revoke)
-[19:46:05] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[19:46:05] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[19:46:05] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[19:46:05] [Server thread/INFO]: /clear [<targets>]
-[19:46:05] [Server thread/INFO]: /clone (<begin>|from)
-[19:46:05] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[19:46:05] [Server thread/INFO]: /data (merge|get|remove|modify)
-[19:46:05] [Server thread/INFO]: /datapack (enable|disable|list)
-[19:46:05] [Server thread/INFO]: /debug (start|stop|function)
-[19:46:05] [Server thread/INFO]: /defaultgamemode <gamemode>
-[19:46:05] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[19:46:05] [Server thread/INFO]: /effect (clear|give)
-[19:46:05] [Server thread/INFO]: /me <action>
-[19:46:05] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[19:46:05] [Server thread/INFO]: /experience (add|set|query)
-[19:46:05] [Server thread/INFO]: /xp -> experience
-[19:46:05] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[19:46:05] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[19:46:05] [Server thread/INFO]: /forceload (add|remove|query)
-[19:46:05] [Server thread/INFO]: /function <name>
-[19:46:05] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[19:46:05] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[19:46:05] [Server thread/INFO]: /give <targets> <item> [<count>]
-[19:46:05] [Server thread/INFO]: /help [<command>]
-[19:46:05] [Server thread/INFO]: /item (replace|modify)
-[19:46:05] [Server thread/INFO]: /kick <targets> [<reason>]
-[19:46:05] [Server thread/INFO]: /kill [<targets>]
-[19:46:05] [Server thread/INFO]: /list [uuids]
-[19:46:05] [Server thread/INFO]: /locate (structure|biome|poi)
-[19:46:05] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[19:46:05] [Server thread/INFO]: /msg <targets> <message>
-[19:46:05] [Server thread/INFO]: /tell -> msg
-[19:46:05] [Server thread/INFO]: /w -> msg
-[19:46:05] [Server thread/INFO]: /particle <name> [<pos>]
-[19:46:05] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[19:46:05] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[19:46:05] [Server thread/INFO]: /reload
-[19:46:05] [Server thread/INFO]: /recipe (give|take)
-[19:46:05] [Server thread/INFO]: /ride <target> (mount|dismount)
-[19:46:05] [Server thread/INFO]: /say <message>
-[19:46:05] [Server thread/INFO]: /schedule (function|clear)
-[19:46:05] [Server thread/INFO]: /scoreboard (objectives|players)
-[19:46:05] [Server thread/INFO]: /seed
-[19:46:05] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[19:46:05] [Server thread/INFO]: /spawnpoint [<targets>]
-[19:46:05] [Server thread/INFO]: /setworldspawn [<pos>]
-[19:46:05] [Server thread/INFO]: /spectate [<target>]
-[19:46:05] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[19:46:05] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[19:46:05] [Server thread/INFO]: /summon <entity> [<pos>]
-[19:46:05] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[19:46:05] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[19:46:05] [Server thread/INFO]: /teammsg <message>
-[19:46:05] [Server thread/INFO]: /tm -> teammsg
-[19:46:05] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[19:46:05] [Server thread/INFO]: /tp -> teleport
-[19:46:05] [Server thread/INFO]: /tellraw <targets> <message>
-[19:46:05] [Server thread/INFO]: /time (set|add|query)
-[19:46:05] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[19:46:05] [Server thread/INFO]: /trigger <objective> [add|set]
-[19:46:05] [Server thread/INFO]: /weather (clear|rain|thunder)
-[19:46:05] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[19:46:05] [Server thread/INFO]: /jfr (start|stop)
-[19:46:05] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[19:46:05] [Server thread/INFO]: /banlist [ips|players]
-[19:46:05] [Server thread/INFO]: /ban <targets> [<reason>]
-[19:46:05] [Server thread/INFO]: /deop <targets>
-[19:46:05] [Server thread/INFO]: /op <targets>
-[19:46:05] [Server thread/INFO]: /pardon <targets>
-[19:46:05] [Server thread/INFO]: /pardon-ip <target>
-[19:46:05] [Server thread/INFO]: /perf (start|stop)
-[19:46:05] [Server thread/INFO]: /save-all [flush]
-[19:46:05] [Server thread/INFO]: /save-off
-[19:46:05] [Server thread/INFO]: /save-on
-[19:46:05] [Server thread/INFO]: /setidletimeout <minutes>
-[19:46:05] [Server thread/INFO]: /stop
-[19:46:05] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[19:46:05] [Server thread/INFO]: /audioplayer [upload|filebin|url|serverfile|musicdisc|goathorn|musicdisc_bulk|goathorn_bulk|clear|id]
-[19:46:05] [Server thread/INFO]: /emotes (play|stop|reload)
-[19:46:05] [Server thread/INFO]: /voicechat [help|test|invite|join|leave]
-[19:46:57] [Server thread/INFO]: Started tick profiling
-[19:48:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:48:03] [Server thread/INFO]: <--[HERE]
-[19:48:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:48:03] [Server thread/INFO]: <--[HERE]
-[19:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2133ms or 42 ticks behind
-[19:48:22] [Server thread/INFO]: griefer_hunter has made the advancement [Acquire Hardware]
-[19:48:44] [Server thread/INFO]: Stopped tick profiling after 106.73 seconds and 2095 ticks (19.63 ticks per second)
-[19:49:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[19:55:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
-[19:55:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3304ms or 66 ticks behind
-[19:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4387ms or 87 ticks behind
-[20:02:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[20:05:42] [Server thread/INFO]: [Not Secure] <griefer_hunter> estou minerando em -271 54 -98 (vou sair pra tomar banho UwU
-[20:05:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2298ms or 45 ticks behind
-[20:05:46] [Server thread/INFO]: [Not Secure] <griefer_hunter> pois hoje eh sabado
-[20:05:47] [Server thread/INFO]: griefer_hunter lost connection: Disconnected
-[20:05:47] [Server thread/INFO]: griefer_hunter left the game
-[20:05:47] [Server thread/INFO]: Disconnecting client griefer_hunter
-[20:13:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:13:55] [Server thread/INFO]: save<--[HERE]
-[20:14:07] [Server thread/INFO]: Saving is already turned on
-[20:14:13] [Server thread/INFO]: Stopping the server
-[20:14:14] [Server thread/INFO]: Stopping server
-[20:14:14] [Server thread/INFO]: Saving players
-[20:14:14] [Server thread/INFO]: Saving worlds
-[20:14:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:14:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:14:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:14:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:14:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:14:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:14:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:11:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/DiegoFernandes/Documents/Jogos/Minecraft%20da%20comunidade/Minecraft_Server_dos_Guri_1.19.4_Fabric/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:11:16] [main/INFO]: Compatibility level set to JAVA_17
+[17:11:17] [main/WARN]: Reference map 'Fastload-1.19.4-Extension-refmap.json' for fastload-1194-compat.mixins.json could not be read. If this is a development environment you can ignore this message
+[17:11:19] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[17:11:19] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
+[17:11:19] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[17:11:19] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[17:11:22] [main/INFO]: Smooth Boot config initialized
+[17:11:58] [main/INFO]: Compression will use Java, encryption will use Java
+[17:11:58] [main/INFO]: Reloading reverb parameters
+[17:11:58] [main/INFO]: Compatibility version 17
+[17:11:58] [main/INFO]: Loading plugins
+[17:11:58] [main/INFO]: Loaded 3 plugin(s)
+[17:11:58] [main/INFO]: Initializing plugins
+[17:11:58] [main/INFO]: Initializing Simple Voice Chat integration
+[17:11:58] [main/INFO]: Initialized 3 plugin(s)
+[17:11:58] [main/INFO]: Registering events for audioplayer
+[17:11:58] [main/INFO]: Registering events for sound_physics_remastered
+[17:11:58] [main/INFO]: Registering events for vcinteraction
+[17:11:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
+[17:11:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:12:04] [main/INFO]: Loaded 7 recipes
+[17:12:06] [main/INFO]: Loaded 1179 advancements
+[17:12:07] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 5.776 ms
+[17:12:08] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[17:12:08] [Server thread/INFO]: Loading properties
+[17:12:08] [Server thread/INFO]: Default game type: SURVIVAL
+[17:12:08] [Server thread/INFO]: Generating keypair
+[17:12:08] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
+[17:12:09] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[17:12:10] [Server thread/INFO]: Using default channel type
+[17:12:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:12:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:12:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:12:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:12:11] [Server thread/INFO]: Preparing level "world"
+[17:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:12:41] [Server thread/INFO]: Time elapsed: 8971031 ms
+[17:12:41] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[17:12:42] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[17:12:42] [Server thread/INFO]: Done (31.125s)! For help, type "help"
+[17:12:42] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
+[17:12:43] [VoiceChatServerThread/INFO]: Using server-ip as bind address: 26.210.198.12
+[17:12:43] [VoiceChatServerThread/INFO]: Server started at port 24454
+[17:14:58] [Server thread/INFO]: Seed: [-6476254842693137875]
+[17:57:50] [Server thread/INFO]: Cookie[/26.210.198.12:56663] logged in with entity id 225 at (-253.91628424219053, 70.0, -126.48658405701661)
+[17:57:51] [Server thread/INFO]: Cookie joined the game
+[17:57:52] [Server thread/INFO]: Received secret request of Cookie (17)
+[17:57:52] [Server thread/INFO]: Sent secret to Cookie
+[17:57:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[17:58:01] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[17:58:01] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[17:58:01] [VoiceChatPacketProcessingThread/INFO]: Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
+[17:58:02] [VoiceChatPacketProcessingThread/WARN]: Dropping voice chat packets! Your Server might be overloaded!
+[17:58:02] [VoiceChatPacketProcessingThread/WARN]: Packet queue has 43 packets
+[17:58:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9814ms or 196 ticks behind
+[17:58:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2292ms or 45 ticks behind
+[17:58:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2512ms or 50 ticks behind
+[17:59:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[17:59:16] [VoiceChatPacketProcessingThread/WARN]: Dropping voice chat packets! Your Server might be overloaded!
+[17:59:16] [VoiceChatPacketProcessingThread/WARN]: Packet queue has 73 packets
+[17:59:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8467ms or 169 ticks behind
+[18:00:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2384ms or 47 ticks behind
+[18:03:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
+[18:04:35] [Server thread/INFO]: Cookie lost connection: Disconnected
+[18:04:35] [Server thread/INFO]: Cookie left the game
+[18:04:35] [Server thread/INFO]: Disconnecting client Cookie
+[18:04:48] [Server thread/INFO]: Stopping the server
+[18:04:48] [Server thread/INFO]: Stopping server
+[18:04:48] [Server thread/INFO]: Saving players
+[18:04:48] [Server thread/INFO]: Saving worlds
+[18:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
