@@ -1,117 +1,15 @@
-[17:11:14] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.14.21
-[17:11:15] [ForkJoinPool-1-worker-2/WARN]: Mod amplified_nether uses the version 1.2.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:11:15] [main/INFO]: Loading 66 mods:
-	- amplified_nether 1.2.1a
-	- audioplayer 1.19.4-1.5.2
-	- cloth-config 10.0.96
-	   \-- cloth-basic-math 0.6.1
-	- completeconfig 2.3.1
-	   |-- completeconfig-base 2.3.1
-	   |-- completeconfig-gui-cloth 2.3.1
-	   \-- completeconfig-gui-yacl 2.3.1
-	- emotecraft 2.2.7-b.build.48
-	   |-- bendy-lib 4.0.0
-	   \-- player-animator 1.0.2+1.19.4
-	- fabric-api 0.83.0+1.19.4
-	   |-- fabric-api-base 0.4.27+1e9487d2f4
-	   |-- fabric-api-lookup-api-v1 1.6.28+504944c8f4
-	   |-- fabric-biome-api-v1 13.0.9+10ce000ff4
-	   |-- fabric-block-api-v1 1.0.8+e022e5d1f4
-	   |-- fabric-blockrenderlayer-v1 1.1.37+10ce000ff4
-	   |-- fabric-client-tags-api-v1 1.0.18+10ce000ff4
-	   |-- fabric-command-api-v1 1.2.30+f71b366ff4
-	   |-- fabric-command-api-v2 2.2.9+10ce000ff4
-	   |-- fabric-commands-v0 0.2.47+df3654b3f4
-	   |-- fabric-containers-v0 0.1.57+df3654b3f4
-	   |-- fabric-content-registries-v0 3.5.12+10ce000ff4
-	   |-- fabric-convention-tags-v1 1.5.2+10ce000ff4
-	   |-- fabric-crash-report-info-v1 0.2.17+aeb40ebef4
-	   |-- fabric-data-generation-api-v1 11.4.3+10ce000ff4
-	   |-- fabric-dimensions-v1 2.1.48+10ce000ff4
-	   |-- fabric-entity-events-v1 1.5.16+10ce000ff4
-	   |-- fabric-events-interaction-v0 0.6.0+10ce000ff4
-	   |-- fabric-events-lifecycle-v0 0.2.55+df3654b3f4
-	   |-- fabric-game-rule-api-v1 1.0.35+a1ccd7bff4
-	   |-- fabric-item-api-v1 2.1.20+10ce000ff4
-	   |-- fabric-item-group-api-v1 3.0.8+10ce000ff4
-	   |-- fabric-key-binding-api-v1 1.0.35+504944c8f4
-	   |-- fabric-keybindings-v0 0.2.33+df3654b3f4
-	   |-- fabric-lifecycle-events-v1 2.2.18+10ce000ff4
-	   |-- fabric-loot-api-v2 1.1.30+10ce000ff4
-	   |-- fabric-loot-tables-v1 1.1.34+9e7660c6f4
-	   |-- fabric-message-api-v1 5.1.4+10ce000ff4
-	   |-- fabric-mining-level-api-v1 2.1.42+10ce000ff4
-	   |-- fabric-models-v0 0.3.33+10ce000ff4
-	   |-- fabric-networking-api-v1 1.3.4+10ce000ff4
-	   |-- fabric-networking-v0 0.3.44+df3654b3f4
-	   |-- fabric-object-builder-api-v1 7.0.6+10ce000ff4
-	   |-- fabric-particles-v1 1.0.26+10ce000ff4
-	   |-- fabric-recipe-api-v1 1.0.11+10ce000ff4
-	   |-- fabric-registry-sync-v0 2.2.3+10ce000ff4
-	   |-- fabric-renderer-api-v1 2.3.1+10ce000ff4
-	   |-- fabric-renderer-indigo 1.3.1+10ce000ff4
-	   |-- fabric-renderer-registries-v1 3.2.41+df3654b3f4
-	   |-- fabric-rendering-data-attachment-v1 0.3.31+10ce000ff4
-	   |-- fabric-rendering-fluids-v1 3.0.24+10ce000ff4
-	   |-- fabric-rendering-v0 1.1.44+df3654b3f4
-	   |-- fabric-rendering-v1 2.1.4+10ce000ff4
-	   |-- fabric-resource-conditions-api-v1 2.3.3+10ce000ff4
-	   |-- fabric-resource-loader-v0 0.11.5+5ade3c38f4
-	   |-- fabric-screen-api-v1 1.0.48+10ce000ff4
-	   |-- fabric-screen-handler-api-v1 1.3.23+10ce000ff4
-	   |-- fabric-sound-api-v1 1.0.11+10ce000ff4
-	   |-- fabric-transfer-api-v1 3.2.1+10ce000ff4
-	   \-- fabric-transitive-access-wideners-v1 3.2.0+10ce000ff4
-	- fabricloader 0.14.21
-	- fastload 3.4.0
-	   |-- conditional-mixin 0.3.2
-	   |-- fastload-119-0-1-2-compat 3.4.0
-	   |-- fastload-1193-compat 3.4.0
-	   |-- fastload-1194-compat 3.4.0
-	   \-- fastload_fapi_forward 1.0.2
-	- ferritecore 5.2.0
-	- java 17
-	- krypton 0.2.2
-	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
-	- memoryleakfix 1.0.0
-	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.6
-	- minecraft 1.19.4
-	- smoothboot 1.19.4-1.7.0
-	- sound_physics_remastered 1.19.4-1.1.1
-	- starlight 1.1.1+fabric.ae22326
-	- vcinteraction 1.19.4-1.0.3
-	   \-- polymer-registry-sync-manipulator 0.4.0+1.19.4
-	- voicechat 1.19.4-2.4.8
-	   \-- fabric-key-binding-api-v1 1.0.32+c477957ed8
-[17:11:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/DiegoFernandes/Documents/Jogos/Minecraft%20da%20comunidade/Minecraft_Server_dos_Guri_1.19.4_Fabric/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[17:11:16] [main/INFO]: Compatibility level set to JAVA_17
-[17:11:17] [main/WARN]: Reference map 'Fastload-1.19.4-Extension-refmap.json' for fastload-1194-compat.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:11:19] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[17:11:19] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
-[17:11:19] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[17:11:19] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[17:11:22] [main/INFO]: Smooth Boot config initialized
-[17:11:58] [main/INFO]: Compression will use Java, encryption will use Java
-[17:11:58] [main/INFO]: Reloading reverb parameters
-[17:11:58] [main/INFO]: Compatibility version 17
-[17:11:58] [main/INFO]: Loading plugins
-[17:11:58] [main/INFO]: Loaded 3 plugin(s)
-[17:11:58] [main/INFO]: Initializing plugins
-[17:11:58] [main/INFO]: Initializing Simple Voice Chat integration
-[17:11:58] [main/INFO]: Initialized 3 plugin(s)
-[17:11:58] [main/INFO]: Registering events for audioplayer
-[17:11:58] [main/INFO]: Registering events for sound_physics_remastered
-[17:11:58] [main/INFO]: Registering events for vcinteraction
-[17:11:58] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
-[17:11:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:12:04] [main/INFO]: Loaded 7 recipes
-[17:12:06] [main/INFO]: Loaded 1179 advancements
-[17:12:07] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 5.776 ms
-[17:12:08] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[17:12:08] [Server thread/INFO]: Loading properties
-[17:12:08] [Server thread/INFO]: Default game type: SURVIVAL
-[17:12:08] [Server thread/INFO]: Generating keypair
-[17:12:08] [Server console handler/ERROR]: Exception handling console input
+[20:50:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:50:36] [ServerMain/INFO]: Loaded 7 recipes
+[20:50:38] [Server thread/INFO]: Starting minecraft server version 1.20
+[20:50:38] [Server thread/INFO]: Loading properties
+[20:50:39] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[20:50:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:50:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:50:40] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -124,53 +22,143 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]
-[17:12:09] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[17:12:10] [Server thread/INFO]: Using default channel type
-[17:12:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:12:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:12:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:12:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:12:11] [Server thread/INFO]: Preparing level "world"
-[17:12:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:12:41] [Server thread/INFO]: Time elapsed: 8971031 ms
-[17:12:41] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
-[17:12:42] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
-[17:12:42] [Server thread/INFO]: Done (31.125s)! For help, type "help"
-[17:12:42] [Server thread/WARN]: Running in offline mode - Voice chat encryption is not secure!
-[17:12:43] [VoiceChatServerThread/INFO]: Using server-ip as bind address: 26.210.198.12
-[17:12:43] [VoiceChatServerThread/INFO]: Server started at port 24454
-[17:14:58] [Server thread/INFO]: Seed: [-6476254842693137875]
-[17:57:50] [Server thread/INFO]: Cookie[/26.210.198.12:56663] logged in with entity id 225 at (-253.91628424219053, 70.0, -126.48658405701661)
-[17:57:51] [Server thread/INFO]: Cookie joined the game
-[17:57:52] [Server thread/INFO]: Received secret request of Cookie (17)
-[17:57:52] [Server thread/INFO]: Sent secret to Cookie
-[17:57:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
-[17:58:01] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[17:58:01] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[17:58:01] [VoiceChatPacketProcessingThread/INFO]: Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
-[17:58:02] [VoiceChatPacketProcessingThread/WARN]: Dropping voice chat packets! Your Server might be overloaded!
-[17:58:02] [VoiceChatPacketProcessingThread/WARN]: Packet queue has 43 packets
-[17:58:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9814ms or 196 ticks behind
-[17:58:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2292ms or 45 ticks behind
-[17:58:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2512ms or 50 ticks behind
-[17:59:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
-[17:59:16] [VoiceChatPacketProcessingThread/WARN]: Dropping voice chat packets! Your Server might be overloaded!
-[17:59:16] [VoiceChatPacketProcessingThread/WARN]: Packet queue has 73 packets
-[17:59:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8467ms or 169 ticks behind
-[18:00:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2384ms or 47 ticks behind
-[18:03:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
-[18:04:35] [Server thread/INFO]: Cookie lost connection: Disconnected
-[18:04:35] [Server thread/INFO]: Cookie left the game
-[18:04:35] [Server thread/INFO]: Disconnecting client Cookie
-[18:04:48] [Server thread/INFO]: Stopping the server
-[18:04:48] [Server thread/INFO]: Stopping server
-[18:04:48] [Server thread/INFO]: Saving players
-[18:04:48] [Server thread/INFO]: Saving worlds
-[18:04:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:04:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:04:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
+	Suppressed: java.io.IOException: Identificador inválido
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
+		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
+[20:50:40] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:40] [Server thread/INFO]: Generating keypair
+[20:50:40] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[20:50:40] [Server thread/INFO]: Using default channel type
+[20:50:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:50:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:50:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[20:50:42] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[20:50:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:50:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:50:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:50:45] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.10
+[20:50:45] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
+[20:50:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
+[20:50:45] [Server thread/INFO]: [RankSystem] Loading server plugin RankSystem v1.3
+[20:50:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.89
+[20:50:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:50:46] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.4
+[20:50:46] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[20:50:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.89
+[20:50:47] [Server thread/INFO]:         __    
+[20:50:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.89
+[20:50:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:50:47] [Server thread/INFO]: 
+[20:50:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:50:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:50:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:50:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:50:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5196ms)
+[20:50:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:50:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:50:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:50:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:50:51] [Server thread/INFO]: Preparing level "world"
+[20:50:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:50:53] [Server thread/INFO]: Time elapsed: 693 ms
+[20:50:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:50:53] [Server thread/INFO]: Time elapsed: 280 ms
+[20:50:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:50:53] [Server thread/INFO]: Time elapsed: 148 ms
+[20:50:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[20:50:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[20:50:54] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.10
+[20:50:54] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
+[20:50:54] [Server thread/INFO]: [voicechat] Compatibility version 17
+[20:50:54] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[20:50:54] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[20:50:54] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
+[20:50:54] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[20:50:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[20:50:54] [Server thread/INFO]: [RankSystem] Enabling RankSystem v1.3
+[20:50:54] [Server thread/INFO]: 
+
+[RankSystem] Plugin has been enabled!
+[20:50:54] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.4
+[20:50:55] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[20:50:55] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[20:50:55] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
+[20:50:55] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
+[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing events...
+[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[20:50:56] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[20:50:56] [Server thread/INFO]: Running delayed init tasks
+[20:50:56] [Server thread/INFO]: [voicechat] Loading plugins
+[20:50:56] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[20:50:56] [Server thread/INFO]: [voicechat] Initializing plugins
+[20:50:56] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:50:56] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[20:50:56] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
+[20:50:56] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[20:50:56] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[20:50:56] [Server thread/INFO]: Done (18.128s)! For help, type "help"
+[20:50:56] [Server thread/INFO]: Timings Reset
+[20:50:56] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.4.1 (running v4.4)
+[20:50:56] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[20:50:56] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 24454
+[20:51:41] [Server thread/INFO]: Stopping the server
+[20:51:41] [Server thread/INFO]: Stopping server
+[20:51:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[20:51:41] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4
+[20:51:41] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4
+[20:51:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.89
+[20:51:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:51:41] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:51:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:51:41] [Server thread/INFO]: [RankSystem] Disabling RankSystem v1.3
+[20:51:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[20:51:41] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
+[20:51:41] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[20:51:41] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.10
+[20:51:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[20:51:41] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:51:41] [Server thread/INFO]: Saving players
+[20:51:41] [Server thread/INFO]: Saving worlds
+[20:51:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:51:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:51:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:51:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 3,40s
+[20:51:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:51:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Saved 1849 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 2,41s
+[20:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:51:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,38s
+[20:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:51:47] [Server thread/INFO]: Flushing Chunk IO
+[20:51:47] [Server thread/INFO]: Closing Thread Pool
+[20:51:47] [Server thread/INFO]: Closing Server

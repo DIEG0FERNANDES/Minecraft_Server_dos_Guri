@@ -1,0 +1,5 @@
+group_interaction: false
+whisper_interaction: false
+sneak_interaction: false
+minimum_activation_threshold: -50
+default_interaction_toggle: true

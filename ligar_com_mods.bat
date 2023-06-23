@@ -1,1 +1,0 @@
-java -Xmx2G -Xms2G -jar ligar_fabric_server.jar nogui
