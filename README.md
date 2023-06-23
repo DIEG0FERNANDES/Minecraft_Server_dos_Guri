@@ -151,7 +151,9 @@ Para isto é necessário ter editor de texto como vscode, bloco de notas, notepa
 - Simple Voice Chat
 - Visuality
 - Voice chat fabric
-### [_Lista de Resource Pack_] (https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri)
+### [_Lista de Resource Pack_]
+<a target="_blank" href="https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri">
+</a>
 - Fresh Animation 1.19
 - Bare Bones
 # Lista de Shader Pack
