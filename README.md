@@ -11,7 +11,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 - [_Lista de Shader Pack_]
 - [_Configurações recomendadas no sodium para pc potato, low ou mediano_]
 
-- ### [_Como ligar e desligar o servidor_]
+- ## [_Como ligar e desligar o servidor_]
 	- Como ligar servidor
 		- Arquivos .jar
 			- clique duas vezes em paper.jar
@@ -24,7 +24,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- Arquivos .bat
 			- 1° digite no console do servidor save-all , isso fara com que o mundo seja salvo
 			- 2° Digite no console do servidor stop , isso garantira que o mundo seja salvo com chances de corromper por isso o save anterior é feito, em seguida ou seu servidor automaticamente será fechado ou basta clicar qualquer tecla que fechara o console do servidor que consequetemente estara fechado seu servidor
-- ### [_O que pode e não pode ser alterado no server properties e pastas_]
+- ## [_O que pode e não pode ser alterado no server properties e pastas_]
 	- Seed legal(não altere ela): -6476254842693137875
 	- Não altere a pasta backup de mapas, apenas acrescente copias do mundo do servidor na pasta para caso der errado alguma coisa e seja nescessário fazer um uso do mapa backup
 	- Pastas de sons e emotes podem ser adicionados seu proprio emote e sons que quiser desde que não sejá arquivo pesado
@@ -36,8 +36,8 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- "pvp": true ou false, aqui é intuitivo, false pra desativar e true pra ativar
 		- "difficulty": está setado no easy, mas pode ser modificado para normal ou hard mode, lembrando que hard não hardcore mode
 		- "hardcore": true para modo hardcore e false para modo vanilla
-- ### [_Exemplo de server.properties_]
-	- # Pode alterar
+- ## [_Exemplo de server.properties_]
+	- ### Pode alterar
 		- spawn-protection=16
 		- view-distance=6 menos lagg 8 recomendavel paraq visão, só não passe de 10
 		- simulation-distance=6
@@ -59,7 +59,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- player-idle-timeout=0
 		- max-players=4
 
-	- # Players vão usar
+	- ### Players vão usar
 		- resource-pack=
 		- require-resource-pack=false
 		- resource-pack-prompt=
@@ -71,7 +71,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- allow-flight=false
 		- enable-status=true
 
-	- # Indevido para maioria dos players
+	- ### Indevido para maioria dos players
 		- broadcast-rcon-to-ops=true
 		- enable-jmx-monitoring=false
 		- resource-pack-sha1==
@@ -91,7 +91,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- max-tick-time=60000
 		- use-native-transport=true
 
-	- # Inalteravel 100%
+	- ### Inalteravel 100%
 		- level-seed=-6476254842693137875
 		- generator-settings={}
 		- enforce-secure-profile=true
@@ -102,7 +102,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- initial-enabled-packs=vanilla
 		- level-type=minecraft\:normal
 
-- ### [_Como alterar quantia de consumo de ram do servidor_]
+- ## [_Como alterar quantia de consumo de ram do servidor_]
 	Para isto é necessário ter editor de texto como vscode, bloco de notas, notepad++ou sublimetext para fazer tal alteração, basta abrir um dos arquivos .bat ou os dois ao mesmo tempo, e trocar os valores de "-Xmx3G -Xms3G" para uma das seguintes opções:
 	- 512M
 	- 1G
@@ -111,7 +111,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 	- 4G (Recomendavel)
 	- 5G
 	- 6G (Confortável)
-- ### Lista de mods
+- ## Lista de mods
 	[_download_](https://github.com/DIEG0FERNANDES/Mod_Pack_dos_Guri)
 	- Amplified Nether
 	- Better Third Person
@@ -152,15 +152,15 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 	- Simple Voice Chat
 	- Visuality
 	- Voice chat fabric
-- ### [_Lista de Resource Pack_]
+- ## [_Lista de Resource Pack_]
 	[_download_](https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri)
 	- Fresh Animation 1.19
 	- Bare Bones
-- ### [_Lista de Shader Pack_]
+- ## [_Lista de Shader Pack_]
 	[_download_](https://github.com/DIEG0FERNANDES/Shaderpacks_dos_Guri)
 	- Complementary Shaders
 	- Chocapic v6
 	- BSL v8.3
 	- Sildurs Shaders enhanced fast
-- ### [_Configurações recomendadas no sodium para pc potato, low ou mediano_]
+- ## [_Configurações recomendadas no sodium para pc potato, low ou mediano_]
 	As configurações devem ser de computador para computador, mas caso seu computador sejá realmente fraco, faça como nas imagens abaixo quando estiver disponivel as imagens, na duvida desative tudo que tu ache necessario e tenha impacto na sua maquina.
