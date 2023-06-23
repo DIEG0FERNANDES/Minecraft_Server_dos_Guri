@@ -2,14 +2,14 @@
 Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 
 # Sumário
-- Como ligar e desligar o servidor
-- O que não deve ser alterado no server properties
-- Como alterar quantia de consumo de ram do servidor
-- Exemplo de server.properties
-- Lista de mods
-- Lista de Resource Pack
-- Lista de Shader Pack
-- Configurações recomendadas no sodium para pc potato, low ou mediano
+- [_Como ligar e desligar o servidor_]
+- [_O que não deve ser alterado no server properties_]
+- [_Como alterar quantia de consumo de ram do servidor_]
+- [_Exemplo de server.properties_]
+- [_Lista de mods_]
+- [_Lista de Resource Pack_]
+- [_Lista de Shader Pack_]
+- [_Configurações recomendadas no sodium para pc potato, low ou mediano_]
 
 - ### [_Como ligar e desligar o servidor_]
 	- Como ligar servidor
@@ -37,7 +37,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- "difficulty": está setado no easy, mas pode ser modificado para normal ou hard mode, lembrando que hard não hardcore mode
 		- "hardcore": true para modo hardcore e false para modo vanilla
 - ### [_Exemplo de server.properties_]
-	- Pode alterar
+	- # Pode alterar
 		- spawn-protection=16
 		- view-distance=6 menos lagg 8 recomendavel paraq visão, só não passe de 10
 		- simulation-distance=6
@@ -59,7 +59,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- player-idle-timeout=0
 		- max-players=4
 
-	- Players vão usar
+	- # Players vão usar
 		- resource-pack=
 		- require-resource-pack=false
 		- resource-pack-prompt=
@@ -71,7 +71,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- allow-flight=false
 		- enable-status=true
 
-	- Indevido para maioria dos players
+	- # Indevido para maioria dos players
 		- broadcast-rcon-to-ops=true
 		- enable-jmx-monitoring=false
 		- resource-pack-sha1==
@@ -91,7 +91,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 		- max-tick-time=60000
 		- use-native-transport=true
 
-	- Inalteravel 100%
+	- # Inalteravel 100%
 		- level-seed=-6476254842693137875
 		- generator-settings={}
 		- enforce-secure-profile=true
@@ -111,7 +111,8 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 	- 4G (Recomendavel)
 	- 5G
 	- 6G (Confortável)
-	- ### Lista de mods
+- ### Lista de mods
+	[_download:_](https://github.com/DIEG0FERNANDES/Mod_Pack_dos_Guri)
 	- Amplified Nether
 	- Better Third Person
 	- CITResewn
@@ -152,9 +153,11 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 	- Visuality
 	- Voice chat fabric
 - ### [_Lista de Resource Pack_]
+	[_download:_](https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri)
 	- Fresh Animation 1.19
 	- Bare Bones
 - ### [_Lista de Shader Pack_]
+	[_download:_](https://github.com/DIEG0FERNANDES/Shaderpacks_dos_Guri)
 	- Complementary Shaders
 	- Chocapic v6
 	- BSL v8.3
