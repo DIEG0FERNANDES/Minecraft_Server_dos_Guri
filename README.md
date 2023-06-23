@@ -112,7 +112,7 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 	- 5G
 	- 6G (Confortável)
 - ### Lista de mods
-	[_download:_](https://github.com/DIEG0FERNANDES/Mod_Pack_dos_Guri)
+	[_download_](https://github.com/DIEG0FERNANDES/Mod_Pack_dos_Guri)
 	- Amplified Nether
 	- Better Third Person
 	- CITResewn
@@ -153,11 +153,11 @@ Servidor de Minecraft 1.20 papermc, configuravel com RadminVPN e UltrasurfVPN
 	- Visuality
 	- Voice chat fabric
 - ### [_Lista de Resource Pack_]
-	[_download:_](https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri)
+	[_download_](https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri)
 	- Fresh Animation 1.19
 	- Bare Bones
 - ### [_Lista de Shader Pack_]
-	[_download:_](https://github.com/DIEG0FERNANDES/Shaderpacks_dos_Guri)
+	[_download_](https://github.com/DIEG0FERNANDES/Shaderpacks_dos_Guri)
 	- Complementary Shaders
 	- Chocapic v6
 	- BSL v8.3
