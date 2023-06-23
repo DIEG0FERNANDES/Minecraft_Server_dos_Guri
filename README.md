@@ -151,15 +151,13 @@ Para isto é necessário ter editor de texto como vscode, bloco de notas, notepa
 - Simple Voice Chat
 - Visuality
 - Voice chat fabric
-### [_Lista de Resource Pack_]
-<a target="_blank" href="https://github.com/DIEG0FERNANDES/Resoucepacks_dos_Guri">
-</a>
+- ### [_Lista de Resource Pack_]
 - Fresh Animation 1.19
 - Bare Bones
-# Lista de Shader Pack
+- ### [_Lista de Shader Pack_]
 - Complementary Shaders
 - Chocapic v6
 - BSL v8.3
 - Sildurs Shaders enhanced fast
-# Configurações recomendadas no sodium para pc potato, low ou mediano
+- ### [_Configurações recomendadas no sodium para pc potato, low ou mediano_]
 As configurações devem ser de computador para computador, mas caso seu computador sejá realmente fraco, faça como nas imagens abaixo quando estiver disponivel as imagens, na duvida desative tudo que tu ache necessario e tenha impacto na sua maquina.
