@@ -1,164 +1,291 @@
-[20:50:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:50:36] [ServerMain/INFO]: Loaded 7 recipes
-[20:50:38] [Server thread/INFO]: Starting minecraft server version 1.20
-[20:50:38] [Server thread/INFO]: Loading properties
-[20:50:39] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[20:50:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:50:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:50:39] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:50:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:50:40] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
-java.io.IOException: Identificador inválido
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
-	Suppressed: java.io.IOException: Identificador inválido
-		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
-		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
-		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
-		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
-		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
-		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
-		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
-		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
-		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
-		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
-[20:50:40] [Server thread/INFO]: Default game type: SURVIVAL
-[20:50:40] [Server thread/INFO]: Generating keypair
-[20:50:40] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[20:50:40] [Server thread/INFO]: Using default channel type
-[20:50:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:50:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:50:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
-[20:50:42] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
-[20:50:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:50:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:50:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:50:45] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.10
-[20:50:45] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
-[20:50:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
-[20:50:45] [Server thread/INFO]: [RankSystem] Loading server plugin RankSystem v1.3
-[20:50:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.89
-[20:50:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:50:46] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.4
-[20:50:46] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[20:50:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:50:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.89
-[20:50:47] [Server thread/INFO]:         __    
-[20:50:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.89
-[20:50:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:50:47] [Server thread/INFO]: 
-[20:50:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:50:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:50:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:50:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:50:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5196ms)
-[20:50:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:50:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:50:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:50:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:50:51] [Server thread/INFO]: Preparing level "world"
-[20:50:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:50:53] [Server thread/INFO]: Time elapsed: 693 ms
-[20:50:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:50:53] [Server thread/INFO]: Time elapsed: 280 ms
-[20:50:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:50:53] [Server thread/INFO]: Time elapsed: 148 ms
-[20:50:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
-[20:50:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
-[20:50:54] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.10
-[20:50:54] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
-[20:50:54] [Server thread/INFO]: [voicechat] Compatibility version 17
-[20:50:54] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[20:50:54] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[20:50:54] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
-[20:50:54] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[20:50:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
-[20:50:54] [Server thread/INFO]: [RankSystem] Enabling RankSystem v1.3
-[20:50:54] [Server thread/INFO]: 
-
-[RankSystem] Plugin has been enabled!
-[20:50:54] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.4
-[20:50:55] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
-[20:50:55] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
-[20:50:55] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
-[20:50:55] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
-[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing hooks...
-[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
-[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing events...
-[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized events
-[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing commands...
-[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
-[20:50:56] [Server thread/INFO]: [HuskHomes] Initializing metrics...
-[20:50:56] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
-[20:50:56] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[20:50:56] [Server thread/INFO]: Running delayed init tasks
-[20:50:56] [Server thread/INFO]: [voicechat] Loading plugins
-[20:50:56] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[20:50:56] [Server thread/INFO]: [voicechat] Initializing plugins
-[20:50:56] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:50:56] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[20:50:56] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
-[20:50:56] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[20:50:56] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[20:50:56] [Server thread/INFO]: Done (18.128s)! For help, type "help"
-[20:50:56] [Server thread/INFO]: Timings Reset
-[20:50:56] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.4.1 (running v4.4)
-[20:50:56] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[20:50:56] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 24454
-[20:51:41] [Server thread/INFO]: Stopping the server
-[20:51:41] [Server thread/INFO]: Stopping server
-[20:51:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[20:51:41] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4
-[20:51:41] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4
-[20:51:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.89
-[20:51:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:51:41] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:51:41] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:51:41] [Server thread/INFO]: [RankSystem] Disabling RankSystem v1.3
-[20:51:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
-[20:51:41] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
-[20:51:41] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[20:51:41] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.10
-[20:51:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
-[20:51:41] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[20:51:41] [Server thread/INFO]: Saving players
-[20:51:41] [Server thread/INFO]: Saving worlds
-[20:51:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:51:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:51:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:51:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 3,40s
-[20:51:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:51:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:51:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Saved 1849 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 2,41s
-[20:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:51:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:51:47] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0,38s
-[20:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:51:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:51:47] [Server thread/INFO]: Flushing Chunk IO
-[20:51:47] [Server thread/INFO]: Closing Thread Pool
-[20:51:47] [Server thread/INFO]: Closing Server
+[00:01:26] [Async Chat Thread - #17/INFO]: [Not Secure] [OWNER] griefer_hunter: ta ouvindo?
+[00:01:31] [Async Chat Thread - #16/INFO]: [Not Secure] [OWNER] griefer_hunter: perai vou aumentar seu volume
+[00:01:38] [Async Chat Thread - #17/INFO]: [Not Secure] [OWNER] griefer_hunter: ai
+[00:05:57] [Async Chat Thread - #19/INFO]: [Not Secure] [OWNER] Cookie: vorti
+[00:06:02] [Async Chat Thread - #18/INFO]: [Not Secure] [OWNER] griefer_hunter: oi oi
+[00:06:07] [Async Chat Thread - #18/INFO]: [Not Secure] [OWNER] griefer_hunter: estamos na minha casa
+[00:06:07] [Async Chat Thread - #18/INFO]: [Not Secure] [OWNER] griefer_hunter: w
+[00:06:19] [Async Chat Thread - #19/INFO]: [Not Secure] [OWNER] griefer_hunter: agora 33 porcento dos jogadores estao na minha casa
+[00:06:30] [Async Chat Thread - #19/INFO]: [Not Secure] [OWNER] griefer_hunter: o nathan falou uma farmacia e eu nao entendi um comprimido
+[00:06:37] [Async Chat Thread - #19/INFO]: [Not Secure] [OWNER] griefer_hunter: por causa do microfone com autotune dele
+[00:07:29] [Async Chat Thread - #19/INFO]: [Not Secure] [OWNER] Cookie: mano escreve porquenão to entendendo
+[00:08:48] [Async Chat Thread - #20/INFO]: [Not Secure] [OWNER] Cookie: se ta na ravina ?
+[00:08:51] [Async Chat Thread - #21/INFO]: [Not Secure] [OWNER] Cookie: matheus
+[00:08:52] [Async Chat Thread - #21/INFO]: [Not Secure] [OWNER] griefer_hunter: eu voltei
+[00:13:00] [Server thread/INFO]: Cookie issued server command: /warp list
+[00:13:05] [Server thread/INFO]: Cookie issued server command: /warplist
+[00:13:46] [Async Chat Thread - #22/INFO]: [Not Secure] [OWNER] Cookie: ./setwarp villa
+[00:15:48] [Async Chat Thread - #24/INFO]: [Not Secure] [OWNER] Cookie: salute
+[00:15:57] [Server thread/INFO]: Cookie issued server command: /
+[00:20:15] [Server thread/INFO]: Cookie issued server command: /warplist
+[00:20:19] [Async Chat Thread - #27/INFO]: [Not Secure] [OWNER] griefer_hunter: diego posso comer essas 19 gramas de proteina que voce deixou em frente a sua casa
+[00:20:58] [Server thread/INFO]: griefer_hunter issued server command: /me está comendo o gato lentamente no sentido denotativo.
+[00:20:59] [Server thread/INFO]: [Not Secure] * griefer_hunter está comendo o gato lentamente no sentido denotativo.
+[00:24:15] [Server thread/INFO]: Cookie issued server command: /warp ravina
+[00:24:25] [Async Chat Thread - #28/INFO]: [Not Secure] [OWNER] Cookie: esse tp é dos baum
+[00:24:28] [Async Chat Thread - #28/INFO]: [Not Secure] [OWNER] Cookie: vai duma vez
+[00:24:30] [Server thread/INFO]: todernstWolf issued server command: /warp ravina
+[00:24:31] [Server thread/WARN]: todernstWolf moved too quickly! 430.34532934762564,34.0625,-325.74380302214774
+[00:24:52] [Server thread/INFO]: griefer_hunter issued server command: /warp ravina
+[00:26:44] [Server thread/INFO]: Cookie has made the advancement [Sneak 100]
+[00:33:04] [Async Chat Thread - #31/INFO]: [Not Secure] [OWNER] griefer_hunter: voces tao explorando a mina?
+[00:33:09] [Async Chat Thread - #31/INFO]: [Not Secure] [OWNER] Cookie: es
+[00:33:15] [Async Chat Thread - #31/INFO]: [Not Secure] [OWNER] Cookie: yes **
+[00:35:55] [Async Chat Thread - #32/INFO]: [Not Secure] [OWNER] Cookie: achei mob spawner aqui ja
+[00:36:17] [Async Chat Thread - #33/INFO]: [Not Secure] [OWNER] todernstWolf: to pegando corrente
+[00:36:41] [Server thread/INFO]: Cookie issued server command: /setwarp mobaranha
+[00:37:14] [Async Chat Thread - #34/INFO]: [Not Secure] [OWNER] Cookie: achei um do lado do outro
+[00:37:18] [Async Chat Thread - #34/INFO]: [Not Secure] [OWNER] Cookie: to sem tocha
+[00:37:25] [Async Chat Thread - #34/INFO]: [Not Secure] [OWNER] Cookie: marquei spawn
+[00:37:36] [Server thread/INFO]: Cookie issued server command: /home home
+[00:37:36] [Server thread/WARN]: Cookie moved too quickly! -422.11760564590395,54.0,291.16613221681644
+[00:38:19] [Server thread/INFO]: Cookie issued server command: /warp mobaranha
+[00:38:19] [Server thread/WARN]: Cookie moved too quickly! 375.0351029572116,-51.0,-307.83393472721536
+[00:39:06] [Server thread/INFO]: Cookie issued server command: /home home
+[00:39:30] [Server thread/INFO]: todernstWolf issued server command: /warp centro_villa
+[00:39:55] [Server thread/INFO]: griefer_hunter issued server command: /warp
+[00:40:01] [Server thread/INFO]: Cookie issued server command: /warp mobaranha
+[00:40:01] [Server thread/WARN]: Cookie moved too quickly! 434.84543934453563,-54.0,-296.53954429196637
+[00:40:05] [Server thread/INFO]: griefer_hunter issued server command: /warp caverna_sculk_bonita
+[00:40:15] [Async Chat Thread - #35/INFO]: [Not Secure] [OWNER] griefer_hunter: como adiciona um warp
+[00:40:25] [Async Chat Thread - #35/INFO]: [Not Secure] [OWNER] Cookie: ./setwarp nome
+[00:40:31] [Server thread/INFO]: griefer_hunter issued server command: /setwarp caverna_muito_bonita
+[00:40:41] [Server thread/INFO]: griefer_hunter issued server command: /setwarp caverna-muito-bonita
+[00:40:53] [Server thread/INFO]: griefer_hunter issued server command: /setwarp caverna0muito0bonita
+[00:40:58] [Server thread/INFO]: griefer_hunter issued server command: /setwarp cavernamuitobonita
+[00:41:07] [Server thread/INFO]: todernstWolf issued server command: /warp
+[00:41:11] [Server thread/INFO]: griefer_hunter issued server command: /setwarp CAVERNA_MUITO_BONIA
+[00:41:13] [Server thread/INFO]: griefer_hunter issued server command: /setwarp CAVERNA_MUITO_BONITA
+[00:41:16] [Server thread/INFO]: griefer_hunter issued server command: /setwarp CAVERNABONITA
+[00:41:27] [Server thread/INFO]: todernstWolf issued server command: /warp CAVERNABONITA
+[00:42:05] [Server thread/INFO]: todernstWolf has completed the challenge [It Spreads]
+[00:42:13] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] Cookie: challeng ?
+[00:42:35] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] griefer_hunter: esse bloco (sculk catalyst) absorve os restos mortais dos mobs e espalha sculk no seu entorno
+[00:42:42] [Async Chat Thread - #37/INFO]: [Not Secure] [OWNER] griefer_hunter: ai tem esse achievement
+[00:42:47] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] griefer_hunter: alias cade voce
+[00:42:48] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] todernstWolf: minha vida passou diante dos meus olhos
+[00:42:53] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] griefer_hunter: perdi
+[00:43:12] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] Cookie: pegando ferro perto dos mobspawner
+[00:43:31] [Async Chat Thread - #38/INFO]: [Not Secure] [OWNER] Cookie: fazer farm de xp j;a
+[00:45:20] [Server thread/INFO]: todernstWolf issued server command: /home casa
+[00:46:21] [Server thread/INFO]: todernstWolf issued server command: /warp CAVERNABONITA
+[00:46:40] [Server thread/INFO]: Cookie issued server command: /setwarp farm_xp_aranha
+[00:47:23] [Server thread/INFO]: todernstWolf has made the advancement [Diamonds!]
+[00:48:03] [Server thread/INFO]: Cookie drowned
+[00:48:07] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[00:48:16] [Async Chat Thread - #39/INFO]: [Not Secure] [OWNER] todernstWolf: so jogo no hard
+[00:48:17] [Async Chat Thread - #39/INFO]: [Not Secure] [OWNER] griefer_hunter: como que o cara consegue morrer afogado numa mina
+[00:48:29] [Async Chat Thread - #39/INFO]: [Not Secure] [OWNER] Cookie: calculei errado pow
+[00:48:32] [Async Chat Thread - #39/INFO]: [Not Secure] [OWNER] Cookie: acontece
+[00:48:35] [Async Chat Thread - #40/INFO]: [Not Secure] [OWNER] griefer_hunter: wkkkk
+[00:48:41] [Async Chat Thread - #40/INFO]: [Not Secure] [OWNER] todernstWolf: kkkkkkk
+[00:49:11] [Server thread/INFO]: todernstWolf issued server command: /home casa
+[00:50:05] [Server thread/INFO]: todernstWolf issued server command: /warp CAVERNABONITA
+[00:51:42] [Server thread/INFO]: griefer_hunter issued server command: /warp centro_villa
+[00:54:25] [Server thread/INFO]: Cookie issued server command: /warp mobaranha
+[00:54:26] [Server thread/WARN]: Cookie moved too quickly! 5.493838192528614,4.0,-8.190851497396409
+[00:54:31] [Server thread/INFO]: Cookie issued server command: /warp farm_xp_aranha
+[00:54:31] [Server thread/WARN]: Cookie moved too quickly! 2.3290267672055336,-27.0,8.8942839869502
+[00:54:35] [Server thread/INFO]: todernstWolf issued server command: /home casa
+[00:54:43] [Server thread/INFO]: griefer_hunter issued server command: /seed
+[00:55:27] [Async Chat Thread - #43/INFO]: [Not Secure] [OWNER] todernstWolf: ja vou amanha tem monitoria T_T
+[00:55:40] [Async Chat Thread - #43/INFO]: [Not Secure] [OWNER] todernstWolf: flw pra vcs
+[00:55:43] [Async Chat Thread - #43/INFO]: [Not Secure] [OWNER] Cookie: flw
+[00:55:48] [Server thread/INFO]: todernstWolf lost connection: Disconnected
+[00:55:48] [Server thread/INFO]: [voicechat] Disconnecting client todernstWolf
+[00:55:48] [Server thread/INFO]: todernstWolf left the game
+[00:56:59] [Async Chat Thread - #44/INFO]: [Not Secure] [OWNER] griefer_hunter: boa monitoriaaa
+[00:57:00] [Async Chat Thread - #44/INFO]: [Not Secure] [OWNER] griefer_hunter: ops
+[00:57:06] [Server thread/INFO]: Cookie issued server command: /warp farm_xp_aranha
+[00:57:06] [Server thread/WARN]: Cookie moved too quickly! 3.399999976158142,-12.356985407636547,-1.399999976158142
+[00:58:52] [Server thread/INFO]: Cookie issued server command: /warp mobaranha
+[00:58:53] [Server thread/WARN]: Cookie moved too quickly! 0.859350491699189,25.0,-10.981181792170673
+[00:58:53] [Server thread/WARN]: Cookie moved too quickly! 0.859350491699189,25.0,-10.981181792170673
+[00:59:29] [Async Chat Thread - #46/INFO]: [Not Secure] [OWNER] griefer_hunter: ce ainda ta na mina?
+[00:59:42] [Async Chat Thread - #47/INFO]: [Not Secure] [OWNER] Cookie: tentando arrumar merda que fiz na farm
+[00:59:45] [Async Chat Thread - #46/INFO]: [Not Secure] [OWNER] griefer_hunter: a
+[01:00:29] [Server thread/INFO]: griefer_hunter issued server command: /warp CAVERNABONITA
+[01:07:03] [Server thread/INFO]: Cookie issued server command: /warp
+[01:07:10] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp farm_xp_aranha
+[01:07:10] [Server thread/WARN]: Cookie moved too quickly! 5.028996978475561,-23.0,-3.399999976158142
+[01:08:06] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:08:06] [Server thread/WARN]: Cookie moved too quickly! 0.6805086301067433,26.0,-12.294283963108342
+[01:09:27] [Server thread/INFO]: griefer_hunter issued server command: /warp
+[01:09:33] [Server thread/INFO]: Cookie issued server command: /setwarp mobaranha
+[01:09:53] [Server thread/INFO]: griefer_hunter issued server command: /delwarp CAVERNABONITA
+[01:11:03] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp farm_xp_aranha
+[01:11:04] [Server thread/WARN]: Cookie moved too quickly! 7.108057329795372,-23.0,-3.399999976158142
+[01:11:24] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:11:38] [Server thread/INFO]: Cookie fell from a high place
+[01:11:42] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:11:42] [Server thread/WARN]: Cookie moved too quickly! 434.1709960126316,-79.0,-288.7993340844988
+[01:11:51] [Server thread/INFO]: Cookie burned to death
+[01:11:54] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:11:55] [Async Chat Thread - #49/INFO]: [Not Secure] [OWNER] griefer_hunter: porra kkkkkkk
+[01:12:04] [Async Chat Thread - #49/INFO]: [Not Secure] [OWNER] griefer_hunter: esqueceu o balde de agua duas vezes
+[01:12:07] [Async Chat Thread - #49/INFO]: [Not Secure] [OWNER] Cookie: aranha
+[01:12:21] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:12:21] [Server thread/WARN]: Cookie moved too quickly! -3.115924789231002,21.0,-7.02216684392755
+[01:12:21] [Server thread/WARN]: Cookie moved too quickly! -3.115924789231002,21.0,-7.02216684392755
+[01:13:16] [Server thread/INFO]: griefer_hunter issued server command: /setwarp OUTRA_MINA
+[01:13:47] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp farm_xp_aranha
+[01:13:47] [Server thread/WARN]: Cookie moved too quickly! 5.544950868999024,-23.0,-3.3393882966537944
+[01:13:47] [Server thread/WARN]: Cookie moved too quickly! 5.544950868999024,-23.0,-3.3393882966537944
+[01:14:08] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:14:08] [Server thread/WARN]: Cookie moved too quickly! -3.31167838190359,26.0,-6.926179919306037
+[01:17:48] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp farm_xp_aranha
+[01:17:48] [Server thread/WARN]: Cookie moved too quickly! 3.9322684599825095,-22.0,-3.162055519435228
+[01:18:11] [Server thread/INFO]: griefer_hunter issued server command: /setwarp DUNGEON_NA_MINA
+[01:18:18] [Server thread/INFO]: griefer_hunter issued server command: /delwarp OUTRA_MINA
+[01:18:33] [Server thread/INFO]: Cookie issued server command: /warp
+[01:18:36] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:18:36] [Server thread/WARN]: Cookie moved too quickly! -6.711678358061732,27.0,-3.224368843169202
+[01:19:39] [Server thread/INFO]: Cookie issued server command: /home
+[01:19:42] [Server thread/INFO]: Cookie issued server command: /huskhomes:edithome Cookie.home
+[01:19:54] [Server thread/INFO]: Cookie issued server command: /home home
+[01:19:54] [Server thread/WARN]: Cookie moved too quickly! -430.403392626377,54.0,292.4092745891023
+[01:19:58] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:19:59] [Server thread/WARN]: Cookie moved too quickly! 428.64481677652304,-54.0,-292.03287847251283
+[01:23:16] [Server thread/INFO]: Cookie issued server command: /home home
+[01:23:26] [Async Chat Thread - #51/INFO]: [Not Secure] [OWNER] Cookie: rapaz esqueci como faz far de aranha
+[01:23:32] [Async Chat Thread - #51/INFO]: [Not Secure] [OWNER] Cookie: tudo feio
+[01:23:39] [Server thread/INFO]: Cookie issued server command: /delwarp farm_xp_aranha
+[01:23:44] [Async Chat Thread - #51/INFO]: [Not Secure] [OWNER] griefer_hunter: eu acho que primeiro tem que achar um mob spawner de aranha ne
+[01:23:54] [Server thread/INFO]: Cookie issued server command: /da warp ai
+[01:24:00] [Async Chat Thread - #50/INFO]: [Not Secure] [OWNER] Cookie: da warp ai e clica no nome
+[01:24:08] [Async Chat Thread - #51/INFO]: [Not Secure] [OWNER] griefer_hunter: perai
+[01:24:10] [Async Chat Thread - #51/INFO]: [Not Secure] [OWNER] Cookie: warp
+[01:24:13] [Server thread/INFO]: Cookie issued server command: /warp
+[01:24:15] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:24:16] [Server thread/INFO]: griefer_hunter issued server command: /setwarp CHECKPOINT_MINERACAO_MATHEUS
+[01:24:23] [Server thread/INFO]: griefer_hunter issued server command: /setwarp CHECKPOINT_MAT
+[01:24:27] [Server thread/INFO]: griefer_hunter issued server command: /warplist
+[01:24:29] [Server thread/INFO]: griefer_hunter issued server command: /huskhomes:warp mobaranha
+[01:27:57] [Server thread/INFO]: Cookie issued server command: /home home
+[01:27:57] [Server thread/WARN]: Cookie moved too quickly! -432.8792627925056,54.0,292.0470478078857
+[01:28:05] [Server thread/INFO]: Cookie issued server command: /warp
+[01:28:09] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:28:09] [Server thread/WARN]: Cookie moved too quickly! 428.8762685307238,-54.0,-291.35507543365986
+[01:34:33] [Server thread/INFO]: Cookie issued server command: /home home
+[01:34:33] [Server thread/WARN]: Cookie moved too quickly! -434.00339265021887,60.0,287.6392415476567
+[01:35:04] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobaranha
+[01:35:04] [Server thread/WARN]: Cookie moved too quickly! 429.64255253591676,-58.0,-290.0134431580268
+[01:36:16] [Async Chat Thread - #54/INFO]: [Not Secure] [OWNER] griefer_hunter: vou puxar o ronco UwU ciaoo o/
+[01:36:35] [Server thread/INFO]: griefer_hunter issued server command: /warp centro_villa
+[01:38:06] [Server thread/INFO]: griefer_hunter lost connection: Disconnected
+[01:38:06] [Server thread/INFO]: [voicechat] Disconnecting client griefer_hunter
+[01:38:06] [Server thread/INFO]: griefer_hunter left the game
+[01:39:51] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:39:51] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:41:01] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:41:01] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:41:11] [Server thread/INFO]: Cookie was slain by Cave Spider
+[01:41:16] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:41:17] [Server thread/WARN]: Cookie moved too quickly! 433.80000001192093,-64.0,-288.80000001192093
+[01:41:32] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:41:32] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:41:48] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:41:48] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:42:00] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:42:00] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:42:52] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:42:52] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:42:56] [Server thread/INFO]: Cookie was slain by Cave Spider
+[01:42:59] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:42:59] [Server thread/WARN]: Cookie moved too quickly! 436.0788101038245,-64.0,-290.1915205345115
+[01:43:44] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:43:44] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:45:14] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:45:14] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:45:28] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:45:28] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:46:06] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:46:06] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:46:49] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:46:49] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:48:08] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:48:08] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:49:29] [Server thread/INFO]: Cookie was slain by Cave Spider
+[01:49:33] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:50:22] [Server thread/INFO]: Cookie was slain by Cave Spider
+[01:50:25] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:50:25] [Server thread/WARN]: Cookie moved too quickly! 437.5165807912442,-64.0,-290.2571237666881
+[01:50:38] [Server thread/INFO]: Cookie was slain by Cave Spider
+[01:50:41] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[01:50:41] [Server thread/WARN]: Cookie moved too quickly! 437.19999998807907,-64.0,-288.80000001192093
+[01:50:41] [Server thread/WARN]: Cookie moved too quickly! 437.19999998807907,-64.0,-288.80000001192093
+[01:50:51] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:50:51] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:51:08] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:51:08] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:52:11] [Server thread/INFO]: Cookie issued server command: /setwarp farm_xp_aranha
+[01:52:16] [Server thread/INFO]: Cookie issued server command: /warp
+[01:52:30] [Server thread/INFO]: Cookie issued server command: /setwarp mobaranha
+[01:54:13] [Server thread/INFO]: Cookie issued server command: /gamemode spectator
+[01:54:13] [Server thread/INFO]: [Cookie: Set own game mode to Spectator Mode]
+[01:54:21] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:54:21] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:55:46] [Server thread/INFO]: Cookie issued server command: /gamemode spectator
+[01:55:46] [Server thread/INFO]: [Cookie: Set own game mode to Spectator Mode]
+[01:55:58] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:55:58] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:56:28] [Server thread/INFO]: Cookie issued server command: /gamemode spectator
+[01:56:28] [Server thread/INFO]: [Cookie: Set own game mode to Spectator Mode]
+[01:56:38] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:56:38] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:57:35] [Server thread/INFO]: Cookie issued server command: /warp
+[01:57:40] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp farm_xp_aranha
+[01:57:45] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:57:45] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:59:04] [Server thread/INFO]: Cookie issued server command: /gamemode spectator
+[01:59:04] [Server thread/INFO]: [Cookie: Set own game mode to Spectator Mode]
+[01:59:12] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[01:59:12] [Server thread/INFO]: [Cookie: Set own game mode to Creative Mode]
+[01:59:40] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp farm_xp_aranha
+[01:59:46] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[01:59:46] [Server thread/INFO]: [Cookie: Set own game mode to Survival Mode]
+[01:59:59] [Server thread/INFO]: Cookie issued server command: /save-all
+[02:00:00] [Server thread/INFO]: [Cookie: Saved the game]
+[02:00:02] [Server thread/INFO]: Cookie lost connection: Disconnected
+[02:00:02] [Server thread/INFO]: [voicechat] Disconnecting client Cookie
+[02:00:02] [Server thread/INFO]: Cookie left the game
+[02:00:09] [Server thread/INFO]: Stopping the server
+[02:00:09] [Server thread/INFO]: Stopping server
+[02:00:09] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[02:00:09] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4
+[02:00:09] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4
+[02:00:09] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.89
+[02:00:09] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:00:09] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:00:09] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:00:09] [Server thread/INFO]: [RankSystem] Disabling RankSystem v1.3
+[02:00:09] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[02:00:09] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
+[02:00:09] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[02:00:09] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.10
+[02:00:09] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[02:00:09] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[02:00:09] [Server thread/INFO]: Saving players
+[02:00:09] [Server thread/INFO]: Saving worlds
+[02:00:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:00:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:00:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:00:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:00:10] [Server thread/INFO]: [ChunkHolderManager] Saved 313 block chunks, 390 entity chunks, 0 poi chunks in world 'world' in 0,80s
+[02:00:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:00:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:00:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:00:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:00:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:00:11] [Server thread/INFO]: [ChunkHolderManager] Saved 1504 block chunks, 46 entity chunks, 0 poi chunks in world 'world_nether' in 1,06s
+[02:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:00:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:00:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:00:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:00:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:00:12] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,04s
+[02:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:00:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:00:12] [Server thread/INFO]: Flushing Chunk IO
+[02:00:12] [Server thread/INFO]: Closing Thread Pool
+[02:00:12] [Server thread/INFO]: Closing Server
