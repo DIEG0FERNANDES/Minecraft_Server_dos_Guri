@@ -1,42 +1,212 @@
-[23:15:14] [Server thread/INFO]: Saving the game (this may take a moment!)
-[23:15:16] [Server thread/INFO]: Saved the game
-[23:15:18] [Server thread/INFO]: Stopping the server
-[23:15:18] [Server thread/INFO]: Stopping server
-[23:15:18] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[23:15:20] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4
-[23:15:20] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4
-[23:15:21] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.89
-[23:15:21] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:15:21] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:15:22] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:15:22] [Server thread/INFO]: [RankSystem] Disabling RankSystem v1.3
-[23:15:22] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
-[23:15:22] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
-[23:15:22] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[23:15:22] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.10
-[23:15:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
-[23:15:22] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[23:15:23] [Server thread/INFO]: Saving players
-[23:15:23] [Server thread/INFO]: Saving worlds
-[23:15:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:15:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:15:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:15:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 139 entity chunks, 0 poi chunks in world 'world' in 2,28s
-[23:15:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:15:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 47 entity chunks, 0 poi chunks in world 'world_nether' in 0,30s
-[23:15:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:15:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:15:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:15:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:15:27] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,84s
-[23:15:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:15:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:15:28] [Server thread/INFO]: Flushing Chunk IO
-[23:15:28] [Server thread/INFO]: Closing Thread Pool
-[23:15:28] [Server thread/INFO]: Closing Server
+[19:02:04] [User Authenticator #2/INFO]: UUID of player Cookie is 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[19:02:04] [Server thread/INFO]: Cookie joined the game
+[19:02:04] [Server thread/INFO]: Cookie[/26.210.198.12:51176] logged in with entity id 10608 at ([world]-249.30000001192093, 75.0, -120.30000001192093)
+[19:02:07] [Server thread/INFO]: [voicechat] Received secret request of Cookie (17)
+[19:02:07] [Server thread/INFO]: [voicechat] Sent secret to Cookie
+[19:02:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[19:02:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[19:02:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
+[19:18:24] [Server thread/INFO]: Cookie issued server command: /setwarp pontoondepareicookie
+[19:18:35] [Server thread/INFO]: Cookie issued server command: /setwarp pareicookie
+[19:18:39] [Server thread/INFO]: Cookie issued server command: /home home
+[19:18:39] [Server thread/WARN]: Cookie moved too quickly! 116.37027909623004,110.0,-33.125961581217354
+[19:18:39] [Server thread/WARN]: Cookie moved too quickly! 116.37027909623004,110.0,-33.125961581217354
+[19:18:52] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[19:18:53] [Server thread/WARN]: Cookie moved too quickly! 47.809747750849624,-4.0,8.339361409570174
+[19:18:53] [Server thread/WARN]: Cookie moved too quickly! 47.809747750849624,-4.0,8.339361409570174
+[19:21:00] [Server thread/INFO]: Cookie issued server command: /warp pareicookie
+[19:21:00] [Server thread/WARN]: Cookie moved too quickly! -116.79025444911565,-114.0,35.05308085427683
+[19:23:49] [Server thread/INFO]: Cookie issued server command: /setwarp pareicookie
+[19:23:58] [Server thread/INFO]: Cookie issued server command: /home home
+[19:23:58] [Server thread/WARN]: Cookie moved too quickly! 81.10882313131259,98.0,14.574951454037134
+[19:23:58] [Server thread/WARN]: Cookie moved too quickly! 81.10882313131259,98.0,14.574951454037134
+[19:24:35] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[19:24:35] [Server thread/WARN]: Cookie moved too quickly! 49.30806490593494,-4.0,7.692394018694202
+[19:24:35] [Server thread/WARN]: Cookie moved too quickly! 49.30806490593494,-4.0,7.692394018694202
+[19:25:03] [Server thread/INFO]: Cookie issued server command: /warp pareicookie
+[19:25:03] [Server thread/WARN]: Cookie moved too quickly! -135.86619502602872,-94.9375,-23.130929500867282
+[19:25:03] [Server thread/WARN]: Cookie moved too quickly! -135.86619502602872,-94.9375,-23.130929500867282
+[19:29:23] [Server thread/INFO]: Cookie issued server command: /warp
+[19:29:31] [Server thread/INFO]: Cookie issued server command: /setwarp geodo1
+[19:36:36] [Server thread/INFO]: Cookie issued server command: /setwarp pareicookie1
+[19:36:42] [Server thread/INFO]: Cookie issued server command: /home home
+[19:36:42] [Server thread/WARN]: Cookie moved too quickly! 46.99660734978113,62.0,11.54294797479956
+[19:36:50] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[19:36:50] [Server thread/WARN]: Cookie moved too quickly! 50.05371230530173,-4.0,7.728112769237484
+[19:36:50] [Server thread/WARN]: Cookie moved too quickly! 50.05371230530173,-4.0,7.728112769237484
+[19:37:59] [Server thread/INFO]: Cookie issued server command: /home home
+[19:38:00] [Server thread/WARN]: Cookie moved too quickly! -56.40787985313406,3.0,-7.474080027147821
+[19:48:08] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[19:48:30] [Server thread/INFO]: Cookie issued server command: /home home
+[19:48:31] [Server thread/WARN]: Cookie moved too quickly! -55.646427037732536,3.0,-9.164431611164488
+[19:48:31] [Server thread/WARN]: Cookie moved too quickly! -55.646427037732536,3.0,-9.164431611164488
+[19:50:11] [Server thread/INFO]: Cookie issued server command: /warp
+[19:50:19] [Server thread/INFO]: Cookie issued server command: /warp 2
+[19:50:24] [Server thread/INFO]: Cookie issued server command: /warplist
+[19:50:35] [Server thread/INFO]: Cookie issued server command: /warps
+[19:50:39] [Server thread/INFO]: Cookie issued server command: /huskhomes:warplist 2
+[19:50:48] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp pareicookie1
+[19:50:48] [Server thread/WARN]: Cookie moved too quickly! -48.34785174555998,-66.0,-12.069052216458715
+[19:53:55] [Server thread/INFO]: Cookie issued server command: /setwarp geodo1
+[19:54:01] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp pareicookie1
+[19:54:01] [Server thread/WARN]: Cookie moved too quickly! -28.26049229106286,3.0,16.52604440311083
+[19:54:01] [Server thread/WARN]: Cookie moved too quickly! -28.26049229106286,3.0,16.52604440311083
+[19:54:28] [Server thread/INFO]: Cookie issued server command: /setwarp pareicookie1
+[19:56:17] [Server thread/INFO]: Cookie issued server command: /warp
+[19:56:32] [Server thread/INFO]: Cookie issued server command: /setwarp mobzombie
+[19:56:36] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp DUNGEON_NA_MINA
+[19:56:36] [Server thread/WARN]: Cookie moved too quickly! -238.73508632265896,-13.0,-375.21410834323444
+[19:56:51] [Async Chat Thread - #1/INFO]: [Not Secure] [OWNER] Cookie: warp
+[19:56:55] [Server thread/INFO]: Cookie issued server command: /warp
+[19:57:00] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp mobzombie
+[19:57:01] [Server thread/WARN]: Cookie moved too quickly! 250.84017353403817,9.0,379.1363406268806
+[19:57:01] [Server thread/WARN]: Cookie moved too quickly! 250.84017353403817,9.0,379.1363406268806
+[19:59:34] [Server thread/INFO]: Cookie issued server command: /save-all
+[19:59:35] [Server thread/INFO]: [Cookie: Saved the game]
+[20:03:04] [Server thread/INFO]: Cookie issued server command: /setwarp pareicookie1
+[20:03:10] [Server thread/INFO]: Cookie issued server command: /home home
+[20:03:10] [Server thread/WARN]: Cookie moved too quickly! 48.724379240472445,62.0,-152.4740800271478
+[20:30:04] [Server thread/INFO]: Cookie issued server command: /warp vila
+[20:35:36] [Server thread/INFO]: Cookie issued server command: /home home
+[20:35:36] [Server thread/WARN]: Cookie moved too quickly! -1093.1275430319686,3.0625,-120.77886075966329
+[20:36:18] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:36:18] [Server thread/WARN]: Cookie moved too quickly! 50.59610456079474,-4.0,8.124300847457434
+[20:36:18] [Server thread/WARN]: Cookie moved too quickly! 50.59610456079474,-4.0,8.124300847457434
+[20:36:41] [Server thread/INFO]: Cookie issued server command: /home home
+[20:36:41] [Server thread/WARN]: Cookie moved too quickly! -55.56346139943378,3.0,-7.814198321192265
+[20:36:41] [Server thread/WARN]: Cookie moved too quickly! -55.56346139943378,3.0,-7.814198321192265
+[20:37:15] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:37:15] [Server thread/WARN]: Cookie moved too quickly! 47.93294886721941,-4.0,8.797527907211688
+[20:37:15] [Server thread/WARN]: Cookie moved too quickly! 47.93294886721941,-4.0,8.797527907211688
+[20:37:15] [Server thread/WARN]: Cookie moved too quickly! 47.93294886721941,-4.0,8.797527907211688
+[20:37:15] [Server thread/WARN]: Cookie moved too quickly! 47.93294886721941,-4.0,8.797527907211688
+[20:38:10] [Server thread/INFO]: Cookie issued server command: /home home
+[20:38:10] [Server thread/WARN]: Cookie moved too quickly! -55.73668034786783,3.0,-6.959603361366831
+[20:38:10] [Server thread/WARN]: Cookie moved too quickly! -55.73668034786783,3.0,-6.959603361366831
+[20:38:10] [Server thread/WARN]: Cookie moved too quickly! -55.73668034786783,3.0,-6.959603361366831
+[20:38:14] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:38:14] [Server thread/WARN]: Cookie moved too quickly! 48.239237995249795,-4.0,8.538266026529342
+[20:38:14] [Server thread/WARN]: Cookie moved too quickly! 48.239237995249795,-4.0,8.538266026529342
+[20:38:42] [Server thread/INFO]: Cookie issued server command: /home home
+[20:38:42] [Server thread/WARN]: Cookie moved too quickly! -55.54939178923797,3.0,-7.452172379154973
+[20:38:42] [Server thread/WARN]: Cookie moved too quickly! -55.54939178923797,3.0,-7.452172379154973
+[20:39:03] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:39:03] [Server thread/WARN]: Cookie moved too quickly! 47.62482991729951,-4.0,10.058986598331074
+[20:39:03] [Server thread/WARN]: Cookie moved too quickly! 47.62482991729951,-4.0,10.058986598331074
+[20:39:13] [Server thread/INFO]: Cookie issued server command: /home home
+[20:39:14] [Server thread/WARN]: Cookie moved too quickly! -54.85807551750926,3.0625,-6.480935136115008
+[20:39:14] [Server thread/WARN]: Cookie moved too quickly! -54.85807551750926,3.0625,-6.480935136115008
+[20:39:38] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:39:38] [Server thread/WARN]: Cookie moved too quickly! 48.08294517149642,-4.0,8.67796017010103
+[20:39:38] [Server thread/WARN]: Cookie moved too quickly! 48.08294517149642,-4.0,8.67796017010103
+[20:39:48] [Server thread/INFO]: Cookie issued server command: /home home
+[20:39:49] [Server thread/WARN]: Cookie moved too quickly! -54.716670199809556,3.0,-6.216240957365898
+[20:39:49] [Server thread/WARN]: Cookie moved too quickly! -54.716670199809556,3.0,-6.216240957365898
+[20:39:55] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:39:55] [Server thread/WARN]: Cookie moved too quickly! 47.82564807015456,-4.0,8.695569780515072
+[20:39:55] [Server thread/WARN]: Cookie moved too quickly! 47.82564807015456,-4.0,8.695569780515072
+[20:40:59] [Server thread/INFO]: Cookie issued server command: /home home
+[20:41:00] [Server thread/WARN]: Cookie moved too quickly! -54.93376313748308,3.0625,-7.340989125149719
+[20:41:00] [Server thread/WARN]: Cookie moved too quickly! -54.93376313748308,3.0625,-7.340989125149719
+[20:41:00] [Server thread/WARN]: Cookie moved too quickly! -54.93376313748308,3.0625,-7.340989125149719
+[20:41:43] [Server thread/INFO]: Cookie issued server command: /save-all
+[20:41:44] [Server thread/INFO]: [Cookie: Saved the game]
+[20:42:14] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[20:42:14] [Server thread/WARN]: Cookie moved too quickly! 48.043106556734216,-8.0,9.530299986107295
+[20:42:14] [Server thread/WARN]: Cookie moved too quickly! 48.043106556734216,-8.0,9.530299986107295
+[20:42:25] [Server thread/INFO]: Cookie issued server command: /home home
+[20:42:25] [Server thread/WARN]: Cookie moved too quickly! -54.93874624341083,3.0625,-7.602035765903892
+[20:42:25] [Server thread/WARN]: Cookie moved too quickly! -54.93874624341083,3.0625,-7.602035765903892
+[20:53:04] [Server thread/INFO]: Cookie issued server command: /save-all
+[20:53:05] [Server thread/INFO]: [Cookie: Saved the game]
+[20:54:48] [Server thread/INFO]: Cookie issued server command: /warp
+[20:54:57] [Server thread/INFO]: Cookie issued server command: /huskhomes:warp pareicookie1
+[20:54:57] [Server thread/WARN]: Cookie moved too quickly! -58.44528471354474,-62.0,130.98408869313067
+[21:03:52] [Server thread/INFO]: Cookie issued server command: /setwarp pareicookie1
+[21:04:06] [Server thread/INFO]: Cookie issued server command: /home home
+[21:04:06] [Server thread/WARN]: Cookie moved too quickly! 16.813858793601014,48.0,-177.93414128384526
+[21:04:06] [Server thread/WARN]: Cookie moved too quickly! 16.813858793601014,48.0,-177.93414128384526
+[21:04:11] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[21:04:11] [Server thread/WARN]: Cookie moved too quickly! 48.7852717381206,-4.0,7.877829773000585
+[21:04:11] [Server thread/WARN]: Cookie moved too quickly! 48.7852717381206,-4.0,7.877829773000585
+[21:04:11] [Server thread/WARN]: Cookie moved too quickly! 48.7852717381206,-4.0,7.877829773000585
+[21:05:01] [Server thread/INFO]: Cookie issued server command: /home home
+[21:05:02] [Server thread/WARN]: Cookie moved too quickly! -55.752864154479454,3.0,-7.045016345557158
+[21:05:02] [Server thread/WARN]: Cookie moved too quickly! -55.752864154479454,3.0,-7.045016345557158
+[21:05:08] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[21:05:09] [Server thread/WARN]: Cookie moved too quickly! 48.11322989768763,-4.0,8.697949482066903
+[21:05:09] [Server thread/WARN]: Cookie moved too quickly! 48.11322989768763,-4.0,8.697949482066903
+[21:05:23] [Server thread/INFO]: Cookie issued server command: /home home
+[21:05:23] [Server thread/WARN]: Cookie moved too quickly! -56.336844169950325,3.0,-8.112934446986003
+[21:05:23] [Server thread/WARN]: Cookie moved too quickly! -56.336844169950325,3.0,-8.112934446986003
+[21:05:23] [Server thread/WARN]: Cookie moved too quickly! -56.336844169950325,3.0,-8.112934446986003
+[21:05:59] [Server thread/INFO]: Cookie issued server command: /save-all
+[21:06:00] [Server thread/INFO]: [Cookie: Saved the game]
+[21:07:38] [Server thread/INFO]: Cookie issued server command: /home home
+[21:07:39] [Server thread/WARN]: Cookie moved too quickly! -55.0085691906022,3.0625,-7.0271320964885575
+[21:07:39] [Server thread/WARN]: Cookie moved too quickly! -55.0085691906022,3.0625,-7.0271320964885575
+[21:07:39] [Server thread/WARN]: Cookie moved too quickly! -55.0085691906022,3.0625,-7.0271320964885575
+[21:07:44] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[21:07:45] [Server thread/WARN]: Cookie moved too quickly! 48.06376002245912,-4.0,7.979097280593592
+[21:07:45] [Server thread/WARN]: Cookie moved too quickly! 48.06376002245912,-4.0,7.979097280593592
+[21:07:56] [Server thread/INFO]: Cookie issued server command: /home home
+[21:07:57] [Server thread/WARN]: Cookie moved too quickly! -55.36398482069046,3.0625,-6.704539885050252
+[21:07:57] [Server thread/WARN]: Cookie moved too quickly! -55.36398482069046,3.0625,-6.704539885050252
+[21:08:03] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[21:08:03] [Server thread/WARN]: Cookie moved too quickly! 47.74923206115125,-4.0,8.766473697024693
+[21:08:03] [Server thread/WARN]: Cookie moved too quickly! 47.74923206115125,-4.0,8.766473697024693
+[21:08:10] [Server thread/INFO]: Cookie issued server command: /home home
+[21:08:11] [Server thread/WARN]: Cookie moved too quickly! -54.720200623304294,3.0625,-7.1880236117435174
+[21:08:11] [Server thread/WARN]: Cookie moved too quickly! -54.720200623304294,3.0625,-7.1880236117435174
+[21:08:19] [Server thread/INFO]: Cookie issued server command: /warp entradacaverna
+[21:08:20] [Server thread/WARN]: Cookie moved too quickly! 47.370432672135166,-4.0,8.440138844500837
+[21:09:10] [Server thread/INFO]: Cookie issued server command: /save-all
+[21:09:10] [Server thread/INFO]: [Cookie: Saved the game]
+[21:09:13] [Server thread/INFO]: Cookie issued server command: /home home
+[21:09:13] [Server thread/WARN]: Cookie moved too quickly! -56.26564053926734,3.0,-8.213847061274436
+[21:09:13] [Server thread/WARN]: Cookie moved too quickly! -56.26564053926734,3.0,-8.213847061274436
+[21:09:27] [Server thread/INFO]: Cookie lost connection: Disconnected
+[21:09:27] [Server thread/INFO]: [voicechat] Disconnecting client Cookie
+[21:09:27] [Server thread/INFO]: Cookie left the game
+[23:05:12] [Server thread/INFO]: Saving the game (this may take a moment!)
+[23:05:12] [Server thread/INFO]: Saved the game
+[23:05:14] [Server thread/INFO]: Stopping the server
+[23:05:14] [Server thread/INFO]: Stopping server
+[23:05:14] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[23:05:15] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4
+[23:05:15] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4
+[23:05:15] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.89
+[23:05:15] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:05:15] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:05:15] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:05:15] [Server thread/INFO]: [RankSystem] Disabling RankSystem v1.3
+[23:05:15] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[23:05:15] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
+[23:05:15] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[23:05:15] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.10
+[23:05:15] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[23:05:15] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[23:05:16] [Server thread/INFO]: Saving players
+[23:05:16] [Server thread/INFO]: Saving worlds
+[23:05:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:05:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:05:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:05:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:05:16] [Server thread/INFO]: [ChunkHolderManager] Saved 297 block chunks, 494 entity chunks, 0 poi chunks in world 'world' in 0,74s
+[23:05:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:05:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,05s
+[23:05:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:05:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:05:17] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,03s
+[23:05:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:05:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:05:17] [Server thread/INFO]: Flushing Chunk IO
+[23:05:17] [Server thread/INFO]: Closing Thread Pool
+[23:05:17] [Server thread/INFO]: Closing Server
