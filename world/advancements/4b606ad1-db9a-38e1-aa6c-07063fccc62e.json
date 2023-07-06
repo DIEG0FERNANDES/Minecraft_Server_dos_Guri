@@ -2640,15 +2640,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2023-07-04 20:35:29 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/emerald": {
     "criteria": {
       "has_emerald_block": "2023-07-04 20:40:21 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_poppy": "2023-07-04 20:35:29 -0400"
+      "has_glow_ink_sac": "2023-07-06 18:00:21 -0400"
     },
     "done": true
   },
