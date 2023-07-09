@@ -13,8 +13,10 @@
       "minecraft:beach": "2023-06-03 18:57:47 -0400",
       "minecraft:river": "2023-06-09 02:12:28 -0400",
       "minecraft:stony_shore": "2023-06-06 00:04:11 -0400",
+      "minecraft:cold_ocean": "2023-07-08 20:46:46 -0400",
       "minecraft:forest": "2023-06-03 18:51:22 -0400",
       "minecraft:ocean": "2023-06-05 22:58:51 -0400",
+      "minecraft:old_growth_spruce_taiga": "2023-07-08 20:37:42 -0400",
       "minecraft:old_growth_birch_forest": "2023-06-09 02:18:10 -0400",
       "minecraft:deep_dark": "2023-06-24 00:26:29 -0400",
       "minecraft:plains": "2023-06-05 19:39:32 -0400"
@@ -2661,7 +2663,37 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2023-07-06 20:47:53 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2023-07-06 21:00:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2023-07-06 21:00:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2023-07-06 21:00:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2023-07-06 21:00:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2023-07-06 21:00:14 -0400"
     },
@@ -2700,18 +2732,6 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2023-07-06 21:01:49 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/furnace_minecart": {
-    "criteria": {
-      "has_minecart": "2023-07-06 21:00:14 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2023-07-06 21:00:14 -0400"
     },
     "done": true
   },
@@ -2769,12 +2789,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2023-07-06 21:00:14 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2023-07-06 21:01:49 -0400"
@@ -2793,15 +2807,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/repeater": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
-      "has_redstone_torch": "2023-07-06 20:47:53 -0400"
+      "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/rail": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_minecart": "2023-07-06 21:00:14 -0400"
+      "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2023-07-08 22:31:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
     },
     "done": true
   },
