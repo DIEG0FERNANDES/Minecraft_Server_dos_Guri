@@ -177,6 +177,7 @@
       "minecraft:slime": "2023-06-24 00:29:26 -0400",
       "minecraft:phantom": "2023-07-06 20:06:28 -0400",
       "minecraft:zombified_piglin": "2023-06-14 01:21:58 -0400",
+      "minecraft:witch": "2023-07-10 19:38:35 -0400",
       "minecraft:cave_spider": "2023-06-24 00:36:22 -0400",
       "minecraft:enderman": "2023-06-05 23:52:28 -0400",
       "minecraft:zombie": "2023-06-05 19:53:03 -0400",
@@ -290,6 +291,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-06-24 01:28:03 -0400",
+      "cooked_mutton": "2023-07-10 19:56:48 -0400",
       "cooked_beef": "2023-06-05 22:22:21 -0400",
       "baked_potato": "2023-06-20 01:34:49 -0400",
       "tropical_fish": "2023-06-08 20:48:49 -0400",
@@ -2831,12 +2833,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pink_dye_from_peony": {
-    "criteria": {
-      "has_peony": "2023-07-08 22:31:11 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
       "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
@@ -2846,6 +2842,60 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2023-07-08 20:41:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2023-07-08 22:31:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-07-10 22:15:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-07-10 22:15:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2023-07-10 20:16:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-07-10 21:54:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-07-10 21:54:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-10 19:51:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-07-10 20:02:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2023-07-10 19:51:51 -0400"
     },
     "done": true
   },
