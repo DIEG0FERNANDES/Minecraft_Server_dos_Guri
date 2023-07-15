@@ -2851,15 +2851,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
     "criteria": {
-      "has_beetroot": "2023-07-10 22:15:27 -0400"
+      "has_stripped_logs": "2023-07-10 19:51:51 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/beetroot_soup": {
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
-      "has_beetroot": "2023-07-10 22:15:27 -0400"
+      "has_log": "2023-07-10 19:51:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-07-10 20:02:49 -0400"
     },
     "done": true
   },
@@ -2881,21 +2887,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_hanging_sign": {
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
-      "has_stripped_logs": "2023-07-10 19:51:51 -0400"
+      "has_beetroot": "2023-07-10 22:15:27 -0400"
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
-      "traded": "2023-07-10 20:02:49 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
-    "criteria": {
-      "has_log": "2023-07-10 19:51:51 -0400"
+      "has_beetroot": "2023-07-10 22:15:27 -0400"
     },
     "done": true
   },
