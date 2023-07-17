@@ -299,6 +299,7 @@
       "apple": "2023-06-05 21:00:37 -0400",
       "potato": "2023-06-20 01:06:32 -0400",
       "cooked_cod": "2023-06-08 16:04:22 -0400",
+      "poisonous_potato": "2023-07-16 20:48:48 -0400",
       "bread": "2023-06-06 00:27:24 -0400",
       "rotten_flesh": "2023-06-05 20:23:59 -0400",
       "cooked_chicken": "2023-06-21 23:33:24 -0400",
@@ -2899,6 +2900,12 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2023-07-10 22:15:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2023-07-16 21:53:49 -0400"
     },
     "done": true
   },
