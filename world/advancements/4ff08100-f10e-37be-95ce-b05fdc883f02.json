@@ -450,6 +450,7 @@
       "minecraft:creeper": "2023-06-05 22:20:43 -0400",
       "minecraft:slime": "2023-06-24 00:46:26 -0400",
       "minecraft:phantom": "2023-06-13 20:46:08 -0400",
+      "minecraft:zombified_piglin": "2023-07-21 20:48:47 -0400",
       "minecraft:witch": "2023-07-10 19:42:35 -0400",
       "minecraft:cave_spider": "2023-06-24 01:29:24 -0400",
       "minecraft:piglin": "2023-07-15 21:23:41 -0400",
@@ -1737,6 +1738,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:sheep": "2023-06-06 20:25:59 -0400",
+      "minecraft:hoglin": "2023-07-21 21:18:36 -0400",
+      "minecraft:strider": "2023-07-21 20:36:47 -0400",
       "minecraft:cow": "2023-06-06 20:25:55 -0400",
       "minecraft:chicken": "2023-06-06 20:25:41 -0400"
     },
@@ -2744,7 +2747,11 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "minecraft:tabby": "2023-07-06 21:17:26 -0400"
+      "minecraft:tabby": "2023-07-06 21:17:26 -0400",
+      "minecraft:calico": "2023-07-21 20:10:45 -0400",
+      "minecraft:black": "2023-07-21 20:11:54 -0400",
+      "minecraft:all_black": "2023-07-21 20:09:40 -0400",
+      "minecraft:red": "2023-07-21 20:02:52 -0400"
     },
     "done": false
   },
@@ -3261,6 +3268,60 @@
   "minecraft:nether/distract_piglin": {
     "criteria": {
       "distract_piglin": "2023-07-15 21:50:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2023-07-21 19:33:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-07-21 21:35:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-07-21 21:35:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2023-07-21 20:37:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "cod_bucket": "2023-07-21 20:00:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2023-07-21 20:18:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2023-07-21 19:56:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2023-07-21 20:37:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2023-07-21 19:33:27 -0400"
     },
     "done": true
   },
