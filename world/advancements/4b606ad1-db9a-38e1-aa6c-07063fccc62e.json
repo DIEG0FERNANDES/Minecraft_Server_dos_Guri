@@ -2912,6 +2912,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-07-21 20:48:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-07-21 20:48:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2023-07-21 20:53:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2023-07-21 20:55:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2023-07-21 20:55:00 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/crimson_button": {
     "criteria": {
       "has_planks": "2023-07-21 20:55:06 -0400"
@@ -2930,24 +2960,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2023-07-21 20:48:41 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_planks": {
-    "criteria": {
-      "has_logs": "2023-07-21 20:55:00 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_hyphae": {
-    "criteria": {
-      "has_log": "2023-07-21 20:55:00 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/crimson_pressure_plate": {
     "criteria": {
       "has_planks": "2023-07-21 20:55:06 -0400"
@@ -2957,18 +2969,6 @@
   "minecraft:recipes/decorations/crimson_fence": {
     "criteria": {
       "has_planks": "2023-07-21 20:55:06 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2023-07-21 20:48:41 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_crimson_hyphae": {
-    "criteria": {
-      "has_log": "2023-07-21 20:55:18 -0400"
     },
     "done": true
   },
@@ -2984,12 +2984,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crimson_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2023-07-21 20:55:18 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/crimson_door": {
     "criteria": {
       "has_planks": "2023-07-21 20:55:06 -0400"
@@ -3002,9 +2996,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+  "minecraft:recipes/building_blocks/stripped_crimson_hyphae": {
     "criteria": {
-      "has_warped_fungus": "2023-07-21 20:53:25 -0400"
+      "has_log": "2023-07-21 20:55:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2023-07-21 20:55:18 -0400"
     },
     "done": true
   },
