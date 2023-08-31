@@ -1,15 +1,15 @@
-[16:59:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:59:39] [ServerMain/INFO]: Loaded 7 recipes
-[16:59:42] [Server thread/INFO]: Starting minecraft server version 1.20
-[16:59:42] [Server thread/INFO]: Loading properties
-[16:59:42] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[16:59:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:59:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:59:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:02:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:02:58] [ServerMain/INFO]: Loaded 7 recipes
+[18:03:03] [Server thread/INFO]: Starting minecraft server version 1.20
+[18:03:03] [Server thread/INFO]: Loading properties
+[18:03:03] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[18:03:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:03:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:03:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:59:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:59:44] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+[18:03:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:03:04] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -39,119 +39,124 @@ java.io.IOException: Identificador inválido
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
-[16:59:44] [Server thread/INFO]: Default game type: SURVIVAL
-[16:59:44] [Server thread/INFO]: Generating keypair
-[16:59:44] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[16:59:44] [Server thread/INFO]: Using default channel type
-[16:59:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:59:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:59:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
-[16:59:47] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
-[16:59:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:59:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:59:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:59:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[16:59:50] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.14
-[16:59:50] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.4.3
-[16:59:50] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
-[16:59:50] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.0) has not yet been tested! Proceed with caution.
-[16:59:53] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
-[16:59:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
-[16:59:53] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
-[16:59:53] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
-[16:59:53] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[16:59:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:59:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
-[16:59:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:59:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:59:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:59:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:59:53] [Server thread/INFO]: Preparing level "world"
-[16:59:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:59:55] [Server thread/INFO]: Time elapsed: 426 ms
-[16:59:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:59:56] [Server thread/INFO]: Time elapsed: 110 ms
-[16:59:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:59:56] [Server thread/INFO]: Time elapsed: 93 ms
-[16:59:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
-[16:59:56] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
-[16:59:57] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.14
-[16:59:57] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
-[16:59:57] [Server thread/INFO]: [voicechat] Compatibility version 17
-[16:59:57] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[16:59:57] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[16:59:57] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.4.3
-[16:59:58] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
-[16:59:58] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
-[16:59:58] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
-[16:59:59] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
-[16:59:59] [Server thread/INFO]: [HuskHomes] Initializing hooks...
-[16:59:59] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
-[16:59:59] [Server thread/INFO]: [HuskHomes] Initializing events...
-[16:59:59] [Server thread/INFO]: [HuskHomes] Successfully initialized events
-[16:59:59] [Server thread/INFO]: [HuskHomes] Initializing commands...
-[16:59:59] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
-[16:59:59] [Server thread/INFO]: [HuskHomes] Initializing API...
-[16:59:59] [Server thread/INFO]: [HuskHomes] Successfully initialized API
-[16:59:59] [Server thread/INFO]: [HuskHomes] Initializing metrics...
-[16:59:59] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
-[16:59:59] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
-[16:59:59] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[16:59:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
-[16:59:59] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
-[17:00:00] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.4.5 (running v4.4.3)
-[17:00:01] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
-[17:00:01] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
-[17:00:01] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
-[17:00:01] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[17:00:02] [Server thread/INFO]: Running delayed init tasks
-[17:00:02] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[17:00:02] [Server thread/INFO]: [voicechat] Loading plugins
-[17:00:02] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[17:00:02] [Server thread/INFO]: [voicechat] Initializing plugins
-[17:00:02] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[17:00:02] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
-[17:00:02] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[17:00:02] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[17:00:02] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[17:00:02] [Server thread/INFO]: Done (19.770s)! For help, type "help"
-[17:00:02] [Server thread/INFO]: Timings Reset
-[17:00:02] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
-[20:05:41] [Server thread/INFO]: Stopping the server
-[20:05:41] [Server thread/INFO]: Stopping server
-[20:05:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[20:05:41] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
-[20:05:41] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.2
-[20:05:41] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
-[20:05:41] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
-[20:05:41] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[20:05:41] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
-[20:05:41] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4.3
-[20:05:41] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4.3
-[20:05:41] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.14
-[20:05:41] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
-[20:05:41] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[20:05:42] [Server thread/INFO]: Saving players
-[20:05:42] [Server thread/INFO]: Saving worlds
-[20:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 176 entity chunks, 0 poi chunks in world 'world' in 0,09s
-[20:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 105 entity chunks, 0 poi chunks in world 'world_nether' in 0,12s
-[20:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:05:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:05:42] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,04s
-[20:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:05:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:05:42] [Server thread/INFO]: Flushing Chunk IO
-[20:05:42] [Server thread/INFO]: Closing Thread Pool
-[20:05:42] [Server thread/INFO]: Closing Server
+[18:03:04] [Server thread/INFO]: Default game type: SURVIVAL
+[18:03:04] [Server thread/INFO]: Generating keypair
+[18:03:05] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[18:03:05] [Server thread/INFO]: Using default channel type
+[18:03:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:03:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:03:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[18:03:07] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[18:03:09] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:03:09] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:03:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:03:11] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.14
+[18:03:11] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.4.3
+[18:03:11] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[18:03:11] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.0) has not yet been tested! Proceed with caution.
+[18:03:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:03:16] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
+[18:03:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
+[18:03:16] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
+[18:03:16] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
+[18:03:16] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[18:03:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:03:16] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[18:03:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:03:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:03:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:03:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:03:16] [Server thread/INFO]: Preparing level "world"
+[18:03:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:03:18] [Server thread/INFO]: Time elapsed: 521 ms
+[18:03:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:03:18] [Server thread/INFO]: Time elapsed: 117 ms
+[18:03:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:03:19] [Server thread/INFO]: Time elapsed: 87 ms
+[18:03:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[18:03:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[18:03:19] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.14
+[18:03:20] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
+[18:03:20] [Server thread/INFO]: [voicechat] Compatibility version 17
+[18:03:20] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:03:20] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[18:03:20] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.4.3
+[18:03:20] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[18:03:21] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
+[18:03:21] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[18:03:21] [Server thread/INFO]: [HuskHomes] Initializing events...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[18:03:21] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[18:03:21] [Server thread/INFO]: [HuskHomes] Initializing API...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized API
+[18:03:21] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[18:03:21] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[18:03:21] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
+[18:03:21] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[18:03:21] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[18:03:21] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
+[18:03:23] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.4.5 (running v4.4.3)
+[18:03:23] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
+[18:03:23] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
+[18:03:23] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
+[18:03:23] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[18:03:23] [Server thread/INFO]: Running delayed init tasks
+[18:03:23] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:03:23] [Server thread/INFO]: [voicechat] Loading plugins
+[18:03:23] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[18:03:23] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:03:23] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[18:03:23] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
+[18:03:23] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:03:23] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[18:03:23] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[18:03:23] [Server thread/INFO]: Done (20.317s)! For help, type "help"
+[18:03:23] [Server thread/INFO]: Timings Reset
+[18:03:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
+[18:03:24] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.1.0 (Running 5.0.0). Download at https://www.spigotmc.org/resources/protocollib.1997/
+[18:08:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[19:28:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6028ms or 120 ticks behind
+[19:34:38] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:34:39] [Server thread/INFO]: Saved the game
+[19:34:44] [Server thread/INFO]: Stopping the server
+[19:34:44] [Server thread/INFO]: Stopping server
+[19:34:44] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[19:34:44] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
+[19:34:44] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.2
+[19:34:44] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[19:34:44] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
+[19:34:44] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[19:34:44] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[19:34:44] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4.3
+[19:34:44] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4.3
+[19:34:44] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.14
+[19:34:44] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[19:34:44] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:34:44] [Server thread/INFO]: Saving players
+[19:34:45] [Server thread/INFO]: Saving worlds
+[19:34:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 176 entity chunks, 0 poi chunks in world 'world' in 0,15s
+[19:34:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:34:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 107 entity chunks, 0 poi chunks in world 'world_nether' in 0,10s
+[19:34:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:34:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:34:45] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,04s
+[19:34:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:34:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:34:45] [Server thread/INFO]: Flushing Chunk IO
+[19:34:45] [Server thread/INFO]: Closing Thread Pool
+[19:34:45] [Server thread/INFO]: Closing Server
