@@ -3277,21 +3277,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
+  "minecraft:recipes/transportation/cherry_chest_boat": {
     "criteria": {
-      "has_beetroot": "2023-07-21 21:35:59 -0400"
+      "has_boat": "2023-07-21 19:33:27 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/beetroot_soup": {
+  "minecraft:recipes/misc/wheat": {
     "criteria": {
-      "has_beetroot": "2023-07-21 21:35:59 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2023-07-21 20:37:21 -0400"
+      "has_hay_block": "2023-07-21 19:56:58 -0400"
     },
     "done": true
   },
@@ -3307,9 +3301,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/wheat": {
+  "minecraft:recipes/misc/bowl": {
     "criteria": {
-      "has_hay_block": "2023-07-21 19:56:58 -0400"
+      "has_red_mushroom": "2023-07-21 20:37:21 -0400"
     },
     "done": true
   },
@@ -3319,9 +3313,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_chest_boat": {
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
-      "has_boat": "2023-07-21 19:33:27 -0400"
+      "has_beetroot": "2023-07-21 21:35:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-07-21 21:35:59 -0400"
     },
     "done": true
   },
