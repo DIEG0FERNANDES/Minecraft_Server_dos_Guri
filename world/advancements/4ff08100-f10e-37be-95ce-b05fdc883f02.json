@@ -18,6 +18,7 @@
       "minecraft:lush_caves": "2023-07-06 18:46:50 -0400",
       "minecraft:ocean": "2023-06-05 22:58:55 -0400",
       "minecraft:old_growth_spruce_taiga": "2023-07-08 20:55:39 -0400",
+      "minecraft:flower_forest": "2023-10-01 21:30:14 -0400",
       "minecraft:old_growth_birch_forest": "2023-06-09 02:18:11 -0400",
       "minecraft:deep_dark": "2023-06-23 23:39:26 -0400",
       "minecraft:plains": "2023-06-03 19:27:45 -0400"
@@ -3322,6 +3323,12 @@
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2023-07-21 21:35:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-10-01 21:26:33 -0400"
     },
     "done": true
   },
