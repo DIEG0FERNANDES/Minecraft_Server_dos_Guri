@@ -1,15 +1,15 @@
-[19:48:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:48:59] [ServerMain/INFO]: Loaded 7 recipes
-[19:49:04] [Server thread/INFO]: Starting minecraft server version 1.20
-[19:49:04] [Server thread/INFO]: Loading properties
-[19:49:05] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[19:49:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:49:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:49:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:16:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:16:14] [ServerMain/INFO]: Loaded 7 recipes
+[21:16:17] [Server thread/INFO]: Starting minecraft server version 1.20
+[21:16:17] [Server thread/INFO]: Loading properties
+[21:16:17] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[21:16:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:16:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:16:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:49:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:49:06] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+[21:16:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:16:19] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -39,1121 +39,236 @@ java.io.IOException: Identificador inválido
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
-[19:49:06] [Server thread/INFO]: Default game type: SURVIVAL
-[19:49:06] [Server thread/INFO]: Generating keypair
-[19:49:06] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[19:49:07] [Server thread/INFO]: Using default channel type
-[19:49:07] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:49:07] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:49:10] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
-[19:49:10] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
-[19:49:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:49:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:49:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:49:12] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.14
-[19:49:12] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.4.3
-[19:49:12] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
-[19:49:12] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.0) has not yet been tested! Proceed with caution.
-[19:49:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:49:16] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
-[19:49:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
-[19:49:16] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
-[19:49:16] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
-[19:49:17] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[19:49:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:49:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
-[19:49:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:49:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:49:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:49:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:49:17] [Server thread/INFO]: Preparing level "world"
-[19:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:49:19] [Server thread/INFO]: Time elapsed: 510 ms
-[19:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:49:19] [Server thread/INFO]: Time elapsed: 268 ms
-[19:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:49:19] [Server thread/INFO]: Time elapsed: 95 ms
-[19:49:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
-[19:49:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
-[19:49:21] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.14
-[19:49:21] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
-[19:49:21] [Server thread/INFO]: [voicechat] Compatibility version 17
-[19:49:21] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[19:49:21] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[19:49:21] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.4.3
-[19:49:21] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
-[19:49:22] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
-[19:49:22] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
-[19:49:22] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
-[19:49:23] [Server thread/INFO]: [HuskHomes] Initializing hooks...
-[19:49:23] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
-[19:49:23] [Server thread/INFO]: [HuskHomes] Initializing events...
-[19:49:23] [Server thread/INFO]: [HuskHomes] Successfully initialized events
-[19:49:23] [Server thread/INFO]: [HuskHomes] Initializing commands...
-[19:49:23] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
-[19:49:23] [Server thread/INFO]: [HuskHomes] Initializing API...
-[19:49:23] [Server thread/INFO]: [HuskHomes] Successfully initialized API
-[19:49:23] [Server thread/INFO]: [HuskHomes] Initializing metrics...
-[19:49:23] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
-[19:49:23] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
-[19:49:23] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[19:49:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
-[19:49:23] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
-[19:49:23] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.5.1 (running v4.4.3)
-[19:49:24] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
-[19:49:24] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
-[19:49:24] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
-[19:49:24] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[19:49:25] [Server thread/INFO]: Running delayed init tasks
-[19:49:25] [Server thread/INFO]: [voicechat] Loading plugins
-[19:49:25] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[19:49:25] [Server thread/INFO]: [voicechat] Initializing plugins
-[19:49:25] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[19:49:25] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
-[19:49:25] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[19:49:25] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[19:49:25] [Server thread/INFO]: Done (20.513s)! For help, type "help"
-[19:49:25] [Server thread/INFO]: Timings Reset
-[19:49:25] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[19:49:25] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
-[19:49:25] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[19:49:25] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.1.0 (Running 5.0.0). Download at https://www.spigotmc.org/resources/protocollib.1997/
-[19:49:26] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.8.0, you're on: 4.7.0
-[19:56:03] [User Authenticator #0/INFO]: UUID of player todernstWolf is 3532c247-7463-3bad-a620-b5e57718e8d3
-[19:56:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[19:56:13] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[19:56:13] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:56:13] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[19:56:13] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@3fce667d
-[19:56:13] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:56:13] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[19:56:13] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[19:56:13] [Paper Watchdog Thread/ERROR]: 	Stack:
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[19:56:14] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[19:56:14] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:56:14] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[19:56:14] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:56:16] [Server thread/INFO]: todernstWolf joined the game
-[19:56:16] [Server thread/INFO]: todernstWolf[/26.44.105.189:50340] logged in with entity id 625 at ([world_nether]217.34150502257927, 36.0, -81.69999998807907)
-[19:56:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13362ms or 267 ticks behind
-[19:56:21] [Server thread/INFO]: [voicechat] Received secret request of todernstWolf (17)
-[19:56:21] [Server thread/INFO]: [voicechat] Sent secret to todernstWolf
-[19:56:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3532c247-7463-3bad-a620-b5e57718e8d3
-[19:56:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3532c247-7463-3bad-a620-b5e57718e8d3
-[19:56:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player todernstWolf (3532c247-7463-3bad-a620-b5e57718e8d3) successfully connected to voice chat
-[19:56:34] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[19:56:34] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 159 packets
-[19:56:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12900ms or 258 ticks behind
-[19:57:41] [Server thread/INFO]: [Not Secure] [Server] ta suave ai ?
-[19:58:10] [Server thread/INFO]: --------- Help: Index ---------------------------
-[19:58:10] [Server thread/INFO]: Use /help [n] to get page n of help.
-[19:58:10] [Server thread/INFO]: Aliases: Lists command aliases
-[19:58:10] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[19:58:10] [Server thread/INFO]: Chunky: All commands for Chunky
-[19:58:10] [Server thread/INFO]: HuskHomesGUI: All commands for HuskHomesGUI
-[19:58:10] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[19:58:10] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
-[19:58:10] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
-[19:58:10] [Server thread/INFO]: voicechat: All commands for voicechat
-[19:58:10] [Server thread/INFO]: voicechat_interaction: All commands for voicechat_interaction
-[19:58:10] [Server thread/INFO]: /advancement: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /attribute: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /back: Return to your previous position, or where you died
-[19:58:10] [Server thread/INFO]: /ban: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /banlist: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /chunky: Generates chunks
-[19:58:10] [Server thread/INFO]: /clear: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /clone: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /damage: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /data: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /datapack: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /debug: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /delhome: Delete a home you previously set
-[19:58:10] [Server thread/INFO]: /delwarp: Delete a warp
-[19:58:10] [Server thread/INFO]: /deop: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /edithome: Edit one of your homes
-[19:58:10] [Server thread/INFO]: /editwarp: Edit a warp
-[19:58:10] [Server thread/INFO]: /effect: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /enchant: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /execute: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /experience: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /fill: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
-[19:58:10] [Server thread/INFO]: /forceload: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /function: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /give: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /help: Shows the help menu
-[19:58:10] [Server thread/INFO]: /home: Teleport to one of your homes
-[19:58:10] [Server thread/INFO]: /homelist: Get a list of your homes
-[19:58:10] [Server thread/INFO]: /huskhomes: View plugin information & reload configs
-[19:58:10] [Server thread/INFO]: /huskhomesgui: View HuskHomesGUI plugin information & reload configs
-[19:58:10] [Server thread/INFO]: /item: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /jfr: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /kick: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /kill: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /list: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /locate: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /loot: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /me: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /msg: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /mspt: View server tick times
-[19:58:10] [Server thread/INFO]: /op: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
-[19:58:10] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
-[19:58:10] [Server thread/INFO]: /paper: Paper related commands
-[19:58:10] [Server thread/INFO]: /pardon: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /particle: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /perf: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /phome: Teleport to a public home
-[19:58:10] [Server thread/INFO]: /phomelist: View the list of public homes
-[19:58:10] [Server thread/INFO]: /place: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /playsound: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[19:58:10] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
-[19:58:10] [Server thread/INFO]: /recipe: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[19:58:10] [Server thread/INFO]: /restart: Restarts the server
-[19:58:10] [Server thread/INFO]: /return: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /ride: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /rtp: Teleport randomly into the wild
-[19:58:10] [Server thread/INFO]: /save-all: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /save-off: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /save-on: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /say: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /schedule: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /seed: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /setblock: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /sethome: Set a new home with given name
-[19:58:10] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /setspawn: Set the spawn position
-[19:58:10] [Server thread/INFO]: /setwarp: Set a new warp with given name
-[19:58:10] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /spawn: Teleport to spawn
-[19:58:10] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /spectate: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /spigot: Spigot related commands
-[19:58:10] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /stop: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /summon: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /tag: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /team: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /teleport: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /tell: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /time: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[19:58:10] [Server thread/INFO]: /title: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /tm: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /tp: Teleport to another player or location
-[19:58:10] [Server thread/INFO]: /tpa: Request to teleport to another player
-[19:58:10] [Server thread/INFO]: /tpaall: Request that everyone teleports to you
-[19:58:10] [Server thread/INFO]: /tpaccept: Accept a teleport request
-[19:58:10] [Server thread/INFO]: /tpahere: Request another player to teleport to you
-[19:58:10] [Server thread/INFO]: /tpall: Teleport everyone to your position
-[19:58:10] [Server thread/INFO]: /tpdecline: Decline a teleport request
-[19:58:10] [Server thread/INFO]: /tphere: Teleport another player to you
-[19:58:10] [Server thread/INFO]: /tpignore: Ignore incoming teleport requests
-[19:58:10] [Server thread/INFO]: /tpoffline: Teleport to where a player was last online
-[19:58:10] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[19:58:10] [Server thread/INFO]: /trigger: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[19:58:10] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
-[19:58:10] [Server thread/INFO]: /voicechat: Manage voice chat
-[19:58:10] [Server thread/INFO]: /voicechat_interaction: Manage Voice Chat Interaction settings
-[19:58:10] [Server thread/INFO]: /w: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /warp: Teleport to a warp
-[19:58:10] [Server thread/INFO]: /warplist: View the list of warps
-[19:58:10] [Server thread/INFO]: /weather: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[19:58:10] [Server thread/INFO]: /xp: A Mojang provided command.
-[19:58:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:58:33] [Server thread/INFO]: [Not Secure] [Server] /warp help
-[19:58:59] [Server thread/INFO]: todernstWolf issued server command: /warp help
-[19:59:11] [Server thread/INFO]: [Not Secure] [Server] /warp aparece os tp
-[19:59:19] [Server thread/INFO]: [Not Secure] [Server] /warplist tambe;
-[19:59:39] [Server thread/INFO]: [Not Secure] [Server] /setwarp seta o warp
-[19:59:59] [Server thread/INFO]: [Not Secure] [Server] e tem como usar no nether tambem
-[20:02:22] [Server thread/INFO]: todernstWolf issued server command: /setwarp Bastion_Nathan
-[20:02:37] [Server thread/INFO]: todernstWolf issued server command: /warp VILA_SOCIALISTA
-[20:02:53] [Server thread/INFO]: todernstWolf issued server command: /warp Bastion_Nathan
-[20:03:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:03:03] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[20:03:03] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:03] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:03:03] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[20:03:03] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 74,56) in 'world_nether']
-[20:03:03] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world_nether, chunkX=74, chunkZ=56, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:carvers}, currentGenStatus=minecraft:carvers, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=8, fullNeighbourChunksLoadedBitset=0, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[20:03:03] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[20:03:03] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[20:03:03] [Paper Watchdog Thread/ERROR]: Entity UUID: 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:03:03] [Paper Watchdog Thread/ERROR]: Position: world: 'world_nether' at location (208.30000001192093, 36.0, -82.30000001192093)
-[20:03:03] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[20:03:03] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[208.0, 36.0, -82.60000002384186] -> [208.60000002384186, 37.799999952316284, -82.0]
-[20:03:03] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 2248
-[20:03:03] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:03:03] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: TIMED_WAITING
-[20:03:03] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:300)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:507)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:780)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPos(Entity.java:1365)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPosLegacy(Entity.java:1347)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getBlockStateOnLegacy(Entity.java:1917)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.onChangedBlock(LivingEntity.java:612)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.onChangedBlock(ServerPlayer.java:1520)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:466)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tick(Entity.java:787)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2975)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.tick(Player.java:276)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:758)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:359)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[20:03:03] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:03:03] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:03:03] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:03:08] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[20:03:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:08] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:03:08] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[20:03:08] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 74,56) in 'world_nether']
-[20:03:08] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world_nether, chunkX=74, chunkZ=56, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:carvers}, currentGenStatus=minecraft:carvers, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=8, fullNeighbourChunksLoadedBitset=0, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[20:03:08] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[20:03:08] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[20:03:08] [Paper Watchdog Thread/ERROR]: Entity UUID: 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:03:08] [Paper Watchdog Thread/ERROR]: Position: world: 'world_nether' at location (208.30000001192093, 36.0, -82.30000001192093)
-[20:03:08] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[20:03:08] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[208.0, 36.0, -82.60000002384186] -> [208.60000002384186, 37.799999952316284, -82.0]
-[20:03:08] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 2248
-[20:03:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:08] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:03:08] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:03:08] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.yield(Native Method)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:147)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:300)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:507)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:780)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPos(Entity.java:1365)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPosLegacy(Entity.java:1347)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getBlockStateOnLegacy(Entity.java:1917)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.onChangedBlock(LivingEntity.java:612)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.onChangedBlock(ServerPlayer.java:1520)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:466)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tick(Entity.java:787)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2975)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.tick(Player.java:276)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:758)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:359)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[20:03:08] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:03:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:03:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:03:13] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[20:03:13] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:13] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:03:13] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[20:03:13] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 74,56) in 'world_nether']
-[20:03:13] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world_nether, chunkX=74, chunkZ=56, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=20, fullNeighbourChunksLoadedBitset=0, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[20:03:13] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[20:03:13] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[20:03:13] [Paper Watchdog Thread/ERROR]: Entity UUID: 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:03:13] [Paper Watchdog Thread/ERROR]: Position: world: 'world_nether' at location (208.30000001192093, 36.0, -82.30000001192093)
-[20:03:13] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[20:03:13] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[208.0, 36.0, -82.60000002384186] -> [208.60000002384186, 37.799999952316284, -82.0]
-[20:03:13] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 2248
-[20:03:13] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:13] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:03:13] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: TIMED_WAITING
-[20:03:13] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:300)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:507)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:780)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPos(Entity.java:1365)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPosLegacy(Entity.java:1347)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getBlockStateOnLegacy(Entity.java:1917)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.onChangedBlock(LivingEntity.java:612)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.onChangedBlock(ServerPlayer.java:1520)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:466)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tick(Entity.java:787)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2975)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.tick(Player.java:276)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:758)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:359)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[20:03:13] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:03:13] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:03:13] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:03:18] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[20:03:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:18] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:03:18] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[20:03:18] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 74,56) in 'world_nether']
-[20:03:18] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world_nether, chunkX=74, chunkZ=56, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=5, fullNeighbourChunksLoadedBitset=0, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[20:03:18] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[20:03:18] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[20:03:18] [Paper Watchdog Thread/ERROR]: Entity UUID: 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:03:18] [Paper Watchdog Thread/ERROR]: Position: world: 'world_nether' at location (208.30000001192093, 36.0, -82.30000001192093)
-[20:03:18] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
-[20:03:18] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[208.0, 36.0, -82.60000002384186] -> [208.60000002384186, 37.799999952316284, -82.0]
-[20:03:18] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 2248
-[20:03:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:18] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:03:18] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:03:18] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.yield(Native Method)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:147)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:300)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:507)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:780)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPos(Entity.java:1365)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getOnPosLegacy(Entity.java:1347)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.getBlockStateOnLegacy(Entity.java:1917)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.onChangedBlock(LivingEntity.java:612)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.onChangedBlock(ServerPlayer.java:1520)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:466)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Entity.tick(Entity.java:787)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2975)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.tick(Player.java:276)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:758)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:359)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[20:03:18] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:03:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:18] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:03:18] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:03:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27801ms or 556 ticks behind
-[20:03:42] [Server thread/INFO]: [Not Secure] [Server] paulo num entra faz tanto tempo
-[20:03:50] [Server thread/INFO]: [Not Secure] [Server] que o mine dele num reconheceu o java
-[20:03:59] [Server thread/INFO]: todernstWolf issued server command: /warp centro_villa
-[20:04:02] [Server thread/INFO]: [Not Secure] [Server] ele ta entrandoa ai
-[20:04:18] [Async Chat Thread - #2/INFO]: [Not Secure] <todernstWolf> kkkkkkkk deve estar atualizando o java
-[20:04:46] [Async Chat Thread - #2/INFO]: [Not Secure] <todernstWolf> a skin q eu tenho nao da pra usar no server
-[20:05:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[20:06:00] [Server thread/INFO]: [Not Secure] [Server] seu mine é original
-[20:06:02] [Server thread/INFO]: [Not Secure] [Server] ?
-[20:06:13] [Async Chat Thread - #3/INFO]: [Not Secure] <todernstWolf> orignal hehehe
-[20:06:51] [Server thread/INFO]: [Not Secure] [Server] se é original é pra funcionar, se não estiver funfando é por causa das config do servidor talvez, porem o mine do matheus tambem é original e askin dele funciona
-[20:07:01] [Server thread/INFO]: [Not Secure] [Server] logo então deve ser tua conta mesmo
-[20:07:27] [Async Chat Thread - #3/INFO]: [Not Secure] <todernstWolf> oq vc ta tentando fazer
-[20:07:53] [Server thread/INFO]: [Not Secure] [Server] onde ?
-[20:08:12] [User Authenticator #1/INFO]: UUID of player Legand2 is 90ebae84-0bf5-3436-b235-cfcb264ca05e
-[20:08:12] [Server thread/INFO]: Legand2 joined the game
-[20:08:12] [Server thread/INFO]: Legand2[/26.254.38.81:54696] logged in with entity id 2351 at ([world_nether]-247.9800077886026, 73.0, -392.09476024490925)
-[20:08:22] [Server thread/INFO]: [voicechat] Received secret request of Legand2 (17)
-[20:08:22] [Server thread/INFO]: [voicechat] Sent secret to Legand2
-[20:08:23] [Async Chat Thread - #5/INFO]: [Not Secure] <todernstWolf> ae o paulo entrou
-[20:08:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 90ebae84-0bf5-3436-b235-cfcb264ca05e
-[20:08:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 90ebae84-0bf5-3436-b235-cfcb264ca05e
-[20:08:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Legand2 (90ebae84-0bf5-3436-b235-cfcb264ca05e) successfully connected to voice chat
-[20:08:30] [Server thread/INFO]: [Not Secure] [Server] sauda o paulo morrendo no nether
-[20:08:55] [Server thread/INFO]: Legand2 issued server command: /ho
-[20:09:09] [Server thread/INFO]: Legand2 issued server command: /home
-[20:09:16] [Server thread/INFO]: [Not Secure] [Server] to no disc falando com ele, depois eu entro ae vou jantar e resolver o bagu to app que não ta mais pegando por algum motivo
-[20:09:25] [Server thread/INFO]: [Not Secure] [Server] '-'
-[20:09:35] [Async Chat Thread - #5/INFO]: [Not Secure] <todernstWolf> Sem pressa cara
-[20:25:45] [Server thread/INFO]: [Not Secure] [Server] voi adentrar en lo server
-[20:26:44] [Server thread/INFO]: [Not Secure] [Server] pero que minecraft estas a demorar para cargar
-[20:26:58] [Server thread/INFO]: [Not Secure] [Server] gostaram
-[20:27:04] [Server thread/INFO]: [Not Secure] [Server] se chama espanhol
-[20:27:11] [Async Chat Thread - #8/INFO]: [Not Secure] <todernstWolf> fds
-[20:27:13] [Server thread/INFO]: [Not Secure] [Server] diego multilinguas
-[20:27:56] [Server thread/INFO]: [Not Secure] [Server] os recrutador do linkdin deve adorar ver o multilinguas e falar isso
-[20:28:03] [Server thread/INFO]: [Not Secure] [Server] os cara num bota fé
-[20:28:27] [User Authenticator #2/INFO]: UUID of player Cookie is 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:28:27] [Server thread/INFO]: Cookie joined the game
-[20:28:27] [Server thread/INFO]: Cookie[/26.210.198.12:53538] logged in with entity id 6925 at ([world_nether]-246.992049829015, 74.0, -390.031545532262)
-[20:28:37] [Server thread/INFO]: [voicechat] Received secret request of Cookie (17)
-[20:28:37] [Server thread/INFO]: [voicechat] Sent secret to Cookie
-[20:28:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:28:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:28:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
-[20:29:19] [Server thread/INFO]: Cookie issued server command: /setwarp ultimopontododiegonether
-[20:29:22] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[20:29:22] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 4 packets
-[20:29:30] [Server thread/INFO]: Cookie issued server command: /setwarp diegonether1
-[20:29:33] [Server thread/INFO]: Cookie issued server command: /home home
-[20:30:05] [Server thread/INFO]: Cookie issued server command: /tp Legand2
-[20:30:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
-[20:30:28] [Server thread/WARN]: Legand2 moved too quickly! -12.111286110955689,0.0,7.772323012103218
-[20:31:01] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
-[20:31:01] [Server thread/WARN]: Cookie moved too quickly! -2.610522660654965,0.0,-119.36687769038306
-[20:34:13] [Server thread/INFO]: Legand2 issued server command: /teleport c
-[20:36:19] [User Authenticator #3/INFO]: UUID of player griefer_hunter is 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:36:20] [Server thread/INFO]: griefer_hunter joined the game
-[20:36:20] [Server thread/INFO]: griefer_hunter[/26.179.31.251:53267] logged in with entity id 8734 at ([world_nether]-11.483734076282941, 53.0, -18.408071991816005)
-[20:36:22] [Server thread/INFO]: [voicechat] Received secret request of griefer_hunter (17)
-[20:36:22] [Server thread/INFO]: [voicechat] Sent secret to griefer_hunter
-[20:36:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:36:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:36:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player griefer_hunter (4ff08100-f10e-37be-95ce-b05fdc883f02) successfully connected to voice chat
-[20:36:38] [Async Chat Thread - #10/INFO]: [Not Secure] <griefer_hunter> uepa
-[20:36:45] [Async Chat Thread - #9/INFO]: [Not Secure] <Cookie> eae
-[20:36:50] [Async Chat Thread - #9/INFO]: [Not Secure] <todernstWolf> eae
-[20:36:59] [Async Chat Thread - #9/INFO]: [Not Secure] <Legand2> ei
-[20:37:02] [Async Chat Thread - #9/INFO]: [Not Secure] <Cookie> matheus onde tu deixou as plaqueta de netherita?
-[20:37:27] [Async Chat Thread - #9/INFO]: [Not Secure] <griefer_hunter> no meu bau secreto
-[20:37:35] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[20:37:35] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 146 packets
-[20:37:45] [Async Chat Thread - #10/INFO]: [Not Secure] <todernstWolf> o cara ja ta escondendo bau kkkkkkkkkkkk
-[20:38:39] [Server thread/INFO]: Legand2 has made the advancement [Hidden in the Depths]
-[20:40:39] [Server thread/INFO]: griefer_hunter issued server command: /seed
-[20:40:53] [Server thread/INFO]: griefer_hunter issued server command: /warp
-[20:41:00] [Server thread/INFO]: Cookie issued server command: /warp
-[20:41:07] [Server thread/INFO]: Legand2 issued server command: /w
-[20:42:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 90ebae84-0bf5-3436-b235-cfcb264ca05e timed out
-[20:42:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:42:29] [Paper Watchdog Thread/ERROR]: The server has not responded for 12 seconds! Creating thread dump
-[20:42:29] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:29] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:42:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Legand2
-[20:42:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Legand2
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4b606ad1-db9a-38e1-aa6c-07063fccc62e timed out
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Cookie
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Cookie
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 3532c247-7463-3bad-a620-b5e57718e8d3 timed out
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player todernstWolf
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to todernstWolf
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4ff08100-f10e-37be-95ce-b05fdc883f02 timed out
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player griefer_hunter
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to griefer_hunter
-[20:42:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15848ms or 316 ticks behind
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:42:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:42:30] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:30] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:42:30] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:42:30] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Class.getDeclaredMethods0(Native Method)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Class.getMethodsRecursive(Class.java:3543)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Class.getMethod0(Class.java:3529)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Class.getMethod(Class.java:2225)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		HuskHomes-Plugin-4.4.3.jar//net.william278.huskhomes.libraries.bstats.bukkit.Metrics.getPlayerAmount(Metrics.java:120)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		HuskHomes-Plugin-4.4.3.jar//net.william278.huskhomes.libraries.bstats.bukkit.Metrics.appendPlatformData(Metrics.java:100)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		HuskHomes-Plugin-4.4.3.jar//net.william278.huskhomes.libraries.bstats.bukkit.Metrics$$Lambda$6667/0x0000000801ff2fc0.accept(Unknown Source)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		HuskHomes-Plugin-4.4.3.jar//net.william278.huskhomes.libraries.bstats.MetricsBase.submitData(MetricsBase.java:166)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		HuskHomes-Plugin-4.4.3.jar//net.william278.huskhomes.libraries.bstats.MetricsBase$$Lambda$7668/0x0000000801ff6068.run(Unknown Source)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[20:42:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:42:30] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:42:30] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:30] [Server thread/WARN]: Legand2 moved wrongly!
-[20:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 90ebae84-0bf5-3436-b235-cfcb264ca05e
-[20:42:31] [Async Chat Thread - #11/INFO]: [Not Secure] <griefer_hunter> travou
-[20:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player todernstWolf (3532c247-7463-3bad-a620-b5e57718e8d3) successfully connected to voice chat
-[20:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player griefer_hunter (4ff08100-f10e-37be-95ce-b05fdc883f02) successfully connected to voice chat
-[20:42:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 90ebae84-0bf5-3436-b235-cfcb264ca05e
-[20:42:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Legand2 (90ebae84-0bf5-3436-b235-cfcb264ca05e) successfully connected to voice chat
-[20:42:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:42:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
-[20:42:34] [Server thread/INFO]: Saving the game (this may take a moment!)
-[20:42:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:42:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[20:42:43] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:42:44] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:42:44] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: true | State: RUNNABLE
-[20:42:44] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:42:44] [Async Chat Thread - #11/INFO]: [Not Secure] <griefer_hunter> travou de novo
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.io.FileOutputStream.open0(Native Method)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.io.FileOutputStream.open(FileOutputStream.java:293)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:120)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.saveddata.SavedData.save(SavedData.java:36)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.lambda$save$0(DimensionDataStorage.java:124)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.WorldPersistentData$$Lambda$7687/0x00000008021c7000.accept(Unknown Source)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.HashMap.forEach(HashMap.java:1421)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.DimensionDataStorage.save(DimensionDataStorage.java:122)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveLevelData(ServerLevel.java:1496)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.save(ServerLevel.java:1468)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.saveAllChunks(MinecraftServer.java:850)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.saveAllChunks(MinecraftServer.java:837)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.saveEverything(MinecraftServer.java:888)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SaveAllCommand.saveAll(SaveAllCommand.java:29)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.SaveAllCommand.lambda$register$1(SaveAllCommand.java:15)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.CommandSaveAll$$Lambda$4472/0x0000000801609750.run(Unknown Source)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:303)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:45)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:929)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchServerCommand(CraftServer.java:892)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x000000080169ae30.run(Unknown Source)
-[20:42:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:42:44] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:42:44] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:42:47] [Server thread/INFO]: Saved the game
-[20:42:47] [Server thread/INFO]: Saving is already turned on
-[20:42:47] [Server thread/WARN]: griefer_hunter moved too quickly! -6.52070504096082,-3.0625,-7.094765063189328
-[20:43:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5652ms or 113 ticks behind
-[20:43:23] [Server thread/INFO]: Legand2 has made the advancement [A Seedy Place]
-[20:45:13] [Async Chat Thread - #14/INFO]: [Not Secure] <griefer_hunter> diego foi pegar coisa pra gente ir no nether? nao prestei atencao
-[20:45:26] [Async Chat Thread - #13/INFO]: [Not Secure] <Legand2> isso
-[20:45:31] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> vou ficar [afk] deitei na cama
-[20:45:36] [Async Chat Thread - #14/INFO]: [Not Secure] <griefer_hunter> a
-[20:45:42] [Server thread/INFO]: Legand2 issued server command: /home
-[20:48:36] [Server thread/WARN]: todernstWolf moved too quickly! 0.6099193462582377,0.0,-10.361502518738433
-[20:48:36] [Server thread/WARN]: Legand2 moved too quickly! -10.04732780107841,-0.03584062504455687,-1.4884702756499166
-[20:48:36] [Server thread/WARN]: todernstWolf moved too quickly! 0.5928592652346083,0.0,-10.081408584811896
-[20:54:44] [Async Chat Thread - #16/INFO]: [Not Secure] <griefer_hunter> ei nathan
-[20:54:48] [Async Chat Thread - #16/INFO]: [Not Secure] <griefer_hunter> quer os axolotinhos ja
-[20:54:54] [Async Chat Thread - #15/INFO]: [Not Secure] <griefer_hunter> eu lembro que voce ia construir um aquario
-[20:54:59] [Async Chat Thread - #17/INFO]: [Not Secure] <griefer_hunter> quero me desfazer deles ja
-[20:55:01] [Async Chat Thread - #16/INFO]: [Not Secure] <todernstWolf> eu quero
-[20:55:05] [Async Chat Thread - #17/INFO]: [Not Secure] <griefer_hunter> to indo ai
-[20:55:14] [Async Chat Thread - #16/INFO]: [Not Secure] <todernstWolf> ja vou montar o viveiro
-[20:57:29] [Server thread/INFO]: griefer_hunter issued server command: /warp
-[20:58:23] [Server thread/INFO]: griefer_hunter issued server command: /warp LOOT_MATHEUS
-[20:58:31] [Async Chat Thread - #19/INFO]: [Not Secure] <griefer_hunter> achei uma no LOOT_MATHEUS
-[20:58:33] [Async Chat Thread - #19/INFO]: [Not Secure] <griefer_hunter> vou ver se tem mais
-[20:58:37] [Server thread/INFO]: griefer_hunter issued server command: /warp CIDADE_ANCESTRAL
-[20:58:52] [Async Chat Thread - #18/INFO]: [Not Secure] <griefer_hunter> achei mais duas na cidade ancestral
-[20:58:59] [Server thread/INFO]: griefer_hunter issued server command: /warp
-[20:59:43] [Async Chat Thread - #19/INFO]: [Not Secure] <griefer_hunter> acho que so tenho tres mesmo
-[20:59:44] [Server thread/INFO]: griefer_hunter issued server command: /home CASA_MAT
-[20:59:50] [Async Chat Thread - #19/INFO]: [Not Secure] <todernstWolf> tranquilo
-[20:59:56] [Async Chat Thread - #19/INFO]: [Not Secure] <todernstWolf> ja deixa guardado
-[21:01:40] [Async Chat Thread - #21/INFO]: [Not Secure] <griefer_hunter> alguem ta com insonia -_-
-[21:03:26] [Async Chat Thread - #23/INFO]: [Not Secure] <todernstWolf> quem sera q ta atrapalhando o sono dos outros
-[21:03:35] [Async Chat Thread - #23/INFO]: [Not Secure] <griefer_hunter> o diego tava afk
-[21:03:47] [Async Chat Thread - #24/INFO]: [Not Secure] <griefer_hunter> quem eh o vizinho com som alto
-[21:04:17] [Async Chat Thread - #22/INFO]: [Not Secure] <Cookie> vortei
-[21:04:52] [Async Chat Thread - #24/INFO]: [Not Secure] <Cookie> que rola ?
-[21:04:55] [Async Chat Thread - #24/INFO]: [Not Secure] <griefer_hunter> la ele
-[21:05:00] [Async Chat Thread - #24/INFO]: [Not Secure] <Cookie> oque **
-[21:05:27] [Async Chat Thread - #24/INFO]: [Not Secure] <Legand2> estamos tentado dormir
-[21:05:44] [Async Chat Thread - #22/INFO]: [Not Secure] <griefer_hunter> fiz uma plantacao de cana-de-acucar atras da minha casa pra construir logo a mesa de encantamento requintada
-[21:05:50] [Async Chat Thread - #24/INFO]: [Not Secure] <todernstWolf> o tal do calvo e foda
-[21:05:56] [Async Chat Thread - #22/INFO]: [Not Secure] <griefer_hunter> nao fui eu
-[21:06:05] [Async Chat Thread - #24/INFO]: [Not Secure] <griefer_hunter> eu dormi toda vez que apareceu 2/4 jogadores dormindo
-[21:07:46] [Async Chat Thread - #26/INFO]: [Not Secure] <griefer_hunter> paulo se estiver falando voce ta mutado
-[21:08:43] [Async Chat Thread - #25/INFO]: [Not Secure] <griefer_hunter> serase ja ta grande
-[21:08:45] [Async Chat Thread - #26/INFO]: [Not Secure] <griefer_hunter> la ele
-[21:08:50] [Async Chat Thread - #26/INFO]: [Not Secure] <Cookie> começar aplicar mutla em quem faz buraco na entrada da caverna
-[21:08:59] [Async Chat Thread - #27/INFO]: [Not Secure] <griefer_hunter> nao fui eu
-[21:09:05] [Async Chat Thread - #27/INFO]: [Not Secure] <Cookie> botar um sistema de loja só pra pegar dinheiro dessas pessoas
-[21:09:05] [Async Chat Thread - #27/INFO]: [Not Secure] <griefer_hunter> tem trinta anos que eu nao vou na entrada da caverna
-[21:09:10] [Async Chat Thread - #27/INFO]: [Not Secure] <Legand2> que buraco?
-[21:09:12] [Async Chat Thread - #27/INFO]: [Not Secure] <griefer_hunter> ave maria
-[21:09:16] [Async Chat Thread - #27/INFO]: [Not Secure] <Cookie> tampei
-[21:09:23] [Async Chat Thread - #27/INFO]: [Not Secure] <Cookie> ja não existe mais
-[21:09:23] [Async Chat Thread - #26/INFO]: [Not Secure] <griefer_hunter> cookie estadista
-[21:09:38] [Async Chat Thread - #26/INFO]: [Not Secure] <griefer_hunter> inventando buraco que nem existe so pra arrancar dinheiro da gente
-[21:10:07] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
-[21:12:43] [Async Chat Thread - #29/INFO]: [Not Secure] <griefer_hunter> mano
-[21:12:44] [Async Chat Thread - #29/INFO]: [Not Secure] <griefer_hunter> acabei de perceber
-[21:12:51] [Async Chat Thread - #30/INFO]: [Not Secure] <griefer_hunter> que eu desabilitei acidentalmente todos os sons do chat
-[21:13:00] [Async Chat Thread - #30/INFO]: [Not Secure] <griefer_hunter> e fiquei me perguntando por que o paulo tava quieto na minha frente
-[21:13:46] [Async Chat Thread - #28/INFO]: [Not Secure] <griefer_hunter> apertei n
-[21:13:48] [Async Chat Thread - #30/INFO]: [Not Secure] <griefer_hunter> n faz isso
-[21:13:53] [Async Chat Thread - #28/INFO]: [Not Secure] <griefer_hunter> vi aqui nos atalhos
-[21:14:02] [Async Chat Thread - #30/INFO]: [Not Secure] <griefer_hunter> a tecla 'n' faz isso eu quis dizer
-[21:15:37] [Async Chat Thread - #31/INFO]: [Not Secure] <Cookie> como assim ?
-[21:15:39] [Async Chat Thread - #32/INFO]: [Not Secure] <Cookie> buguei
-[21:15:43] [Async Chat Thread - #32/INFO]: [Not Secure] <griefer_hunter> aperta N
-[21:15:46] [Async Chat Thread - #32/INFO]: [Not Secure] <griefer_hunter> depois aperta 4
-[21:15:57] [Async Chat Thread - #32/INFO]: [Not Secure] <griefer_hunter> N eh um atalho do voice chat pra mutar todos
-[21:17:08] [Async Chat Thread - #34/INFO]: [Not Secure] <Cookie> é que pra min n é pra falar meio que abafado
-[21:17:16] [Async Chat Thread - #34/INFO]: [Not Secure] <griefer_hunter> a
-[21:17:29] [Async Chat Thread - #34/INFO]: [Not Secure] <griefer_hunter> por algum motivo eu nao enxergo as labels do lado esquerdo na tela de atalhos
-[21:17:37] [Async Chat Thread - #35/INFO]: [Not Secure] <griefer_hunter> entao fui testando e vi que o N muta todos no meu
-[21:17:46] [Async Chat Thread - #35/INFO]: [Not Secure] <griefer_hunter> serase agora o sono vem pra todo mundo
-[21:18:44] [Async Chat Thread - #34/INFO]: [Not Secure] <Cookie> esqueleto perto de casa pera ae
-[21:20:07] [Server thread/INFO]: [Not Secure] [Server] a gente nem jogou os jogos do paulo essa semana, tenso
-[21:20:19] [Async Chat Thread - #36/INFO]: [Not Secure] <Legand2> pois é
-[21:20:20] [Async Chat Thread - #36/INFO]: [Not Secure] <griefer_hunter> verdade
-[21:20:24] [Async Chat Thread - #36/INFO]: [Not Secure] <griefer_hunter> fiquei mexendo no app sabado inteiro
-[21:20:50] [Async Chat Thread - #37/INFO]: [Not Secure] <Legand2> na proxima vez, gente jogar
-[21:21:21] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[21:21:21] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 284 packets
-[21:21:21] [Server thread/WARN]: Legand2 moved too quickly! -9.269218152540986,0.0,-4.67640318566519
-[21:22:14] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[21:22:14] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 155 packets
-[21:23:14] [Server thread/INFO]: Cookie issued server command: /warp
-[21:24:11] [Async Chat Thread - #39/INFO]: [Not Secure] <griefer_hunter> gente
-[21:24:15] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
-[21:24:17] [Async Chat Thread - #38/INFO]: [Not Secure] <Legand2> oi
-[21:24:26] [Async Chat Thread - #38/INFO]: [Not Secure] <griefer_hunter> vou construir a mesa de encatamentos entre a minha casa e a do paulo mas provavelmente vai ser temporario
-[21:24:27] [Server thread/INFO]: Cookie issued server command: /warp
-[21:24:35] [Async Chat Thread - #38/INFO]: [Not Secure] <griefer_hunter> porque eu sei que tem uns designs mais interessantes de mesa de encantamento
-[21:25:41] [Async Chat Thread - #41/INFO]: [Not Secure] <Cookie> blz
-[21:26:33] [Server thread/INFO]: griefer_hunter has made the advancement [Enchanter]
-[21:27:05] [Async Chat Thread - #43/INFO]: [Not Secure] <griefer_hunter> vou procurar mais diamantes UwU
-[21:27:08] [Server thread/INFO]: griefer_hunter issued server command: /warp
-[21:27:49] [Async Chat Thread - #42/INFO]: [Not Secure] <Cookie> mano
-[21:27:55] [Async Chat Thread - #42/INFO]: [Not Secure] <griefer_hunter> chora
-[21:27:55] [Async Chat Thread - #43/INFO]: [Not Secure] <Cookie> qual altura disso ?
-[21:28:04] [Async Chat Thread - #42/INFO]: [Not Secure] <griefer_hunter> eu tenho 160cm
-[21:28:24] [Async Chat Thread - #43/INFO]: [Not Secure] <Legand2> eu tenho 1,80
-[21:28:50] [Async Chat Thread - #42/INFO]: [Not Secure] <Cookie> olha onde to nathan
-[21:28:59] [Async Chat Thread - #43/INFO]: [Not Secure] <todernstWolf> pqp kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-[21:30:14] [Async Chat Thread - #45/INFO]: [Not Secure] <Cookie> fazer minha casa aqui em cima
-[21:30:48] [Async Chat Thread - #44/INFO]: [Not Secure] <griefer_hunter> como nosso ditador, diego vai fazer a casa dele nas alturas como um observatorio pra vigiar seus plebeus e puni-los de acordo com sua vontade
-[21:31:42] [Async Chat Thread - #44/INFO]: [Not Secure] <griefer_hunter> tem quantos dormindo ai
-[21:31:43] [Async Chat Thread - #44/INFO]: [Not Secure] <griefer_hunter> nem vi
-[21:31:48] [Async Chat Thread - #44/INFO]: [Not Secure] <griefer_hunter> to explorando
-[21:31:53] [Async Chat Thread - #44/INFO]: [Not Secure] <Cookie> nem vi
-[21:31:58] [Async Chat Thread - #45/INFO]: [Not Secure] <Cookie> to nas alturas
-[21:32:19] [Async Chat Thread - #44/INFO]: [Not Secure] <Cookie> trazer meu labrador aqui em cima e fazer a casa do up
-[21:33:56] [Async Chat Thread - #47/INFO]: [Not Secure] <Cookie> y 306
-[21:34:12] [Async Chat Thread - #46/INFO]: [Not Secure] <griefer_hunter> limite nao era y=255 nao?
-[21:34:23] [Async Chat Thread - #46/INFO]: [Not Secure] <Cookie> depois da att do nether nao
-[21:34:40] [Async Chat Thread - #46/INFO]: [Not Secure] <Cookie> aumentou faz tempo isso
-[21:34:43] [Async Chat Thread - #47/INFO]: [Not Secure] <griefer_hunter> qual o novo limite
-[21:34:54] [Async Chat Thread - #46/INFO]: [Not Secure] <Cookie> só sei que é bastante
-[21:34:58] [Async Chat Thread - #47/INFO]: [Not Secure] <Cookie> agora que é da microsoft
-[21:35:07] [Async Chat Thread - #47/INFO]: [Not Secure] <Cookie> as alturas pode ser literalmente nas alturas
-[21:35:13] [Async Chat Thread - #46/INFO]: [Not Secure] <Cookie> 315 ja
-[21:35:30] [Async Chat Thread - #47/INFO]: [Not Secure] <griefer_hunter> literalmente o grande irmao
-[21:35:40] [Async Chat Thread - #47/INFO]: [Not Secure] <griefer_hunter> meu gato quando anda em cima da pedra faz barulho de gente pisando
-[21:35:43] [Async Chat Thread - #47/INFO]: [Not Secure] <griefer_hunter> ta me assustando
-[21:35:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
-[21:35:48] [Async Chat Thread - #47/INFO]: [Not Secure] <griefer_hunter> parece que eh um creeper ou monstro do tipo
-[21:36:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8871ms or 177 ticks behind
-[21:36:30] [Async Chat Thread - #46/INFO]: [Not Secure] <Cookie> meu fps tambem ta nas alturas
-[21:36:34] [Async Chat Thread - #46/INFO]: [Not Secure] <Cookie> 15 fps
-[21:36:55] [Async Chat Thread - #47/INFO]: [Not Secure] <griefer_hunter> se isso eh um fps nas alturas
-[21:36:59] [Server thread/INFO]: Legand2 was blown up by Creeper
-[21:37:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5814ms or 116 ticks behind
-[21:37:02] [Server thread/INFO]: Legand2 issued server command: /huskhomes:back
-[21:37:03] [Async Chat Thread - #46/INFO]: [Not Secure] <griefer_hunter> perdi
-[21:37:28] [Server thread/INFO]: Legand2 issued server command: /home
-[21:37:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7541ms or 150 ticks behind
-[21:37:49] [Server thread/INFO]: griefer_hunter issued server command: /setwarp 1_OUT_MAT
-[21:38:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6514ms or 130 ticks behind
-[21:39:11] [Async Chat Thread - #49/INFO]: [Not Secure] <todernstWolf> kkkkkkkkkkkkkkkkkkkkkkkkkkk
-[21:39:20] [Async Chat Thread - #49/INFO]: [Not Secure] <griefer_hunter> ping +99
-[21:39:38] [Async Chat Thread - #49/INFO]: [Not Secure] <Cookie> comove ping ?
-[21:39:48] [Async Chat Thread - #49/INFO]: [Not Secure] <griefer_hunter> nao sei
-[21:39:50] [Async Chat Thread - #49/INFO]: [Not Secure] <griefer_hunter> eh que ele demorou pra rir
-[21:40:01] [Async Chat Thread - #48/INFO]: [Not Secure] <griefer_hunter> na verdade eu presumi que ele riu do paulo morrendo pro creeper
-[21:40:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5096ms or 101 ticks behind
-[21:40:28] [Async Chat Thread - #48/INFO]: [Not Secure] <Legand2> isso tenho certeza
-[21:41:21] [Async Chat Thread - #49/INFO]: [Not Secure] <Cookie> cara isso num acaba
-[21:41:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5061ms or 101 ticks behind
-[21:41:45] [Async Chat Thread - #50/INFO]: [Not Secure] <Cookie> ta chuvendo umas terra ai se pa
-[21:41:54] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> literalmente porque to usando ela pra tirar isso
-[21:41:58] [Async Chat Thread - #50/INFO]: [Not Secure] <griefer_hunter> sera que voce nao esqueceu de adicionar o mod de ir pra lua
-[21:42:03] [Async Chat Thread - #50/INFO]: [Not Secure] <griefer_hunter> deve ser por isso que nao ta funcionando
-[21:42:13] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> cabo a pa
-[21:42:18] [Async Chat Thread - #50/INFO]: [Not Secure] <Cookie> vo usar a que eu achei de dima
-[21:42:54] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> 225 é uma boa altura
-[21:42:58] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> fazer minha casa aqui
-[21:43:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5044ms or 100 ticks behind
-[21:43:12] [Async Chat Thread - #48/INFO]: [Not Secure] <griefer_hunter> jogou a toalha
-[21:43:15] [Async Chat Thread - #50/INFO]: [Not Secure] <griefer_hunter> achei que fosse fazer no limite
-[21:43:15] [Server thread/INFO]: Cookie issued server command: /sethome casanao
-[21:43:36] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> ia demorar pra dar um mergulho estilo assasino do credo
-[21:43:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6685ms or 133 ticks behind
-[21:44:02] [Async Chat Thread - #50/INFO]: [Not Secure] <griefer_hunter> voce nao fez uma casa no quinto dos inferno so pra usar um emote ne
-[21:44:08] [Async Chat Thread - #50/INFO]: [Not Secure] <Cookie> kkkk pra isso que coloquei esa animação
-[21:44:13] [Async Chat Thread - #50/INFO]: [Not Secure] <Cookie> do emote
-[21:44:14] [Async Chat Thread - #50/INFO]: [Not Secure] <griefer_hunter> ª
-[21:44:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5598ms or 111 ticks behind
-[21:44:33] [Async Chat Thread - #50/INFO]: [Not Secure] <Cookie> full stonks
-[21:44:54] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[21:44:54] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 108 packets
-[21:44:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6911ms or 138 ticks behind
-[21:45:03] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> no ar é 100% de aproveitamento de fps
-[21:45:16] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> no chao tem muita coisa pra gerar na chunk laga demais
-[21:45:34] [Async Chat Thread - #48/INFO]: [Not Secure] <Cookie> ai se eu quiser dar um mergulho do credo pulo la de cima e venho visitar voces
-[21:45:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
-[21:48:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
-[21:48:39] [Server thread/INFO]: Legand2 has made the advancement [Enchanter]
-[21:48:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10230ms or 204 ticks behind
-[21:49:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16591ms or 331 ticks behind
-[21:49:52] [Server thread/INFO]: Cookie issued server command: /weather clear
-[21:49:52] [Server thread/INFO]: [Cookie: Set the weather to clear]
-[21:50:09] [Async Chat Thread - #52/INFO]: [Not Secure] <griefer_hunter> depois eu que uso comando ne nathan
-[21:50:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7626ms or 152 ticks behind
-[21:50:24] [Async Chat Thread - #51/INFO]: [Not Secure] <Cookie> vamo combinar esse comandoé util
-[21:50:27] [Async Chat Thread - #51/INFO]: [Not Secure] <Cookie> pc agradece
-[21:50:30] [Async Chat Thread - #51/INFO]: [Not Secure] <griefer_hunter> "de poder a um homem e veja quem ele realmente eh" -- robson arguelho
-[21:50:30] [Async Chat Thread - #52/INFO]: [Not Secure] <todernstWolf> hmm?
-[21:50:33] [Async Chat Thread - #51/INFO]: [Not Secure] <Cookie> to rodando o servidor com 3 gb ram
-[21:50:33] [Async Chat Thread - #51/INFO]: [Not Secure] <griefer_hunter> berto
-[21:50:39] [Async Chat Thread - #52/INFO]: [Not Secure] <Cookie> to usando 1 gb ram pra jogar
-[21:50:39] [Async Chat Thread - #52/INFO]: [Not Secure] <todernstWolf> silva
-[21:50:43] [Async Chat Thread - #51/INFO]: [Not Secure] <griefer_hunter> costa
-[21:50:48] [Async Chat Thread - #52/INFO]: [Not Secure] <todernstWolf> souza
-[21:50:51] [Async Chat Thread - #52/INFO]: [Not Secure] <griefer_hunter> nunes
-[21:50:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5064ms or 101 ticks behind
-[21:50:54] [Async Chat Thread - #52/INFO]: [Not Secure] <todernstWolf> junior
-[21:51:01] [Server thread/INFO]: Cookie issued server command: /debug start
-[21:51:01] [Server thread/INFO]: [Cookie: Started tick profiling]
-[21:51:04] [Async Chat Thread - #52/INFO]: [Not Secure] <griefer_hunter> faker.name.firstName();
-[21:51:10] [Async Chat Thread - #52/INFO]: [Not Secure] <Cookie> save-on
-[21:51:11] [Async Chat Thread - #52/INFO]: [Not Secure] <griefer_hunter> o que eh analise de ciclos
-[21:51:15] [Server thread/INFO]: Cookie issued server command: /save-on
-[21:51:18] [Server thread/INFO]: Cookie issued server command: /save-all
-[21:51:20] [Server thread/INFO]: [Cookie: Saved the game]
-[21:51:30] [Async Chat Thread - #51/INFO]: [Not Secure] <Cookie> debug do servidor
-[21:51:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9224ms or 184 ticks behind
-[21:51:32] [Async Chat Thread - #51/INFO]: [Not Secure] <griefer_hunter> diego vou contar pra sua mae que voce usa analise de ciclos
-[21:51:38] [Async Chat Thread - #51/INFO]: [Not Secure] <Cookie> pra limpar ticks
-[21:52:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
-[21:52:23] [Async Chat Thread - #52/INFO]: [Not Secure] <griefer_hunter> meu gato me da muita aflicao
-[21:52:30] [Async Chat Thread - #52/INFO]: [Not Secure] <griefer_hunter> ele fica pisando atras de mim muito forte
-[21:52:37] [Server thread/INFO]: [Not Secure] [Server] paulo ta tudo bem ai?
-[21:52:47] [Server thread/INFO]: [Not Secure] [Server] ouvi voce gritando correndo aqui
-[21:52:53] [Async Chat Thread - #51/INFO]: [Not Secure] <griefer_hunter> perdi
-[21:54:26] [Server thread/INFO]: [Not Secure] [Server] zap ai rapeize
-[21:54:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
-[21:59:33] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> mano meu celular ta a 2 dias carregando
-[21:59:49] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> ele ta aparecendo carregamento CA(carga alternada)
-[21:59:59] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> que siguinifica que ele vai carregar muito lento
-[22:00:05] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> mas tipo ta lento demais
-[22:00:21] [Async Chat Thread - #54/INFO]: [Not Secure] <Cookie> o que que os cara atualizou nessa att do motorola nathan ?
-[22:00:25] [Async Chat Thread - #55/INFO]: [Not Secure] <griefer_hunter> eu acho que ele ta eh viciado
-[22:00:26] [Async Chat Thread - #55/INFO]: [Not Secure] <Legand2> boa noite, pessoal
-[22:00:30] [Async Chat Thread - #56/INFO]: [Not Secure] <griefer_hunter> konbanwaaa
-[22:00:31] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> noit paulo
-[22:00:36] [Async Chat Thread - #55/INFO]: [Not Secure] <Legand2> ate mais
-[22:00:39] [Server thread/INFO]: Legand2 lost connection: Disconnected
-[22:00:39] [Server thread/INFO]: [voicechat] Disconnecting client Legand2
-[22:00:40] [Server thread/INFO]: Legand2 left the game
-[22:00:40] [Server thread/WARN]: [voicechat_interaction] Task #154548 for voicechat_interaction vv1.3.0+1.20.x generated an exception
-java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getWorld()" because the return value of "org.bukkit.Server.getPlayer(java.util.UUID)" is null
-	at dev.igalaxy.voicechatinteraction.VoiceChatInteractionPlugin.activate(VoiceChatInteractionPlugin.java:106) ~[voicechat-interaction-paper-v1.3.0+1.20.x.jar:?]
-	at dev.igalaxy.voicechatinteraction.VoiceChatInteractionPlugin.lambda$onMicPacket$0(VoiceChatInteractionPlugin.java:98) ~[voicechat-interaction-paper-v1.3.0+1.20.x.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[22:00:40] [Server thread/WARN]: [voicechat_interaction] Task #154549 for voicechat_interaction vv1.3.0+1.20.x generated an exception
-java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getWorld()" because the return value of "org.bukkit.Server.getPlayer(java.util.UUID)" is null
-	at dev.igalaxy.voicechatinteraction.VoiceChatInteractionPlugin.activate(VoiceChatInteractionPlugin.java:106) ~[voicechat-interaction-paper-v1.3.0+1.20.x.jar:?]
-	at dev.igalaxy.voicechatinteraction.VoiceChatInteractionPlugin.lambda$onMicPacket$0(VoiceChatInteractionPlugin.java:98) ~[voicechat-interaction-paper-v1.3.0+1.20.x.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[paper-1.20.jar:git-Paper-17]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[22:00:40] [Async Chat Thread - #56/INFO]: [Not Secure] <todernstWolf> atualizou so o android
-[22:00:49] [Async Chat Thread - #56/INFO]: [Not Secure] <todernstWolf> agr e android 13
-[22:01:23] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> mano meu celular ta a dois dias carregando e ta 61% no modo aviao
-[22:01:45] [Async Chat Thread - #56/INFO]: [Not Secure] <todernstWolf> ainda bem q a bateria nao ta viciada
-[22:01:56] [Async Chat Thread - #56/INFO]: [Not Secure] <griefer_hunter> ja pensou se tivesse
-[22:02:06] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> até porque foi meu primeiro celular comprado com meu proprio salario
-[22:02:18] [Async Chat Thread - #55/INFO]: [Not Secure] <Cookie> entao eu cuidei mesmo pra num zuar esse celular
-[22:03:08] [Async Chat Thread - #56/INFO]: [Not Secure] <Cookie> e ele é 5 mpr acho que é assim que fala
-[22:03:18] [Async Chat Thread - #56/INFO]: [Not Secure] <Cookie> ou seja é pra ele durar dias sem descarregar
-[22:03:28] [Async Chat Thread - #56/INFO]: [Not Secure] <Cookie> mas se nem carregar carrega imagina durar
-[22:05:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5377ms or 107 ticks behind
-[22:05:32] [Async Chat Thread - #58/INFO]: [Not Secure] <Cookie> estou sem ideia do que faze na vila
-[22:05:38] [Async Chat Thread - #58/INFO]: [Not Secure] <griefer_hunter> faz o L
-[22:05:39] [Async Chat Thread - #57/INFO]: [Not Secure] <Cookie> dar uma pesquisada aqui no google rapidao
-[22:05:49] [Async Chat Thread - #58/INFO]: [Not Secure] <Cookie> [afk]
-[22:06:01] [Async Chat Thread - #58/INFO]: [Not Secure] <todernstWolf> eu to limpando pra fazer o aquario
-[22:06:21] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[22:06:21] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 31 packets
-[22:06:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7942ms or 158 ticks behind
-[22:06:33] [Server thread/WARN]: griefer_hunter moved too quickly! -11.049944733864777,-11.0,4.283073729634566
-[22:07:02] [Server thread/INFO]: griefer_hunter issued server command: /warp 1_OUT_MAT
-[22:08:26] [Server thread/INFO]: griefer_hunter issued server command: /home CASA_MAT
-[22:10:19] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[22:10:19] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 67 packets
-[22:10:39] [Server thread/INFO]: griefer_hunter issued server command: /warp 1_OUT_MAT
-[22:10:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5147ms or 102 ticks behind
-[22:11:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
-[22:11:35] [Async Chat Thread - #60/INFO]: [Not Secure] <griefer_hunter> gurizada
-[22:11:39] [Async Chat Thread - #59/INFO]: [Not Secure] <griefer_hunter> acho que eu ja vou parar por hoje tambem
-[22:11:50] [Async Chat Thread - #60/INFO]: [Not Secure] <griefer_hunter> vou dar uma descansada e voltar a mexer no app
-[22:11:53] [Async Chat Thread - #60/INFO]: [Not Secure] <todernstWolf> boa noite
-[22:12:00] [Async Chat Thread - #60/INFO]: [Not Secure] <griefer_hunter> konbanwaaa >///<
-[22:12:02] [Server thread/INFO]: griefer_hunter lost connection: Disconnected
-[22:12:03] [Server thread/INFO]: [voicechat] Disconnecting client griefer_hunter
-[22:12:03] [Server thread/INFO]: griefer_hunter left the game
-[22:14:18] [Async Chat Thread - #62/INFO]: [Not Secure] <Cookie> ow ja sei qual vai ser meu proximo jogo de escolha
-[22:14:48] [Async Chat Thread - #61/INFO]: [Not Secure] <Cookie> to só esperando relançar esse vai ser engraçado todo mundo jogar
-[22:14:51] [Async Chat Thread - #61/INFO]: [Not Secure] <Cookie> em fim
-[22:14:56] [Async Chat Thread - #61/INFO]: [Not Secure] <Cookie> vou sair aqui também
-[22:15:15] [Async Chat Thread - #62/INFO]: [Not Secure] <Cookie> boa noite ai parça
-[22:15:19] [Server thread/INFO]: Cookie lost connection: Disconnected
-[22:15:19] [Server thread/INFO]: [voicechat] Disconnecting client Cookie
-[22:15:20] [Server thread/INFO]: Cookie left the game
-[22:15:40] [Server thread/INFO]: Saving the game (this may take a moment!)
-[22:15:40] [Server thread/INFO]: Saved the game
-[22:16:25] [Server thread/INFO]: [Not Secure] [Server] quando sair avisa no zap pra eu fechar aqui blz
-[22:16:50] [Server thread/INFO]: todernstWolf lost connection: Disconnected
-[22:16:50] [Server thread/INFO]: [voicechat] Disconnecting client todernstWolf
-[22:16:50] [Server thread/INFO]: todernstWolf left the game
-[22:17:47] [Server thread/INFO]: Saving the game (this may take a moment!)
-[22:17:47] [Server thread/INFO]: Saved the game
-[22:18:00] [Server thread/INFO]: --------- Help: Index ---------------------------
-[22:18:00] [Server thread/INFO]: Use /help [n] to get page n of help.
-[22:18:00] [Server thread/INFO]: Aliases: Lists command aliases
-[22:18:00] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[22:18:00] [Server thread/INFO]: Chunky: All commands for Chunky
-[22:18:00] [Server thread/INFO]: HuskHomesGUI: All commands for HuskHomesGUI
-[22:18:00] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[22:18:00] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
-[22:18:00] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
-[22:18:00] [Server thread/INFO]: voicechat: All commands for voicechat
-[22:18:00] [Server thread/INFO]: voicechat_interaction: All commands for voicechat_interaction
-[22:18:00] [Server thread/INFO]: /advancement: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /attribute: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /back: Return to your previous position, or where you died
-[22:18:00] [Server thread/INFO]: /ban: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /banlist: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /chunky: Generates chunks
-[22:18:00] [Server thread/INFO]: /clear: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /clone: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /damage: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /data: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /datapack: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /debug: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /delhome: Delete a home you previously set
-[22:18:00] [Server thread/INFO]: /delwarp: Delete a warp
-[22:18:00] [Server thread/INFO]: /deop: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /edithome: Edit one of your homes
-[22:18:00] [Server thread/INFO]: /editwarp: Edit a warp
-[22:18:00] [Server thread/INFO]: /effect: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /enchant: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /execute: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /experience: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /fill: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
-[22:18:00] [Server thread/INFO]: /forceload: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /function: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /give: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /help: Shows the help menu
-[22:18:00] [Server thread/INFO]: /home: Teleport to one of your homes
-[22:18:00] [Server thread/INFO]: /homelist: Get a list of your homes
-[22:18:00] [Server thread/INFO]: /huskhomes: View plugin information & reload configs
-[22:18:00] [Server thread/INFO]: /huskhomesgui: View HuskHomesGUI plugin information & reload configs
-[22:18:00] [Server thread/INFO]: /item: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /jfr: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /kick: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /kill: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /list: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /locate: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /loot: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /me: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /msg: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /mspt: View server tick times
-[22:18:00] [Server thread/INFO]: /op: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
-[22:18:00] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
-[22:18:00] [Server thread/INFO]: /paper: Paper related commands
-[22:18:00] [Server thread/INFO]: /pardon: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /particle: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /perf: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /phome: Teleport to a public home
-[22:18:00] [Server thread/INFO]: /phomelist: View the list of public homes
-[22:18:00] [Server thread/INFO]: /place: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /playsound: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[22:18:00] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
-[22:18:00] [Server thread/INFO]: /recipe: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[22:18:00] [Server thread/INFO]: /restart: Restarts the server
-[22:18:00] [Server thread/INFO]: /return: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /ride: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /rtp: Teleport randomly into the wild
-[22:18:00] [Server thread/INFO]: /save-all: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /save-off: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /save-on: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /say: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /schedule: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /seed: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /setblock: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /sethome: Set a new home with given name
-[22:18:00] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /setspawn: Set the spawn position
-[22:18:00] [Server thread/INFO]: /setwarp: Set a new warp with given name
-[22:18:00] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /spawn: Teleport to spawn
-[22:18:00] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /spectate: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /spigot: Spigot related commands
-[22:18:00] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /stop: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /summon: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /tag: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /team: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /teleport: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /tell: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /time: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[22:18:00] [Server thread/INFO]: /title: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /tm: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /tp: Teleport to another player or location
-[22:18:00] [Server thread/INFO]: /tpa: Request to teleport to another player
-[22:18:00] [Server thread/INFO]: /tpaall: Request that everyone teleports to you
-[22:18:00] [Server thread/INFO]: /tpaccept: Accept a teleport request
-[22:18:00] [Server thread/INFO]: /tpahere: Request another player to teleport to you
-[22:18:00] [Server thread/INFO]: /tpall: Teleport everyone to your position
-[22:18:00] [Server thread/INFO]: /tpdecline: Decline a teleport request
-[22:18:00] [Server thread/INFO]: /tphere: Teleport another player to you
-[22:18:00] [Server thread/INFO]: /tpignore: Ignore incoming teleport requests
-[22:18:00] [Server thread/INFO]: /tpoffline: Teleport to where a player was last online
-[22:18:00] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[22:18:00] [Server thread/INFO]: /trigger: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[22:18:00] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
-[22:18:00] [Server thread/INFO]: /voicechat: Manage voice chat
-[22:18:00] [Server thread/INFO]: /voicechat_interaction: Manage Voice Chat Interaction settings
-[22:18:00] [Server thread/INFO]: /w: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /warp: Teleport to a warp
-[22:18:00] [Server thread/INFO]: /warplist: View the list of warps
-[22:18:00] [Server thread/INFO]: /weather: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[22:18:00] [Server thread/INFO]: /xp: A Mojang provided command.
-[22:18:11] [Server thread/INFO]: Stopping the server
-[22:18:11] [Server thread/INFO]: Stopping server
-[22:18:11] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[22:18:11] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
-[22:18:11] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.2
-[22:18:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
-[22:18:11] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
-[22:18:11] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[22:18:11] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
-[22:18:11] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.4.3
-[22:18:11] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.4.3
-[22:18:11] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.14
-[22:18:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
-[22:18:11] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[22:18:11] [Server thread/INFO]: Saving players
-[22:18:11] [Server thread/INFO]: Saving worlds
-[22:18:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:18:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:18:11] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 426 entity chunks, 0 poi chunks in world 'world' in 0,18s
-[22:18:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:18:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Saved 21 block chunks, 292 entity chunks, 0 poi chunks in world 'world_nether' in 0,16s
-[22:18:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:18:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:18:12] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,02s
-[22:18:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:18:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:18:12] [Server thread/INFO]: Flushing Chunk IO
-[22:18:12] [Server thread/INFO]: Closing Thread Pool
-[22:18:12] [Server thread/INFO]: Closing Server
+[21:16:19] [Server thread/INFO]: Default game type: SURVIVAL
+[21:16:19] [Server thread/INFO]: Generating keypair
+[21:16:19] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[21:16:19] [Server thread/INFO]: Using default channel type
+[21:16:20] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:16:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:16:23] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.0-23w40a-SNAPSHOT
+[21:16:23] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.0-23w40a-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[21:16:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:16:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:16:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:16:26] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.26
+[21:16:26] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[21:16:26] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.3.3-d4b37e3
+[21:16:26] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[21:16:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:16:32] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
+[21:16:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.0-23w40a-SNAPSHOT
+[21:16:32] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
+[21:16:32] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.3-d6045ce
+[21:16:32] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
+[21:16:33] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer vBuild 36
+[21:16:33] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[21:16:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:16:33] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[21:16:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:16:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:16:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:16:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:16:33] [Server thread/INFO]: Preparing level "world"
+[21:16:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:16:36] [Server thread/INFO]: Time elapsed: 685 ms
+[21:16:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:16:36] [Server thread/INFO]: Time elapsed: 180 ms
+[21:16:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:16:36] [Server thread/INFO]: Time elapsed: 118 ms
+[21:16:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.0-23w40a-SNAPSHOT
+[21:16:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[21:16:37] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.26
+[21:16:37] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
+[21:16:37] [Server thread/INFO]: [voicechat] Compatibility version 17
+[21:16:37] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[21:16:37] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[21:16:37] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[21:16:37] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[21:16:38] [Server thread/INFO]: [ClearLag] Loading modules...
+[21:16:38] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[21:16:38] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[21:16:38] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[21:16:38] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[21:16:38] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.3.3-d4b37e3
+[21:16:38] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing events...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[21:16:40] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[21:16:40] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[21:16:40] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[21:16:40] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
+[21:16:40] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[21:16:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.0-23w40a-SNAPSHOT
+[21:16:40] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
+[21:16:40] [Server thread/INFO]: [KeepDeathDrop] Enabled!
+[21:16:40] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.3-d6045ce
+[21:16:41] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.5.1 (running v4.3.3-d4b37e3)
+[21:16:41] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.3-d6045ce
+[21:16:41] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
+[21:16:41] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
+[21:16:41] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer vBuild 36
+[21:16:41] [Server thread/INFO]: [ClearLagTimer] Build 36, a free resource by Norska - Thanks for downloading!
+[21:16:42] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[21:16:42] [Server thread/INFO]: Running delayed init tasks
+[21:16:42] [Server thread/INFO]: [voicechat] Loading plugins
+[21:16:42] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[21:16:42] [Server thread/INFO]: [voicechat] Initializing plugins
+[21:16:42] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:16:42] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[21:16:42] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
+[21:16:42] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21:16:42] [Server thread/INFO]: Done (25.574s)! For help, type "help"
+[21:16:42] [Server thread/INFO]: Timings Reset
+[21:16:42] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[21:16:42] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
+[21:16:43] [Server thread/WARN]: [ViaVersion] You are running a newer version of the plugin than is released!
+[21:16:45] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
+[21:16:45] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
+[21:16:50] [User Authenticator #0/INFO]: UUID of player griefer_hunter is 4ff08100-f10e-37be-95ce-b05fdc883f02
+[21:17:00] [Server thread/INFO]: griefer_hunter joined the game
+[21:17:00] [Server thread/INFO]: griefer_hunter[/26.179.31.251:52706] logged in with entity id 111 at ([world]-264.6911060802582, 71.0, -59.52101437847087)
+[21:17:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9713ms or 194 ticks behind
+[21:17:01] [Server thread/INFO]: [voicechat] Received secret request of griefer_hunter (17)
+[21:17:01] [Server thread/INFO]: [voicechat] Sent secret to griefer_hunter
+[21:17:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4ff08100-f10e-37be-95ce-b05fdc883f02
+[21:17:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4ff08100-f10e-37be-95ce-b05fdc883f02
+[21:17:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player griefer_hunter (4ff08100-f10e-37be-95ce-b05fdc883f02) successfully connected to voice chat
+[21:17:14] [User Authenticator #0/INFO]: UUID of player Cookie is 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[21:17:14] [Server thread/INFO]: Cookie joined the game
+[21:17:14] [Server thread/INFO]: Cookie[/26.210.198.12:49488] logged in with entity id 348 at ([world]-250.93784978470183, 70.0, -125.41050096690138)
+[21:17:16] [Server thread/INFO]: [voicechat] Received secret request of Cookie (17)
+[21:17:16] [Server thread/INFO]: [voicechat] Sent secret to Cookie
+[21:17:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[21:17:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[21:17:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
+[21:17:54] [Async Chat Thread - #1/INFO]: [Not Secure] <griefer_hunter> rapaz kkkk so carregou o chunk em que eu to
+[21:18:08] [Async Chat Thread - #0/INFO]: [Not Secure] <Cookie> como assim ?
+[21:18:13] [Async Chat Thread - #0/INFO]: [Not Secure] <griefer_hunter> ainda bem que a minha casa inteira fica dentro de um chunk
+[21:18:15] [Async Chat Thread - #0/INFO]: [Not Secure] <griefer_hunter> nao carregou o resto
+[21:18:20] [Async Chat Thread - #0/INFO]: [Not Secure] <griefer_hunter> agora foi
+[21:18:22] [Async Chat Thread - #0/INFO]: [Not Secure] <griefer_hunter> so porque eu falei
+[21:20:35] [Server thread/INFO]: griefer_hunter issued server command: /help
+[21:22:32] [User Authenticator #1/INFO]: UUID of player todernstWolf is 3532c247-7463-3bad-a620-b5e57718e8d3
+[21:22:32] [Server thread/INFO]: todernstWolf joined the game
+[21:22:32] [Server thread/INFO]: todernstWolf[/26.44.105.189:63157] logged in with entity id 1390 at ([world]-247.30000001192093, 70.0, -126.05153084989159)
+[21:22:34] [Server thread/INFO]: [voicechat] Received secret request of todernstWolf (17)
+[21:22:34] [Server thread/INFO]: [voicechat] Sent secret to todernstWolf
+[21:22:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3532c247-7463-3bad-a620-b5e57718e8d3
+[21:22:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3532c247-7463-3bad-a620-b5e57718e8d3
+[21:22:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player todernstWolf (3532c247-7463-3bad-a620-b5e57718e8d3) successfully connected to voice chat
+[21:24:20] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:24:20] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 224 packets
+[21:27:17] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:27:17] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 45 packets
+[21:27:32] [Async Chat Thread - #2/INFO]: [Not Secure] <griefer_hunter> nossa
+[21:30:42] [Server thread/INFO]: Cookie issued server command: /warp centro_villa
+[21:31:19] [Async Chat Thread - #5/INFO]: [Not Secure] <griefer_hunter> descobri mais um tunel secreto do paulo
+[21:31:28] [Server thread/INFO]: Cookie issued server command: /setwarp PauloHouse
+[21:31:38] [Async Chat Thread - #5/INFO]: [Not Secure] <griefer_hunter> toda vez que eu digito no chat da uma mega congelada de cinco segundos
+[21:31:40] [Server thread/INFO]: Cookie issued server command: /say olha os warps ai
+[21:31:40] [Server thread/INFO]: [Not Secure] [Cookie] olha os warps ai
+[21:31:43] [Async Chat Thread - #5/INFO]: [Not Secure] <griefer_hunter> nao aconteceu agora mesmo
+[21:31:44] [Server thread/INFO]: griefer_hunter issued server command: /warp
+[21:32:02] [Server thread/INFO]: Cookie issued server command: /setwarp MatheusHouse
+[21:32:20] [Async Chat Thread - #4/INFO]: [Not Secure] <griefer_hunter> fui pra PauloHouse
+[21:32:25] [Async Chat Thread - #5/INFO]: [Not Secure] <griefer_hunter> a prefeitura passou por aqui
+[21:32:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Cookie> um creeper talvez
+[21:32:46] [Async Chat Thread - #4/INFO]: [Not Secure] <griefer_hunter> o creeper arrependido?
+[21:35:06] [Async Chat Thread - #7/INFO]: [Not Secure] <griefer_hunter> acabei de queimar o diego sem querer
+[21:40:57] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:40:57] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 85 packets
+[21:41:38] [Async Chat Thread - #8/INFO]: [Not Secure] <griefer_hunter> 1000 / 60 = 16,666...
+[21:41:49] [Async Chat Thread - #8/INFO]: [Not Secure] <griefer_hunter> 560 / 60 = 9,333...
+[21:42:33] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
+[21:42:34] [Server thread/WARN]: Cookie moved too quickly! 82.87956082814279,-5.0625,-90.16241302176364
+[21:42:43] [Async Chat Thread - #9/INFO]: [Not Secure] <griefer_hunter> vou voltar a procurar diamantes enquanto isso
+[21:42:50] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
+[21:42:50] [Server thread/WARN]: Cookie moved too quickly! 28.565967374247577,-1.0,-7.341223301054896
+[21:43:05] [Server thread/INFO]: Cookie issued server command: /tp griefer_hunter
+[21:43:13] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
+[21:43:14] [Server thread/WARN]: Cookie moved too quickly! 73.61468269811911,-4.0625,-59.91982559970001
+[21:43:27] [Server thread/INFO]: griefer_hunter issued server command: /warp 1_OUT_MAT
+[21:51:28] [Async Chat Thread - #11/INFO]: [Not Secure] <Cookie> to fazendo nado de ponta no ar
+[21:51:42] [Async Chat Thread - #11/INFO]: [Not Secure] <griefer_hunter> saude
+[21:51:50] [Async Chat Thread - #10/INFO]: [Not Secure] <Cookie> blz
+[21:51:54] [Async Chat Thread - #10/INFO]: [Not Secure] <Cookie> vo dormid
+[21:52:23] [Async Chat Thread - #10/INFO]: [Not Secure] <todernstWolf> cambada, ja vou sair, amanha eu entro dnv pra construir mais a minha casa
+[21:52:35] [Async Chat Thread - #11/INFO]: [Not Secure] <griefer_hunter> roger roger
+[21:52:39] [Async Chat Thread - #11/INFO]: [Not Secure] <griefer_hunter> ciaooo
+[21:52:53] [Server thread/INFO]: todernstWolf lost connection: Disconnected
+[21:52:53] [Server thread/INFO]: [voicechat] Disconnecting client todernstWolf
+[21:52:54] [Server thread/INFO]: todernstWolf left the game
+[21:53:33] [Server thread/INFO]: Cookie issued server command: /warplist
+[21:53:50] [Server thread/INFO]: Cookie issued server command: /warp
+[21:54:30] [Server thread/INFO]: Cookie issued server command: /tp griefer_hunter
+[21:54:38] [Server thread/INFO]: Cookie was shot by Skeleton
+[21:54:43] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[21:54:43] [Server thread/WARN]: Cookie moved too quickly! 1373.5211230943758,-100.0,882.7029887948373
+[22:03:07] [Server thread/INFO]: Cookie fell from a high place
+[22:03:10] [Async Chat Thread - #13/INFO]: [Not Secure] <griefer_hunter> perdi
+[22:03:12] [Server thread/INFO]: Cookie issued server command: /huskhomes:back
+[22:06:06] [Server thread/INFO]: Cookie issued server command: /save-on
+[22:06:11] [Server thread/INFO]: Cookie issued server command: /save-all
+[22:06:12] [Server thread/INFO]: [Cookie: Saved the game]
+[22:06:59] [Server thread/INFO]: Cookie issued server command: /tp griefer_hunter
+[22:08:44] [Async Chat Thread - #15/INFO]: [Not Secure] <griefer_hunter> [afk]
+[22:08:58] [Async Chat Thread - #15/INFO]: [Not Secure] <griefer_hunter> vou ter que sair rapidao
+[22:09:00] [Server thread/INFO]: griefer_hunter lost connection: Disconnected
+[22:09:00] [Server thread/INFO]: [voicechat] Disconnecting client griefer_hunter
+[22:09:00] [Server thread/INFO]: griefer_hunter left the game
+[22:09:22] [Server thread/INFO]: Cookie issued server command: /home home
+[22:09:28] [Server thread/INFO]: Cookie lost connection: Disconnected
+[22:09:34] [Server thread/INFO]: [voicechat] Disconnecting client Cookie
+[22:09:36] [Server thread/INFO]: Cookie left the game
+[22:09:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12824ms or 256 ticks behind
+[22:09:42] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:09:47] [Server thread/INFO]: Saved the game
+[22:11:31] [Server thread/INFO]: Stopping the server
+[22:11:31] [Server thread/INFO]: Stopping server
+[22:11:31] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[22:11:31] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer vBuild 36
+[22:11:31] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
+[22:11:31] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.3-d6045ce
+[22:11:32] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
+[22:11:32] [Server thread/INFO]: [KeepDeathDrop] Disabled!
+[22:11:32] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.0-23w40a-SNAPSHOT
+[22:11:32] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
+[22:11:32] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[22:11:32] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[22:11:32] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.3.3-d4b37e3
+[22:11:32] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.3.3-d4b37e3
+[22:11:32] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[22:11:32] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[22:11:32] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.26
+[22:11:32] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.0-23w40a-SNAPSHOT
+[22:11:32] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:11:32] [Server thread/INFO]: Saving players
+[22:11:32] [Server thread/INFO]: Saving worlds
+[22:11:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 289 entity chunks, 0 poi chunks in world 'world' in 0,14s
+[22:11:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:11:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 148 entity chunks, 0 poi chunks in world 'world_nether' in 0,09s
+[22:11:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:11:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:11:32] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,02s
+[22:11:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:11:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:11:32] [Server thread/INFO]: Flushing Chunk IO
+[22:11:32] [Server thread/INFO]: Closing Thread Pool
+[22:11:32] [Server thread/INFO]: Closing Server

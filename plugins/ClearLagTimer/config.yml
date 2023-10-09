@@ -1,0 +1,85 @@
+#########################################################################################
+#                                                                                       #
+# ClearLagTimer, a free resource by Norska @ https://norska.dev                         #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the config.yml file of ClearLagTimer.                                 #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# Please consult the wiki for any questions regarding the setup of this plugin, if you  #
+# still require help, open a ticket on my discord server!                               #
+#                                                                                       #
+#########################################################################################
+
+##################################
+#                                #
+#        GENERAL SETTINGS        #
+#                                #
+##################################
+
+settings:
+
+   # Note: Commands must be in UPPER-CASE and have a "/" in front of them!
+   commands:
+   - '/CLEARLAG'
+   - '/CLEARLAGG'
+   
+   formatted: true
+   # Note: Configure the messages in ClearLagTimer's messages.yml file!
+   
+   soundsAtIntervals:
+      enabled: true
+      intervals:
+      - '60'
+      - '30'
+      - '10'
+      - '3'
+      - '2'
+      - '1'
+      
+   # Note: Configure the messages in ClearLagTimer's messages.yml file!
+   messagesAtIntervals:
+      enabled: true
+      intervals:
+      - '60'
+      - '30'
+      - '10'
+      - '3'
+      - '2'
+      - '1'
+      
+   commandsOnEntityClear: []
+   #- 'broadcast Entities have just been cleared!'
+
+##################################
+#                                #
+#    VALUE DISPLAY SETTINGS      #
+#                                #
+##################################   
+      
+format:
+   seconds: 's'
+   second: 's'
+   minutes: 'm '
+   minute: 'm '
+   hours: 'h '
+   hour: 'h '
+   days: ''
+   day: ''
+   splitter: 'and '
+
+##################################
+#                                #
+#    UPDATE NOTIFIER SETTINGS    #
+#                                #
+##################################
+   
+updates:
+   notifications: true

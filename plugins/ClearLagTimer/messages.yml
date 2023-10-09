@@ -1,0 +1,132 @@
+#########################################################################################
+#                                                                                       #
+# ClearLagTimer, a free resource by Norska @ https://norska.dev                         #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the messages.yml file of ClearLagTimer.                               #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# If PlaceholderAPI is installed you can use any placeholder inside messages,           #
+# make sure to properly install any extension using /papi ecloud.                       #
+#                                                                                       #
+# Placeholders that are inside {} (e.g {0}, {1}) are inner placeholders.                #
+# To use PAPI's placeholders, use them normally, like %player_gamemode%, etc.           #
+#                                                                                       #
+# Scopes:                                                                               #
+# 1) Global -> All online players will get the message.                                 #
+# 2) User -> User that executed commands/triggered event will get the message.          #
+# 3) Limited -> Only users/systems with specific perms will get the message.            #
+#                                                                                       #
+# Note: Scopes are per message and cannot be manually altered.                          #
+#                                                                                       #
+#########################################################################################   
+
+# Note: Whether or not to strip colors from messages shown to console.
+stripConsole: false
+
+messages:
+
+   # Note: Use {PREFIX} in any message to add the below prefix!
+   prefix: "<GRADIENT:ff0000>&lClearLagTimer</GRADIENT:ffe42b>&r"
+
+   EVENT_INTERVAL_GLOBAL:
+   # Placeholders: {0} = interval
+   # Scope: Global
+      chatMessage:
+         enabled: false
+         centered: false
+         content: 
+         - ''
+         - '{PREFIX} &f» &fEntity removal in &e{0}&f!'
+         - ''
+      actionbar:
+         enabled: true
+         content: '{PREFIX} &f» &fEntity removal in &e{0}&f!' 
+      titles:
+         enabled: false
+         titleContent: '{PREFIX}' 
+         subtitleContent: '&fRemoval in &e{0}&f!'
+         
+   EVENT_ENTITY_CLEAR:
+   # Placeholders: None
+   # Scope: Global
+      chatMessage:
+         enabled: false
+         centered: false
+         content: 
+         - ''
+         - '{PREFIX} &f» &fEntities have been removed!'
+         - ''
+      actionbar:
+         enabled: true
+         content: '{PREFIX} &f» &fEntities have been removed!' 
+      titles:
+         enabled: false
+         titleContent: '{PREFIX}' 
+         subtitleContent: '&fEntities have been removed!'
+
+   ############################### 
+      
+   COMMAND_USER_VIEWINTERVAL:
+   # Placeholders: {0} = interval
+   # Scope: User
+      chatMessage:
+         enabled: true
+         centered: false
+         content: 
+         - ''
+         - '{PREFIX} &f» &fEntity removal in &e{0}&f!'
+         - ''
+      actionbar:
+         enabled: true
+         content: '{PREFIX} &f» &fEntity removal in &e{0}&f!'    
+      titles:
+         enabled: true
+         titleContent: '{PREFIX}' 
+         subtitleContent: '&fRemoval in &e{0}&f!'
+         
+   ###############################  
+           
+   COMMAND_RELOAD:
+   # Placeholders: {0} = ms
+   # Scope: User
+      chatMessage:
+         enabled: true
+         centered: false
+         content: 
+         - ""
+         - " {PREFIX} &f» &fReloaded configuration files. &7(&f{0}ms&7)"
+         - ""
+      actionbar:
+         enabled: false
+         content: "{PREFIX} &f» &fReloaded configuration files. &7(&f{0}ms&7)" 
+      titles:
+         enabled: false
+         titleContent: '{PREFIX}' 
+         subtitleContent: '&fReloaded configuration!'
+         
+   COMMAND_NOPERMISSION:
+   # Placeholders: None
+   # Scope: User
+      chatMessage:
+         enabled: true
+         centered: false
+         content: 
+         - ''
+         - ' {PREFIX} &f» &fYou do not have permission to run this command!'
+         - ''
+      actionbar:
+         enabled: false
+         content: "{PREFIX} &f» &fYou do not have permission to run this command!"       
+      titles:
+         enabled: false
+         titleContent: '{PREFIX}' 
+         subtitleContent: '&fYou do not have permission!'   
+         
