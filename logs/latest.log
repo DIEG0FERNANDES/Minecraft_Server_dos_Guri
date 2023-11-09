@@ -1,560 +1,330 @@
-[20:47:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:48:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:48:57] [ServerMain/ERROR]: Failed to start the minecraft server
-java.io.IOException: O processo não pode acessar o arquivo porque outro processo bloqueou parte do arquivo
-	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:68) ~[?:?]
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[?:?]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:76) ~[?:?]
-	at sun.nio.ch.IOUtil.write(IOUtil.java:67) ~[?:?]
-	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:288) ~[?:?]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:26) ~[?:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:512) ~[?:?]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:425) ~[?:?]
-	at net.minecraft.server.Main.main(Main.java:200) ~[paper-1.20.jar:git-Paper-17]
-	at org.bukkit.craftbukkit.Main.main(Main.java:316) ~[paper-1.20.jar:git-Paper-17]
+[12:00:53] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.0.1/jedis-5.0.1.pom
+[12:00:54] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20230618/json-20230618.pom
+[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.pom
+[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.2.0/mariadb-java-client-3.2.0.pom
+[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom/2.18.10/bom-2.18.10.pom
+[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.18.10/aws-sdk-java-pom-2.18.10.pom
+[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.2.0/waffle-jna-3.2.0.pom
+[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-parent/3.2.0/waffle-parent-3.2.0.pom
+[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.pom
+[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.pom
+[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom
+[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom
+[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
+[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.pom
+[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.10.0/error_prone_parent-2.10.0.pom
+[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.23.0/checker-qual-3.23.0.pom
+[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.pom
+[12:00:58] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220.pom
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.0.1/jedis-5.0.1.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20230618/json-20230618.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.2.0/waffle-jna-3.2.0.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.2.0/mariadb-java-client-3.2.0.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.23.0/checker-qual-3.23.0.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.jar
+[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220.jar
+[12:01:00] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\LuckPerms-Velocity-5.4.108.jar' failed to load!
+java.lang.RuntimeException: Directory 'plugins\LuckPerms-Velocity-5.4.108.jar' failed to load!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.Main.main(Main.java:137) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.Main.main(Main.java:324) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins\LuckPerms-Velocity-5.4.108.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.20.1.jar:git-Paper-196]
+	... 20 more
+[12:01:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:01:32] [ServerMain/INFO]: Loaded 7 recipes
+[12:01:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:01:36] [Server thread/INFO]: Loading properties
+[12:01:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[12:01:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:01:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:01:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[12:01:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:01:42] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Identificador invÃ¡lido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
-	Suppressed: java.io.IOException: Identificador inválido
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-196]
+	Suppressed: java.io.IOException: Identificador invÃ¡lido
 		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
-		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
-		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
-		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
-		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
-		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
-		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
-		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
-		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
-		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:304) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:526) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:362) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:524) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:618) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:424) ~[?:?]
+		at sun.nio.cs.StreamDecoder.lockedClose(StreamDecoder.java:264) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:249) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:203) ~[?:?]
+		at java.io.BufferedReader.implClose(BufferedReader.java:636) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:621) ~[?:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.jar:git-Paper-17]
-[20:47:46] [Server thread/INFO]: Default game type: SURVIVAL
-[20:47:46] [Server thread/INFO]: Generating keypair
-[20:47:47] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[20:47:47] [Server thread/INFO]: Using default channel type
-[20:47:47] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:47:47] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:47:52] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.0-23w40a-SNAPSHOT
-[20:47:52] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.0-23w40a-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[20:47:56] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:47:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:47:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:47:58] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.26
-[20:47:58] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[20:47:58] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.3.3-d4b37e3
-[20:47:58] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
-[20:48:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:48:08] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.0+1.20.x
-[20:48:08] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.0-23w40a-SNAPSHOT
-[20:48:08] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
-[20:48:08] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.3-d6045ce
-[20:48:08] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
-[20:48:09] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer vBuild 36
-[20:48:09] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[20:48:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:48:09] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[20:48:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:48:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:48:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:48:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:48:09] [Server thread/INFO]: Preparing level "world"
-[20:48:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:48:12] [Server thread/INFO]: Time elapsed: 804 ms
-[20:48:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:48:13] [Server thread/INFO]: Time elapsed: 133 ms
-[20:48:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:48:13] [Server thread/INFO]: Time elapsed: 100 ms
-[20:48:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.0-23w40a-SNAPSHOT
-[20:48:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
-[20:48:15] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.26
-[20:48:15] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20-R0.1
-[20:48:15] [Server thread/INFO]: [voicechat] Compatibility version 17
-[20:48:15] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[20:48:15] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[20:48:15] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[20:48:16] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[20:48:17] [Server thread/INFO]: [ClearLag] Loading modules...
-[20:48:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[20:48:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[20:48:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[20:48:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[20:48:17] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.3.3-d4b37e3
-[20:48:18] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
-[20:48:19] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
-[20:48:19] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
-[20:48:22] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
-[20:48:22] [Server thread/INFO]: [HuskHomes] Initializing hooks...
-[20:48:22] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
-[20:48:22] [Server thread/INFO]: [HuskHomes] Initializing events...
-[20:48:22] [Server thread/INFO]: [HuskHomes] Successfully initialized events
-[20:48:22] [Server thread/INFO]: [HuskHomes] Initializing commands...
-[20:48:23] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
-[20:48:23] [Server thread/INFO]: [HuskHomes] Initializing metrics...
-[20:48:23] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
-[20:48:23] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.0+1.20.x
-[20:48:23] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[20:48:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.0-23w40a-SNAPSHOT
-[20:48:23] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
-[20:48:23] [Server thread/INFO]: [KeepDeathDrop] Enabled!
-[20:48:23] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.3-d6045ce
-[20:48:24] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.5.2 (running v4.3.3-d4b37e3)
-[20:48:26] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.3-d6045ce
-[20:48:26] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
-[20:48:26] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
-[20:48:26] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer vBuild 36
-[20:48:27] [Server thread/INFO]: [ClearLagTimer] Build 36, a free resource by Norska - Thanks for downloading!
-[20:48:27] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[20:48:30] [Server thread/INFO]: Running delayed init tasks
-[20:48:31] [Server thread/INFO]: [voicechat] Loading plugins
-[20:48:31] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[20:48:31] [Server thread/INFO]: [voicechat] Initializing plugins
-[20:48:31] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[20:48:31] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
-[20:48:31] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[20:48:31] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:48:31] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[20:48:31] [Server thread/INFO]: Done (48.335s)! For help, type "help"
-[20:48:31] [Server thread/INFO]: Timings Reset
-[20:48:31] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
-[20:48:32] [Server thread/WARN]: [ViaVersion] You are running a newer version of the plugin than is released!
-[20:48:34] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
-[20:48:34] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
-[20:48:36] [User Authenticator #0/INFO]: UUID of player todernstWolf is 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:48:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:48:46] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[20:48:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:46] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:48:47] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@5e8e8a9c
-[20:48:48] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:48] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:48:48] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:48:48] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.load(PlayerDataStorage.java:96)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.load(PlayerList.java:558)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:207)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:48:49] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:48:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:49] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:48:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:51] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:48:51] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[20:48:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:51] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:48:51] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@5e8e8a9c
-[20:48:53] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:53] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:48:53] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:48:53] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.load(PlayerDataStorage.java:96)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.load(PlayerList.java:558)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:207)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:48:53] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:48:53] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:48:53] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:48:56] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[20:48:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:56] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:48:56] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@5e8e8a9c
-[20:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:57] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:48:57] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:48:57] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.load(PlayerDataStorage.java:96)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.load(PlayerList.java:558)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:207)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:48:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:48:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:48:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:01] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:49:01] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[20:49:01] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:01] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:49:01] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@5e8e8a9c
-[20:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:02] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:49:02] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:49:02] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.PlayerDataStorage.load(PlayerDataStorage.java:96)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.load(PlayerList.java:558)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:207)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:49:02] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:49:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:06] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:49:06] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
-[20:49:06] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:06] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:49:06] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@5e8e8a9c
-[20:49:07] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:07] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:49:07] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:49:07] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:49:07] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:49:07] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:07] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:49:07] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:11] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:49:11] [Paper Watchdog Thread/ERROR]: The server has not responded for 35 seconds! Creating thread dump
-[20:49:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:12] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:49:12] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@5e8e8a9c
-[20:49:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:12] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:49:12] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:49:12] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.generateBFSOrder(RegionizedPlayerChunkLoader.java:347)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader$PlayerChunkLoaderData.<clinit>(RegionizedPlayerChunkLoader.java:389)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.RegionizedPlayerChunkLoader.getAPISendViewDistance(RegionizedPlayerChunkLoader.java:195)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.CraftWorld.getSendViewDistance(CraftWorld.java:2357)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:288)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:593)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:49:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:49:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:49:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:16] [Server thread/INFO]: todernstWolf lost connection: Timed out
-[20:49:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-17 (MC: 1.20) ---
-[20:49:16] [Paper Watchdog Thread/ERROR]: The server has not responded for 40 seconds! Creating thread dump
-[20:49:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:16] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[20:49:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:16] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[20:49:16] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[20:49:16] [Paper Watchdog Thread/ERROR]: 	Stack:
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.stream.StreamSupport.stream(StreamSupport.java:69)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.util.Collection.stream(Collection.java:743)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.format.StyleImpl$BuilderImpl.isEmpty(StyleImpl.java:446)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.format.StyleImpl$BuilderImpl.build(StyleImpl.java:438)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.format.StyleImpl$BuilderImpl.build(StyleImpl.java:286)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.StyleSerializer.read(StyleSerializer.java:188)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.StyleSerializer.read(StyleSerializer.java:60)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.TypeAdapter$1.read(TypeAdapter.java:201)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1214)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1319)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1261)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.read(ComponentSerializerImpl.java:218)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.read(ComponentSerializerImpl.java:74)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.TypeAdapter$1.read(TypeAdapter.java:201)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1214)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1173)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.ShowEntitySerializer.read(ShowEntitySerializer.java:68)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.ShowEntitySerializer.read(ShowEntitySerializer.java:42)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.TypeAdapter$1.read(TypeAdapter.java:201)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1214)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1319)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1261)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.StyleSerializer.read(StyleSerializer.java:157)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.StyleSerializer.read(StyleSerializer.java:60)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.TypeAdapter$1.read(TypeAdapter.java:201)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1214)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1319)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1261)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.read(ComponentSerializerImpl.java:218)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.kyori.adventure.text.serializer.gson.ComponentSerializerImpl.read(ComponentSerializerImpl.java:74)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.TypeAdapter$1.read(TypeAdapter.java:201)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1214)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1319)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.fromJson(Gson.java:1261)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.adventure.PaperAdventure.asAdventure(PaperAdventure.java:150)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:584)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2122)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2101)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:797)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:602)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1573)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4727/0x0000000801690690.run(Unknown Source)
-[20:49:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-[20:49:17] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[20:49:17] [Paper Watchdog Thread/ERROR]: ------------------------------
-[20:49:17] [Server thread/INFO]: [voicechat] Disconnecting client todernstWolf
-[20:49:18] [Server thread/INFO]: todernstWolf left the game
-[20:49:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 41608ms or 832 ticks behind
-[20:49:24] [User Authenticator #0/INFO]: UUID of player todernstWolf is 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:49:24] [Server thread/INFO]: todernstWolf joined the game
-[20:49:24] [Server thread/INFO]: todernstWolf[/26.44.105.189:54646] logged in with entity id 62 at ([world]-250.11507188617045, 74.5625, -120.30000001192093)
-[20:49:26] [Server thread/INFO]: [voicechat] Received secret request of todernstWolf (17)
-[20:49:26] [Server thread/INFO]: [voicechat] Sent secret to todernstWolf
-[20:49:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:49:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3532c247-7463-3bad-a620-b5e57718e8d3
-[20:49:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player todernstWolf (3532c247-7463-3bad-a620-b5e57718e8d3) successfully connected to voice chat
-[20:49:29] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[20:49:29] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 31 packets
-[20:50:48] [User Authenticator #1/INFO]: UUID of player griefer_hunter is 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:50:48] [Server thread/INFO]: griefer_hunter joined the game
-[20:50:49] [Server thread/INFO]: griefer_hunter[/26.179.31.251:50447] logged in with entity id 641 at ([world]1215.958445022667, -19.0, 798.6999999880791)
-[20:50:51] [Server thread/INFO]: [voicechat] Received secret request of griefer_hunter (17)
-[20:50:51] [Server thread/INFO]: [voicechat] Sent secret to griefer_hunter
-[20:50:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:50:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[20:50:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player griefer_hunter (4ff08100-f10e-37be-95ce-b05fdc883f02) successfully connected to voice chat
-[20:51:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5081ms or 101 ticks behind
-[20:51:21] [User Authenticator #1/INFO]: UUID of player Cookie is 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:51:21] [Server thread/INFO]: Cookie joined the game
-[20:51:21] [Server thread/INFO]: Cookie[/26.210.198.12:57214] logged in with entity id 1046 at ([world]-250.70339263829794, 70.0, -124.17408001522689)
-[20:51:27] [Async Chat Thread - #1/INFO]: [Not Secure] <griefer_hunter> uepa
-[20:51:36] [Async Chat Thread - #0/INFO]: [Not Secure] <todernstWolf> eae
-[20:51:49] [Server thread/WARN]: todernstWolf moved too quickly! 7.3053768929437695,0.0,-7.575579278035519
-[20:51:51] [Server thread/WARN]: griefer_hunter moved too quickly! -9.564126717651561,2.7477966597462746,-1.5757930807026241
-[20:51:51] [Server thread/INFO]: Cookie lost connection: Disconnected
-[20:51:51] [Server thread/INFO]: [voicechat] Disconnecting client Cookie
-[20:51:52] [Server thread/INFO]: Cookie left the game
-[20:51:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16843ms or 336 ticks behind
-[20:52:19] [Server thread/INFO]: griefer_hunter issued server command: /home CASA_MAT
-[20:52:22] [Async Chat Thread - #1/INFO]: [Not Secure] <griefer_hunter> [AFK]
-[20:52:26] [User Authenticator #2/INFO]: UUID of player Cookie is 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:52:27] [Server thread/INFO]: Cookie joined the game
-[20:52:27] [Server thread/INFO]: Cookie[/26.210.198.12:57220] logged in with entity id 1448 at ([world]-250.70339263829794, 70.0, -124.17408001522689)
-[20:52:28] [Server thread/INFO]: [voicechat] Received secret request of Cookie (17)
-[20:52:28] [Server thread/INFO]: [voicechat] Sent secret to Cookie
-[20:52:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5054ms or 101 ticks behind
-[20:52:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:52:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
-[20:52:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
-[20:53:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5671ms or 113 ticks behind
-[20:54:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9022ms or 180 ticks behind
-[20:54:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Cookie> mano sei la
-[20:54:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Cookie> simplesmente agora o jogo ta tudo zuado
-[20:54:53] [Async Chat Thread - #4/INFO]: [Not Secure] <todernstWolf> ta dando uns lag msm
-[20:54:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9131ms or 182 ticks behind
-[20:55:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Cookie> eu tava com 5 fps
-[20:55:42] [Async Chat Thread - #2/INFO]: [Not Secure] <griefer_hunter> voltei
-[20:55:51] [Server thread/INFO]: Cookie issued server command: /debug start
-[20:55:51] [Server thread/INFO]: [Cookie: Started tick profiling]
-[20:57:05] [Server thread/INFO]: griefer_hunter issued server command: /warp 1_OUT_MAT
-[20:57:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5072ms or 101 ticks behind
-[20:57:13] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[20:57:13] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 115 packets
-[20:57:18] [Server thread/WARN]: Cookie moved too quickly! -4.651199543007408,0.05879684053920187,11.216592662765521
-[20:57:26] [Async Chat Thread - #5/INFO]: [Not Secure] <griefer_hunter> kkkk dei um warp e fui com Deus aqui
-[20:57:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8748ms or 174 ticks behind
-[20:58:21] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[20:58:21] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 47 packets
-[20:58:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
-[20:58:40] [Server thread/WARN]: todernstWolf moved too quickly! 9.190672696816023,0.8787031594607981,-8.198850755600915
-[20:58:40] [Server thread/WARN]: todernstWolf moved too quickly! 9.069090807351756,0.8787031594607981,-8.013174383888582
-[20:59:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18857ms or 377 ticks behind
-[20:59:28] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[20:59:28] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 116 packets
-[20:59:59] [Server thread/INFO]: Cookie issued server command: /say sabemos que não é internet
-[20:59:59] [Server thread/INFO]: [Not Secure] [Cookie] sabemos que não é internet
-[21:00:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8861ms or 177 ticks behind
-[21:00:26] [Async Chat Thread - #7/INFO]: [Not Secure] <griefer_hunter> é o paulo comunista hackeando a fiação elétrica da sua casa
-[21:00:33] [Async Chat Thread - #7/INFO]: [Not Secure] <todernstWolf> kkkkkkkkkkkkkkk
-[21:00:39] [Async Chat Thread - #7/INFO]: [Not Secure] <Cookie> por algum motivo gpu ta só 12%
-[21:00:47] [Async Chat Thread - #7/INFO]: [Not Secure] <todernstWolf> [AFK]
-[21:01:55] [Async Chat Thread - #10/INFO]: [Not Secure] <Cookie> ue ficou de boa agora
-[21:02:06] [Async Chat Thread - #10/INFO]: [Not Secure] <griefer_hunter> curiosamente depois do nathan ficar afk
-[21:03:50] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> talvez eu tenha que reiniciar pc num sei
-[21:04:29] [Async Chat Thread - #13/INFO]: [Not Secure] <griefer_hunter> eu ia falar de deixar muito tempo ligado na tomada mas esqueci que eh viciado
-[21:04:54] [Async Chat Thread - #12/INFO]: [Not Secure] <Cookie> eu num uso notebook com bateria porque a bateria venceu
-[21:05:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Cookie> e por ter vencido não liga com a bateria
-[21:05:18] [Async Chat Thread - #12/INFO]: [Not Secure] <griefer_hunter> sacanagem
-[21:05:26] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> porque ele entra no boot automaticamente falando gaste dinheiro em uma nova bateria
-[21:05:46] [Async Chat Thread - #13/INFO]: [Not Secure] <todernstWolf> voltei
-[21:05:52] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> é dell né mano
-[21:05:55] [Async Chat Thread - #12/INFO]: [Not Secure] <Cookie> fazer o que
-[21:06:09] [Async Chat Thread - #12/INFO]: [Not Secure] <griefer_hunter> eu ia fazer uma piada mas perdi o timing
-[21:06:17] [Async Chat Thread - #13/INFO]: [Not Secure] <griefer_hunter> nao consegui formular ela nesse meio-tempo
-[21:06:17] [Async Chat Thread - #12/INFO]: [Not Secure] <Cookie> e tambem vamos combinar que to precizando de um pc novo mesmo
-[21:06:40] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> precizando com z
-[21:07:38] [Async Chat Thread - #12/INFO]: [Not Secure] <Cookie> convivencia com paulo ta fazendo minha diccao e linguagem portuguesa padrao virar algo degradante
-[21:08:08] [Async Chat Thread - #13/INFO]: [Not Secure] <griefer_hunter> e usar mais ias tambem
-[21:08:40] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> piro que eu nem uso muito, eu uso mais o youtube e google
-[21:08:47] [Async Chat Thread - #13/INFO]: [Not Secure] <Cookie> pior**
-[21:09:12] [Server thread/WARN]: griefer_hunter moved too quickly! -8.842413929627696,2.059026050289867,-6.279901640044727
-[21:09:12] [Server thread/WARN]: Cookie moved too quickly! 22.872041266628457,-1.1416851727245216,-0.11702720391753019
-[21:10:07] [Server thread/INFO]: [Not Secure] [Server] Cookie está [afk] para fazer manutenção no pc para melhorar server
-[21:11:09] [Server thread/INFO]: [Not Secure] [Server] atenção, não disse que Cookie vai formatar pc e sim fazer manutenção basica
-[21:11:26] [Async Chat Thread - #16/INFO]: [Not Secure] <griefer_hunter> vai chover
-[21:11:36] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[21:11:36] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 41 packets
-[21:11:42] [Async Chat Thread - #16/INFO]: [Not Secure] <todernstWolf> fim do mundo se aproxima
-[21:29:11] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
-[21:29:11] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 89 packets
-[21:31:09] [Server thread/INFO]: griefer_hunter was blown up by Creeper
-[21:31:13] [Server thread/INFO]: griefer_hunter issued server command: /huskhomes:back
-[21:31:20] [Async Chat Thread - #18/INFO]: [Not Secure] <todernstWolf> kkkkkkkkkkkkkkkkkk
-[21:31:57] [Async Chat Thread - #17/INFO]: [Not Secure] <griefer_hunter> primeira vez em muito tempo que eu morro
-[21:32:17] [Async Chat Thread - #18/INFO]: [Not Secure] <griefer_hunter> ainda bem que tem esse teleport
-[21:32:25] [Server thread/INFO]: griefer_hunter issued server command: /home CASA_MAT
-[21:42:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5354ms or 107 ticks behind
-[21:49:42] [Server thread/INFO]: [Not Secure] [Server] ta não sei porque meu pc ta peidando sinceramente
-[21:49:54] [Server thread/INFO]: [Not Secure] [Server] acho que instalei alguma coisa da forma errada
-[21:49:56] [Async Chat Thread - #20/INFO]: [Not Secure] <griefer_hunter> as ias estao ficando cada vez mais realistas
-[21:50:24] [Async Chat Thread - #20/INFO]: [Not Secure] <griefer_hunter> eu tenho vinte e um anos de idade e eh a primeira vez que eu ouco falar de um computador que peida
-[21:51:00] [Server thread/INFO]: [Not Secure] [Server] ele peida em código binario
-[21:51:16] [Server thread/INFO]: [Not Secure] [Server] o peido de um computador é ecologicamente seguro kkkkk
-[21:51:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 4ff08100-f10e-37be-95ce-b05fdc883f02 timed out
-[21:51:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player griefer_hunter
-[21:51:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to griefer_hunter
-[21:51:26] [Server thread/INFO]: griefer_hunter lost connection: Disconnected
-[21:51:26] [Server thread/INFO]: [voicechat] Disconnecting client griefer_hunter
-[21:51:26] [Server thread/INFO]: griefer_hunter left the game
-[21:52:59] [User Authenticator #3/INFO]: UUID of player griefer_hunter is 4ff08100-f10e-37be-95ce-b05fdc883f02
-[21:52:59] [Server thread/INFO]: griefer_hunter joined the game
-[21:53:00] [Server thread/INFO]: griefer_hunter[/26.179.31.251:51751] logged in with entity id 19002 at ([world_nether]112.41532595951739, 15.0, -3.5151473321186817)
-[21:53:00] [Server thread/INFO]: [voicechat] Received secret request of griefer_hunter (17)
-[21:53:00] [Server thread/INFO]: [voicechat] Sent secret to griefer_hunter
-[21:53:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[21:53:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4ff08100-f10e-37be-95ce-b05fdc883f02
-[21:53:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player griefer_hunter (4ff08100-f10e-37be-95ce-b05fdc883f02) successfully connected to voice chat
-[21:53:07] [Server thread/INFO]: [Not Secure] [Server] se tava falando comigo ?
-[21:53:10] [Server thread/INFO]: [Not Secure] [Server] eu to sem fone
-[21:53:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
-[21:54:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6553ms or 131 ticks behind
-[22:01:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8601ms or 172 ticks behind
-[22:03:28] [Async Chat Thread - #23/INFO]: [Not Secure] <griefer_hunter> *saqueando os baús*
-[22:03:36] [Async Chat Thread - #23/INFO]: [Not Secure] <todernstWolf> ata kkkkkkkkk
-[22:09:01] [Async Chat Thread - #25/INFO]: [Not Secure] <griefer_hunter> perdi voce de vista mas acho que ja vou quitar UwU preciso me acostumar a acordar cedo
-[22:09:12] [Async Chat Thread - #24/INFO]: [Not Secure] <todernstWolf> blz kkkkkk
-[22:09:15] [Async Chat Thread - #24/INFO]: [Not Secure] <griefer_hunter> agora que eu sou um adulto quase empregado
-[22:09:20] [Async Chat Thread - #25/INFO]: [Not Secure] <griefer_hunter> sayonaraaa >///<
-[22:09:24] [Server thread/INFO]: griefer_hunter lost connection: Disconnected
-[22:09:24] [Server thread/INFO]: [voicechat] Disconnecting client griefer_hunter
-[22:09:25] [Server thread/INFO]: griefer_hunter left the game
-[22:09:25] [Async Chat Thread - #24/INFO]: [Not Secure] <todernstWolf> flw
-[22:21:34] [Server thread/INFO]: [Not Secure] [Server] meu parceiro fechar servidor aqui blz
-[22:21:38] [Server thread/INFO]: Saving the game (this may take a moment!)
-[22:21:38] [Server thread/INFO]: Saved the game
-[22:21:41] [Async Chat Thread - #26/INFO]: [Not Secure] <todernstWolf> blz
-[22:21:45] [Server thread/INFO]: Saving the game (this may take a moment!)
-[22:21:45] [Server thread/INFO]: Saved the game
-[22:21:47] [Server thread/INFO]: todernstWolf lost connection: Disconnected
-[22:21:47] [Server thread/INFO]: [voicechat] Disconnecting client todernstWolf
-[22:21:47] [Server thread/INFO]: todernstWolf left the game
-[22:21:52] [Server thread/INFO]: Stopping the server
-[22:21:52] [Server thread/INFO]: Stopping server
-[22:21:52] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[22:21:53] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer vBuild 36
-[22:21:53] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
-[22:21:53] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.3-d6045ce
-[22:21:53] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
-[22:21:53] [Server thread/INFO]: [KeepDeathDrop] Disabled!
-[22:21:53] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.0-23w40a-SNAPSHOT
-[22:21:53] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.0+1.20.x
-[22:21:53] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[22:21:53] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
-[22:21:53] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.3.3-d4b37e3
-[22:21:53] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.3.3-d4b37e3
-[22:21:53] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[22:21:53] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[22:21:53] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.26
-[22:21:53] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.0-23w40a-SNAPSHOT
-[22:21:53] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[22:21:53] [Server thread/INFO]: Saving players
-[22:21:53] [Server thread/INFO]: Cookie lost connection: Server closed
-[22:21:53] [Server thread/INFO]: Cookie left the game
-[22:21:53] [Server thread/INFO]: Saving worlds
-[22:21:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:21:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:21:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:21:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:21:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 340 entity chunks, 0 poi chunks in world 'world' in 0,66s
-[22:21:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:21:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:21:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:21:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:21:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:21:55] [Server thread/INFO]: [ChunkHolderManager] Saved 32 block chunks, 261 entity chunks, 0 poi chunks in world 'world_nether' in 0,31s
-[22:21:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:21:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:21:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:21:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:21:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:21:55] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,04s
-[22:21:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:21:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:21:55] [Server thread/INFO]: Flushing Chunk IO
-[22:21:55] [Server thread/INFO]: Closing Thread Pool
-[22:21:55] [Server thread/INFO]: Closing Server
+		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-196]
+[12:01:42] [Server thread/INFO]: Default game type: SURVIVAL
+[12:01:42] [Server thread/INFO]: Generating keypair
+[12:01:42] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[12:01:42] [Server thread/INFO]: Using default channel type
+[12:01:43] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:01:43] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:01:43] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\PlayTime-3.6.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [PlaceholderAPI]. Please download and install these plugins to run 'PlayTime'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:510) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:01:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.0-23w45a-SNAPSHOT
+[12:01:44] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.0-23w45a-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[12:01:46] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:01:46] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[12:01:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:01:48] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[12:01:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.28
+[12:01:48] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[12:01:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[12:01:53] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[12:01:53] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.5.3-21a9d2d
+[12:01:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+19-3eceec8
+[12:01:53] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
+[12:01:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.0-23w45a-SNAPSHOT
+[12:01:53] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.1.1
+[12:01:54] [Server thread/INFO]: [StackMob] Loading server plugin StackMob v5.8.8
+[12:01:54] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
+[12:01:54] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
+[12:01:54] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.5.3
+[12:01:54] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[12:01:55] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+19-3eceec8
+[12:01:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+19-3eceec8
+[12:01:55] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
+[12:01:55] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer vBuild 36
+[12:01:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[12:01:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:01:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[12:01:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:01:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:01:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[12:01:55] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[12:01:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:01:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:01:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:01:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:01:55] [Server thread/INFO]: Preparing level "world"
+[12:01:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:01:57] [Server thread/INFO]: Time elapsed: 616 ms
+[12:01:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:01:58] [Server thread/INFO]: Time elapsed: 164 ms
+[12:01:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:01:58] [Server thread/INFO]: Time elapsed: 89 ms
+[12:01:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.0-23w45a-SNAPSHOT
+[12:01:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[12:01:59] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.28
+[12:01:59] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
+[12:01:59] [Server thread/INFO]: [voicechat] Compatibility version 17
+[12:01:59] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[12:01:59] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[12:01:59] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[12:01:59] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[12:01:59] [Server thread/INFO]: [ClearLag] Loading modules...
+[12:01:59] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[12:01:59] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[12:01:59] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[12:01:59] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[12:01:59] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.5.3-21a9d2d
+[12:02:00] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[12:02:00] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[12:02:00] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
+[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
+[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing events...
+[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing API...
+[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized API
+[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[12:02:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+19-3eceec8
+[12:02:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[12:02:02] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\config.yml
+[12:02:02] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[12:02:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\kits.yml
+[12:02:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:02:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:02:03] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[12:02:03] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[12:02:03] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[12:02:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\worth.yml
+[12:02:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\tpr.yml
+[12:02:04] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[12:02:04] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\custom_items.yml
+[12:02:04] [Server thread/INFO]: [Essentials] Using locale pt_BR
+[12:02:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:02:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:02:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[12:02:05] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:02:05] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
+[12:02:05] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[12:02:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.0-23w45a-SNAPSHOT
+[12:02:05] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.1.1
+[12:02:05] [Server thread/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[12:02:05] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[12:02:06] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registering commands
+[12:02:06] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[12:02:06] [Server thread/INFO]: [VeinMiner] Registering events
+[12:02:06] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[12:02:06] [Server thread/INFO]: [VeinMiner] Economy found! Hooked successfully.
+[12:02:06] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[12:02:06] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[12:02:06] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.8
+[12:02:07] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[12:02:07] [Server thread/INFO]: [StackMob] StackMob v5.8.8 by antiPerson and contributors.
+[12:02:07] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
+[12:02:07] [Server thread/INFO]: [StackMob] Loading config files...
+[12:02:07] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
+[12:02:07] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
+[12:02:08] [Server thread/INFO]: [StackMob] Detected CraftBukkit NMS version V1_20_R1, native version is V1_20_R2
+[12:02:08] [Server thread/INFO]: [StackMob] You are not using the native version for this plugin (V1_20_R2). Using ProtocolLib.
+[12:02:08] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
+[12:02:08] [Server thread/INFO]: [KeepDeathDrop] Enabled!
+[12:02:08] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
+[12:02:08] [ForkJoinPool.commonPool-worker-1/INFO]: [StackMob] No update is currently available.
+[12:02:08] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
+[12:02:09] [Server thread/INFO]: [GSit] Enabling GSit v1.5.3
+[12:02:09] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[12:02:09] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[12:02:09] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[12:02:09] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.1.0.
+[12:02:09] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[12:02:09] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[12:02:09] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+19-3eceec8
+[12:02:09] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[12:02:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+19-3eceec8
+[12:02:09] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[12:02:09] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
+[12:02:09] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
+[12:02:09] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer vBuild 36
+[12:02:09] [Server thread/INFO]: [ClearLagTimer] Build 36, a free resource by Norska - Thanks for downloading!
+[12:02:10] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[12:02:10] [Server thread/INFO]: Running delayed init tasks
+[12:02:10] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[12:02:10] [Server thread/INFO]: Done (33.888s)! For help, type "help"
+[12:02:10] [Server thread/INFO]: Timings Reset
+[12:02:10] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[12:02:10] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Buscando informaÃ§Ãµes da versÃ£o...
+[12:02:10] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[12:02:10] [Server thread/INFO]: [voicechat] Loading plugins
+[12:02:10] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[12:02:10] [Server thread/INFO]: [voicechat] Initializing plugins
+[12:02:10] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[12:02:10] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
+[12:02:10] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12:02:10] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[12:02:10] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
+[12:02:10] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[12:02:11] [Server thread/WARN]: [ViaVersion] You are running a newer version of the plugin than is released!
+[12:02:13] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
+[12:02:13] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
+[12:07:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7869ms or 157 ticks behind
+[12:09:56] [Server thread/INFO]: Stopping the server
+[12:09:56] [Server thread/INFO]: Stopping server
+[12:09:56] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[12:09:56] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer vBuild 36
+[12:09:56] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
+[12:09:56] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+19-3eceec8
+[12:09:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+19-3eceec8
+[12:09:56] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[12:09:57] [Server thread/INFO]: [GSit] Disabling GSit v1.5.3
+[12:09:57] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[12:09:57] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.2
+[12:09:57] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
+[12:09:57] [Server thread/INFO]: [KeepDeathDrop] Disabled!
+[12:09:57] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.8
+[12:09:57] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.1.1
+[12:09:57] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[12:09:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.0-23w45a-SNAPSHOT
+[12:09:57] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.1+1.20.2
+[12:09:57] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[12:09:57] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+19-3eceec8
+[12:09:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[12:09:57] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.5.3-21a9d2d
+[12:09:57] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.5.3-21a9d2d
+[12:09:57] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[12:09:57] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[12:09:57] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[12:09:57] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.28
+[12:09:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:09:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.0-23w45a-SNAPSHOT
+[12:09:57] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[12:09:57] [Server thread/INFO]: Saving players
+[12:09:57] [Server thread/INFO]: Saving worlds
+[12:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 170 entity chunks, 0 poi chunks in world 'world' in 0,17s
+[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 146 entity chunks, 0 poi chunks in world 'world_nether' in 0,21s
+[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,05s
+[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:09:58] [Server thread/INFO]: Flushing Chunk IO
+[12:09:58] [Server thread/INFO]: Closing Thread Pool
+[12:09:58] [Server thread/INFO]: Closing Server

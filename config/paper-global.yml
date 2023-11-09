@@ -13,6 +13,11 @@
 # Website: https://papermc.io/
 
 _version: 28
+block-updates:
+  disable-chorus-plant-updates: false
+  disable-mushroom-block-updates: false
+  disable-noteblock-updates: false
+  disable-tripwire-updates: false
 chunk-loading-advanced:
   auto-config-send-distance: true
   player-max-concurrent-chunk-generates: 0
@@ -63,6 +68,7 @@ misc:
   chat-threads:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
+  compression-level: default
   fix-entity-position-desync: true
   lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
@@ -118,6 +124,7 @@ unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
+  compression-format: ZLIB
   perform-username-validation: true
 watchdog:
   early-warning-delay: 10000

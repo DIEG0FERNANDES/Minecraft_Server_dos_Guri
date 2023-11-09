@@ -45,6 +45,7 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    seed-trailruins: 83469867
     below-zero-generation-in-existing-chunks: true
     view-distance: default
     mob-spawn-range: 8

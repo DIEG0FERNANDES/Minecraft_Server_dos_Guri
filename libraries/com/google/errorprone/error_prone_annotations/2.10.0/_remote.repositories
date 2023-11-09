@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 09 12:01:00 AMT 2023
+error_prone_annotations-2.10.0.jar>maven=
+error_prone_annotations-2.10.0.pom>maven=
