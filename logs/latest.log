@@ -1,70 +1,15 @@
-[12:00:53] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.0.1/jedis-5.0.1.pom
-[12:00:54] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20230618/json-20230618.pom
-[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.pom
-[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.2.0/mariadb-java-client-3.2.0.pom
-[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
-[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom/2.18.10/bom-2.18.10.pom
-[12:00:55] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.18.10/aws-sdk-java-pom-2.18.10.pom
-[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.2.0/waffle-jna-3.2.0.pom
-[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-parent/3.2.0/waffle-parent-3.2.0.pom
-[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.pom
-[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.pom
-[12:00:56] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom
-[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom
-[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
-[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.pom
-[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.10.0/error_prone_parent-2.10.0.pom
-[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.23.0/checker-qual-3.23.0.pom
-[12:00:57] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.pom
-[12:00:58] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220.pom
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.0.1/jedis-5.0.1.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20230618/json-20230618.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/waffle/waffle-jna/3.2.0/waffle-jna-3.2.0.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.2.0/mariadb-java-client-3.2.0.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.23.0/checker-qual-3.23.0.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.jar
-[12:00:58] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220.jar
-[12:01:00] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: Directory 'plugins\LuckPerms-Velocity-5.4.108.jar' failed to load!
-java.lang.RuntimeException: Directory 'plugins\LuckPerms-Velocity-5.4.108.jar' failed to load!
-	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$1(DirectoryProviderSource.java:34) ~[paper-1.20.1.jar:git-Paper-196]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
-	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:32) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.Main.main(Main.java:137) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.Main.main(Main.java:324) ~[paper-1.20.1.jar:git-Paper-196]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Directory 'plugins\LuckPerms-Velocity-5.4.108.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
-	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:54) ~[paper-1.20.1.jar:git-Paper-196]
-	... 20 more
-[12:01:24] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:01:32] [ServerMain/INFO]: Loaded 7 recipes
-[12:01:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[12:01:36] [Server thread/INFO]: Loading properties
-[12:01:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[12:01:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:01:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:01:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:15:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:15:57] [ServerMain/INFO]: Loaded 7 recipes
+[21:16:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:16:00] [Server thread/INFO]: Loading properties
+[21:16:00] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[21:16:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:16:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:16:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:01:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[12:01:42] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+[21:16:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:16:05] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -99,13 +44,13 @@ java.io.IOException: Identificador inválido
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-196]
-[12:01:42] [Server thread/INFO]: Default game type: SURVIVAL
-[12:01:42] [Server thread/INFO]: Generating keypair
-[12:01:42] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[12:01:42] [Server thread/INFO]: Using default channel type
-[12:01:43] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:01:43] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:01:43] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\PlayTime-3.6.jar' in 'plugins'
+[21:16:05] [Server thread/INFO]: Default game type: SURVIVAL
+[21:16:05] [Server thread/INFO]: Generating keypair
+[21:16:05] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[21:16:05] [Server thread/INFO]: Using default channel type
+[21:16:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:16:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:16:06] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\PlayTime-3.6.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [PlaceholderAPI]. Please download and install these plugins to run 'PlayTime'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -115,216 +60,651 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[12:01:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.0-23w45a-SNAPSHOT
-[12:01:44] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.0-23w45a-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[12:01:46] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[12:01:46] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[12:01:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[12:01:48] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[12:01:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.28
-[12:01:48] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
-[12:01:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[12:01:53] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[12:01:53] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.5.3-21a9d2d
-[12:01:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+19-3eceec8
-[12:01:53] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
-[12:01:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.0-23w45a-SNAPSHOT
-[12:01:53] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.1.1
-[12:01:54] [Server thread/INFO]: [StackMob] Loading server plugin StackMob v5.8.8
-[12:01:54] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
-[12:01:54] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
-[12:01:54] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.5.3
-[12:01:54] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[12:01:55] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+19-3eceec8
-[12:01:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+19-3eceec8
-[12:01:55] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
-[12:01:55] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer vBuild 36
-[12:01:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[12:01:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:01:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[12:01:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:01:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:01:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[12:01:55] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[12:01:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:01:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:01:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:01:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:01:55] [Server thread/INFO]: Preparing level "world"
-[12:01:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:01:57] [Server thread/INFO]: Time elapsed: 616 ms
-[12:01:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:01:58] [Server thread/INFO]: Time elapsed: 164 ms
-[12:01:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:01:58] [Server thread/INFO]: Time elapsed: 89 ms
-[12:01:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.0-23w45a-SNAPSHOT
-[12:01:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
-[12:01:59] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.28
-[12:01:59] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
-[12:01:59] [Server thread/INFO]: [voicechat] Compatibility version 17
-[12:01:59] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[12:01:59] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[12:01:59] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[12:01:59] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[12:01:59] [Server thread/INFO]: [ClearLag] Loading modules...
-[12:01:59] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[12:01:59] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[12:01:59] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[12:01:59] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[12:01:59] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.5.3-21a9d2d
-[12:02:00] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
-[12:02:00] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
-[12:02:00] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
-[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
-[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing hooks...
-[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
-[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing events...
-[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized events
-[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing commands...
-[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
-[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing API...
-[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized API
-[12:02:01] [Server thread/INFO]: [HuskHomes] Initializing metrics...
-[12:02:01] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
-[12:02:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+19-3eceec8
-[12:02:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[12:02:02] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\config.yml
-[12:02:02] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
-[12:02:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\kits.yml
-[12:02:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:02:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:02:03] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[12:02:03] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[12:02:03] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[12:02:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\worth.yml
-[12:02:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\tpr.yml
-[12:02:04] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[12:02:04] [Server thread/INFO]: [Essentials] Creating config from template: plugins\Essentials\custom_items.yml
-[12:02:04] [Server thread/INFO]: [Essentials] Using locale pt_BR
-[12:02:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:02:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:02:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[12:02:05] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[12:02:05] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
-[12:02:05] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[12:02:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.0-23w45a-SNAPSHOT
-[12:02:05] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.1.1
-[12:02:05] [Server thread/INFO]: [VeinMiner] Using SQLITE for persistent storage.
-[12:02:05] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[12:02:06] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registering commands
-[12:02:06] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[12:02:06] [Server thread/INFO]: [VeinMiner] Registering events
-[12:02:06] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
-[12:02:06] [Server thread/INFO]: [VeinMiner] Economy found! Hooked successfully.
-[12:02:06] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[12:02:06] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
-[12:02:06] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.8
-[12:02:07] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
-[12:02:07] [Server thread/INFO]: [StackMob] StackMob v5.8.8 by antiPerson and contributors.
-[12:02:07] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
-[12:02:07] [Server thread/INFO]: [StackMob] Loading config files...
-[12:02:07] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
-[12:02:07] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
-[12:02:08] [Server thread/INFO]: [StackMob] Detected CraftBukkit NMS version V1_20_R1, native version is V1_20_R2
-[12:02:08] [Server thread/INFO]: [StackMob] You are not using the native version for this plugin (V1_20_R2). Using ProtocolLib.
-[12:02:08] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
-[12:02:08] [Server thread/INFO]: [KeepDeathDrop] Enabled!
-[12:02:08] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
-[12:02:08] [ForkJoinPool.commonPool-worker-1/INFO]: [StackMob] No update is currently available.
-[12:02:08] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
-[12:02:09] [Server thread/INFO]: [GSit] Enabling GSit v1.5.3
-[12:02:09] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[12:02:09] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[12:02:09] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
-[12:02:09] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.1.0.
-[12:02:09] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[12:02:09] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
-[12:02:09] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+19-3eceec8
-[12:02:09] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[12:02:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+19-3eceec8
-[12:02:09] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[12:02:09] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
-[12:02:09] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
-[12:02:09] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer vBuild 36
-[12:02:09] [Server thread/INFO]: [ClearLagTimer] Build 36, a free resource by Norska - Thanks for downloading!
-[12:02:10] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[12:02:10] [Server thread/INFO]: Running delayed init tasks
-[12:02:10] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[12:02:10] [Server thread/INFO]: Done (33.888s)! For help, type "help"
-[12:02:10] [Server thread/INFO]: Timings Reset
-[12:02:10] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[12:02:10] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Buscando informações da versão...
-[12:02:10] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
-[12:02:10] [Server thread/INFO]: [voicechat] Loading plugins
-[12:02:10] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[12:02:10] [Server thread/INFO]: [voicechat] Initializing plugins
-[12:02:10] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[12:02:10] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
-[12:02:10] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[12:02:10] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[12:02:10] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
-[12:02:10] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
-[12:02:11] [Server thread/WARN]: [ViaVersion] You are running a newer version of the plugin than is released!
-[12:02:13] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
-[12:02:13] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
-[12:07:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7869ms or 157 ticks behind
-[12:09:56] [Server thread/INFO]: Stopping the server
-[12:09:56] [Server thread/INFO]: Stopping server
-[12:09:56] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
-[12:09:56] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer vBuild 36
-[12:09:56] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
-[12:09:56] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+19-3eceec8
-[12:09:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+19-3eceec8
-[12:09:56] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[12:09:57] [Server thread/INFO]: [GSit] Disabling GSit v1.5.3
-[12:09:57] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[12:09:57] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.2
-[12:09:57] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
-[12:09:57] [Server thread/INFO]: [KeepDeathDrop] Disabled!
-[12:09:57] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.8
-[12:09:57] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.1.1
-[12:09:57] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[12:09:57] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.0-23w45a-SNAPSHOT
-[12:09:57] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.1+1.20.2
-[12:09:57] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[12:09:57] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+19-3eceec8
-[12:09:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[12:09:57] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.5.3-21a9d2d
-[12:09:57] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.5.3-21a9d2d
-[12:09:57] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[12:09:57] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[12:09:57] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
-[12:09:57] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.28
-[12:09:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[12:09:57] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.0-23w45a-SNAPSHOT
-[12:09:57] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[12:09:57] [Server thread/INFO]: Saving players
-[12:09:57] [Server thread/INFO]: Saving worlds
-[12:09:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:09:57] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 170 entity chunks, 0 poi chunks in world 'world' in 0,17s
-[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 146 entity chunks, 0 poi chunks in world 'world_nether' in 0,21s
-[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:09:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:09:58] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,05s
-[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:09:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:09:58] [Server thread/INFO]: Flushing Chunk IO
-[12:09:58] [Server thread/INFO]: Closing Thread Pool
-[12:09:58] [Server thread/INFO]: Closing Server
+[21:16:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.0-23w45a-SNAPSHOT
+[21:16:07] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.0-23w45a-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[21:16:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:16:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:16:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:16:12] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.106
+[21:16:13] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[21:16:13] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.28
+[21:16:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[21:16:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:16:18] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[21:16:18] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.5.3-21a9d2d
+[21:16:18] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+19-3eceec8
+[21:16:18] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
+[21:16:18] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.0-23w45a-SNAPSHOT
+[21:16:18] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.1.1
+[21:16:19] [Server thread/INFO]: [StackMob] Loading server plugin StackMob v5.8.8
+[21:16:19] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
+[21:16:19] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
+[21:16:19] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.5.3
+[21:16:20] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[21:16:20] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+19-3eceec8
+[21:16:20] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+19-3eceec8
+[21:16:20] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
+[21:16:20] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer vBuild 36
+[21:16:20] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[21:16:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:16:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.106
+[21:16:24] [Server thread/INFO]:         __    
+[21:16:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.106
+[21:16:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:16:24] [Server thread/INFO]: 
+[21:16:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:16:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:16:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:16:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:16:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 10569ms)
+[21:16:31] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:16:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:16:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:16:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:16:31] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:16:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[21:16:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:16:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:16:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:16:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:16:31] [Server thread/INFO]: Preparing level "world"
+[21:16:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:16:35] [Server thread/INFO]: Time elapsed: 1102 ms
+[21:16:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:16:35] [Server thread/INFO]: Time elapsed: 160 ms
+[21:16:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:16:35] [Server thread/INFO]: Time elapsed: 74 ms
+[21:16:35] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.0-23w45a-SNAPSHOT
+[21:16:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[21:16:36] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.28
+[21:16:36] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
+[21:16:36] [Server thread/INFO]: [voicechat] Compatibility version 17
+[21:16:36] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[21:16:36] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[21:16:36] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[21:16:36] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[21:16:37] [Server thread/INFO]: [ClearLag] Loading modules...
+[21:16:37] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[21:16:37] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[21:16:37] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[21:16:37] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[21:16:37] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.5.3-21a9d2d
+[21:16:37] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
+[21:16:38] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
+[21:16:38] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing hooks...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing events...
+[21:16:39] [Server thread/INFO]: [HuskHomes] Successfully initialized events
+[21:16:39] [Server thread/INFO]: [HuskHomes] Initializing commands...
+[21:16:40] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
+[21:16:40] [Server thread/INFO]: [HuskHomes] Initializing API...
+[21:16:40] [Server thread/INFO]: [HuskHomes] Successfully initialized API
+[21:16:40] [Server thread/INFO]: [HuskHomes] Initializing metrics...
+[21:16:40] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
+[21:16:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+19-3eceec8
+[21:16:40] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[21:16:42] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:16:42] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:16:42] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[21:16:42] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[21:16:42] [Server thread/INFO]: [Essentials] Converted 0/1
+[21:16:42] [Server thread/INFO]: [Essentials] Ban format update complete.
+[21:16:42] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[21:16:42] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[21:16:42] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[21:16:42] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[21:16:42] [Server thread/INFO]: [Essentials] Done converting mail list.
+[21:16:42] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:16:42] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[21:16:42] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[21:16:42] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[21:16:42] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[21:16:42] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[21:16:42] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[21:16:42] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[21:16:42] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[21:16:42] [Server thread/INFO]: [Essentials] 
+[21:16:42] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[21:16:42] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[21:16:42] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[21:16:42] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:16:42] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[21:16:42] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:16:42] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[21:16:42] [Server thread/INFO]: [Essentials] 
+[21:16:42] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[21:16:42] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[21:16:42] [Server thread/INFO]: [Essentials] 
+[21:16:42] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[21:16:42] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[21:16:42] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[21:16:42] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[21:16:42] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[21:16:42] [Server thread/INFO]: [Essentials] #===========================================================================#
+[21:16:43] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[21:16:43] [Server thread/INFO]: [Essentials] Using locale pt_BR
+[21:16:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:16:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:16:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:16:44] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:16:44] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
+[21:16:44] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[21:16:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.0-23w45a-SNAPSHOT
+[21:16:44] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.1.1
+[21:16:44] [Server thread/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[21:16:44] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[21:16:46] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registering commands
+[21:16:46] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[21:16:46] [Server thread/INFO]: [VeinMiner] Registering events
+[21:16:46] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[21:16:46] [Server thread/INFO]: [VeinMiner] Economy found! Hooked successfully.
+[21:16:46] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[21:16:46] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[21:16:46] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.8
+[21:16:46] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[21:16:46] [Server thread/INFO]: [StackMob] StackMob v5.8.8 by antiPerson and contributors.
+[21:16:46] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
+[21:16:46] [Server thread/INFO]: [StackMob] Loading config files...
+[21:16:47] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
+[21:16:47] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
+[21:16:47] [Server thread/INFO]: [StackMob] Detected CraftBukkit NMS version V1_20_R1, native version is V1_20_R2
+[21:16:47] [Server thread/INFO]: [StackMob] You are not using the native version for this plugin (V1_20_R2). Using ProtocolLib.
+[21:16:47] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
+[21:16:47] [Server thread/INFO]: [KeepDeathDrop] Enabled!
+[21:16:47] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
+[21:16:47] [ForkJoinPool.commonPool-worker-1/INFO]: [StackMob] No update is currently available.
+[21:16:48] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
+[21:16:48] [Server thread/INFO]: [GSit] Enabling GSit v1.5.3
+[21:16:49] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[21:16:49] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[21:16:49] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[21:16:49] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.1.0.
+[21:16:49] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[21:16:49] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[21:16:49] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+19-3eceec8
+[21:16:49] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[21:16:49] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+19-3eceec8
+[21:16:49] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[21:16:49] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
+[21:16:50] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
+[21:16:50] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer vBuild 36
+[21:16:50] [Server thread/INFO]: [ClearLagTimer] Build 36, a free resource by Norska - Thanks for downloading!
+[21:16:50] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[21:16:50] [Server thread/INFO]: Running delayed init tasks
+[21:16:51] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:16:51] [Server thread/INFO]: Done (50.543s)! For help, type "help"
+[21:16:51] [Server thread/INFO]: Timings Reset
+[21:16:51] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Buscando informações da versão...
+[21:16:51] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:16:51] [Server thread/INFO]: [voicechat] Loading plugins
+[21:16:51] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[21:16:51] [Server thread/INFO]: [voicechat] Initializing plugins
+[21:16:51] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[21:16:51] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[21:16:51] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
+[21:16:51] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21:16:51] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[21:16:51] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
+[21:16:51] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[21:16:51] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] Você está com 2 dev build(s) do EssentialsX desatualizado!
+[21:16:51] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] Baixe-a aqui: https://essentialsx.net/downloads.html
+[21:16:52] [Server thread/WARN]: [ViaVersion] You are running a newer version of the plugin than is released!
+[21:16:53] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
+[21:16:53] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
+[21:24:00] [User Authenticator #0/INFO]: UUID of player Cookie is 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[21:24:04] [Server thread/INFO]: Cookie joined the game
+[21:24:04] [Server thread/INFO]: Cookie[/26.210.198.12:57943] logged in with entity id 594 at ([world]-250.1206946271651, 70.0, -125.47687792887558)
+[21:24:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5214ms or 104 ticks behind
+[21:24:06] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 479,033900ms. Summary: Getting prefix for Cookie
+[21:24:22] [Server thread/INFO]: [voicechat] Received secret request of Cookie (17)
+[21:24:22] [Server thread/INFO]: [voicechat] Sent secret to Cookie
+[21:24:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[21:24:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4b606ad1-db9a-38e1-aa6c-07063fccc62e
+[21:24:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Cookie (4b606ad1-db9a-38e1-aa6c-07063fccc62e) successfully connected to voice chat
+[21:25:16] [User Authenticator #1/WARN]: [LuckPerms] Processing login for todernstWolf took 1034ms.
+[21:25:16] [User Authenticator #1/INFO]: UUID of player todernstWolf is 3532c247-7463-3bad-a620-b5e57718e8d3
+[21:25:19] [Server thread/INFO]: todernstWolf joined the game
+[21:25:20] [Server thread/INFO]: todernstWolf[/26.44.105.189:53441] logged in with entity id 2425 at ([world]-166.79636568624127, 67.0, -109.66296774001307)
+[21:25:22] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 45,584300ms. Summary: Getting prefix for todernstWolf
+[21:25:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[21:25:32] [Server thread/INFO]: [voicechat] Received secret request of todernstWolf (17)
+[21:25:32] [Server thread/INFO]: [voicechat] Sent secret to todernstWolf
+[21:25:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3532c247-7463-3bad-a620-b5e57718e8d3
+[21:25:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3532c247-7463-3bad-a620-b5e57718e8d3
+[21:25:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player todernstWolf (3532c247-7463-3bad-a620-b5e57718e8d3) successfully connected to voice chat
+[21:26:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8701ms or 174 ticks behind
+[21:26:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5760ms or 115 ticks behind
+[21:27:00] [Server thread/INFO]: [Not Secure] [Server] to arrumando as resource pack
+[21:27:09] [Server thread/INFO]: [Not Secure] [Server] ou seja travo tudo o mine nao sei se tu vai me ouvir
+[21:27:19] [Server thread/INFO]: [Not Secure] [Server] mas se estiver escutando o renato cariani
+[21:27:24] [Server thread/INFO]: [Not Secure] [Server] menos mau
+[21:27:49] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:27:49] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 124 packets
+[21:29:08] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 90,860100ms. Summary: Getting prefix for Cookie
+[21:30:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5084ms or 101 ticks behind
+[21:30:16] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:30:16] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 48 packets
+[21:32:08] [Server thread/INFO]: Started tick profiling
+[21:32:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /weather clear
+[21:32:19] [Server thread/INFO]: Erro: When running from console, usage is: /weather <world> <storm/sun> [duration]
+[21:33:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[21:33:05] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:33:05] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 31 packets
+[21:36:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5775ms or 115 ticks behind
+[21:36:36] [Server thread/WARN]: todernstWolf moved too quickly! 3.964755827175196,1.0,10.482625222430457
+[21:39:50] [Server thread/INFO]: [Not Secure] [Server] to começando achar que travou meu pc
+[21:39:57] [Server thread/INFO]: [Not Secure] [Server] meu jogo no caso
+[21:40:10] [Server thread/INFO]: [Not Secure] [Server] a textura dos cachorro é tao perfeito que meu pc nao aguenta
+[21:41:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[21:42:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5317ms or 106 ticks behind
+[21:43:27] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 50,203400ms. Summary: Getting prefix for Cookie
+[21:43:36] [Async Chat Thread - #3/INFO]: [Not Secure] [ADMIN]Cookie: manda mensagem no chat rapidao
+[21:43:40] [Async Chat Thread - #3/INFO]: [Not Secure] [ADMIN]Cookie: pra eu testar um negócio
+[21:44:13] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:44:14] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 55 packets
+[21:44:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5382ms or 107 ticks behind
+[21:44:14] [Server thread/INFO]: Cookie issued server command: /weather clear
+[21:44:36] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-196 (MC: 1.20.1) ---
+[21:44:36] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[21:44:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[21:44:36] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[21:44:36] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:arrow, entity class: net.minecraft.world.entity.projectile.EntityTippedArrow
+[21:44:36] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[21:44:36] [Paper Watchdog Thread/ERROR]: Entity UUID: b56285b7-0244-4d3c-a1a9-b949fdd8f689
+[21:44:36] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-215.34621862727724, 72.55429688411817, -170.06098448926065)
+[21:44:36] [Paper Watchdog Thread/ERROR]: Velocity: (-0.0785499851449384, -1.2117660066048022, 0.904508109293361) (in blocks per tick)
+[21:44:36] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-215.59621862727724, 72.55429688411817, -170.31098448926065] -> [-215.09621862727724, 73.05429688411817, -169.81098448926065]
+[21:44:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[21:44:36] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[21:44:36] [Paper Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: false | State: RUNNABLE
+[21:44:36] [Paper Watchdog Thread/ERROR]: 	Stack:
+[21:44:36] [Server thread/INFO]: todernstWolf was shot by Skeleton
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.ClassLoader.defineClass1(Native Method)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:229)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		Graves-4.9.jar//com.ranull.graves.compatibility.CompatibilityBlockData.updateSkullBlock(CompatibilityBlockData.java:102)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		Graves-4.9.jar//com.ranull.graves.compatibility.CompatibilityBlockData.setBlockData(CompatibilityBlockData.java:69)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		Graves-4.9.jar//com.ranull.graves.manager.BlockManager.createBlock(BlockManager.java:67)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		Graves-4.9.jar//com.ranull.graves.manager.GraveManager.placeGrave(GraveManager.java:344)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		Graves-4.9.jar//com.ranull.graves.listener.EntityDeathListener.onEntityDeath(EntityDeathListener.java:473)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor143.execute(Unknown Source)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:956)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.die(ServerPlayer.java:959)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1519)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.player.Player.hurt(Player.java:967)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1128)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.projectile.AbstractArrow.onHitEntity(AbstractArrow.java:402)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.projectile.Projectile.onHit(Projectile.java:203)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.projectile.Projectile.preOnHit(Projectile.java:194)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.projectile.AbstractArrow.preOnHit(AbstractArrow.java:296)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.projectile.AbstractArrow.tick(AbstractArrow.java:232)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.projectile.Arrow.tick(Arrow.java:112)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1352)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x000001eb91987948.accept(Unknown Source)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.guardEntityTick(Level.java:1004)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$12(ServerLevel.java:872)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda/0x000001eb9194f398.accept(Unknown Source)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:42)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:852)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1556)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000001eb90aa5758.run(Unknown Source)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.Thread.runWith(Thread.java:1596)
+[21:44:37] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.Thread.run(Thread.java:1583)
+[21:44:37] [Paper Watchdog Thread/ERROR]: ------------------------------
+[21:44:37] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[21:44:37] [Paper Watchdog Thread/ERROR]: ------------------------------
+[21:44:48] [Server thread/INFO]: todernstWolf issued server command: /huskhomes:back
+[21:44:49] [Server thread/INFO]: todernstWolf issued server command: /huskhomes:back
+[21:44:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13615ms or 272 ticks behind
+[21:45:03] [Server thread/INFO]: Cookie issued server command: /time set 0
+[21:45:39] [Server thread/INFO]: Cookie issued server command: /plugins
+[21:46:18] [Server thread/INFO]: Cookie issued server command: /lp user todernstWolf parent set default
+[21:46:20] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [U] (todernstwolf)
+[21:46:20] [luckperms-command-executor/INFO]: [LP] LOG > parent set default
+[21:46:27] [Server thread/INFO]: Cookie issued server command: /playtime
+[21:46:33] [Async Chat Thread - #5/INFO]: [Not Secure] [ADMIN]Cookie: teste
+[21:46:41] [Async Chat Thread - #5/INFO]: [Not Secure] [MEMBER]todernstWolf: como faz
+[21:46:49] [Async Chat Thread - #5/INFO]: [Not Secure] [ADMIN]Cookie: o que ?
+[21:47:02] [Async Chat Thread - #4/INFO]: [Not Secure] [MEMBER]todernstWolf: vc disse teste
+[21:47:35] [Async Chat Thread - #5/INFO]: [Not Secure] [ADMIN]Cookie: disse teste pra testar comando no chat
+[21:48:03] [Server thread/INFO]: Cookie issued server command: /tp todernstWolf
+[21:48:51] [Server thread/INFO]: todernstWolf was blown up by Creeper
+[21:48:57] [Server thread/INFO]: Cookie was blown up by Creeper
+[21:48:58] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 100,409000ms. Summary: Getting prefix for Cookie
+[21:49:06] [Server thread/INFO]: todernstWolf issued server command: /huskhomes:back
+[21:49:18] [Server thread/INFO]: Cookie issued server command: /home home
+[21:49:34] [Async Chat Thread - #7/INFO]: [Not Secure] [ADMIN]Cookie: cara eu fui dar tp em voce tinha 30 mil creeper
+[21:49:42] [Async Chat Thread - #6/INFO]: [Not Secure] [MEMBER]todernstWolf: vsf
+[21:49:46] [Async Chat Thread - #7/INFO]: [Not Secure] [MEMBER]todernstWolf: vsf
+[21:49:54] [Async Chat Thread - #6/INFO]: [Not Secure] [ADMIN]Cookie: acho que a dificuldade do servidor resetou vou te ajudar a arrumar a casa relaxa
+[21:54:42] [Server thread/WARN]: todernstWolf moved too quickly! -8.990405810757778,1.4199999868869781,9.772209651174421
+[21:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5109ms or 102 ticks behind
+[21:57:09] [Server thread/INFO]: todernstWolf was slain by Zombie
+[21:57:17] [Server thread/INFO]: todernstWolf lost connection: Disconnected
+[21:57:19] [Server thread/INFO]: [voicechat] Disconnecting client todernstWolf
+[21:57:20] [Server thread/INFO]: todernstWolf left the game
+[21:57:20] [Server thread/WARN]: Cookie moved too quickly! 6.148988271800107,-4.0,-10.665158538833111
+[21:57:20] [Server thread/WARN]: [voicechat_interaction] Task #150500 for voicechat_interaction vv1.3.1+1.20.2 generated an exception
+java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getWorld()" because the return value of "org.bukkit.Server.getPlayer(java.util.UUID)" is null
+	at dev.igalaxy.voicechatinteraction.VoiceChatInteractionPlugin.activate(VoiceChatInteractionPlugin.java:106) ~[voicechat-interaction-paper-v1.3.1+1.20.2.jar:?]
+	at dev.igalaxy.voicechatinteraction.VoiceChatInteractionPlugin.lambda$onMicPacket$0(VoiceChatInteractionPlugin.java:98) ~[voicechat-interaction-paper-v1.3.1+1.20.2.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1479) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:57:20] [Server thread/INFO]: Cookie issued server command: /home homeh
+[21:57:22] [Server thread/INFO]: Cookie was shot by Skeleton
+[21:57:24] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 93,721300ms. Summary: Getting prefix for Cookie
+[21:57:30] [Server thread/INFO]: Cookie issued server command: /home home
+[21:57:40] [Server thread/INFO]: Cookie issued server command: /difficulty easy
+[21:57:42] [Server thread/INFO]: [Cookie: The difficulty has been set to Easy]
+[21:58:00] [Server thread/INFO]: Cookie issued server command: /difficulty peaceful
+[21:58:01] [Server thread/INFO]: [Cookie: The difficulty has been set to Peaceful]
+[21:58:15] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[21:58:31] [Server thread/INFO]: Cookie issued server command: /setworldspawn
+[21:58:32] [Server thread/INFO]: [Cookie: Set the world spawn point to -246, 69, -104 [0.0]]
+[21:58:37] [Server thread/INFO]: Cookie issued server command: /spawn
+[21:59:28] [Server thread/INFO]: Cookie issued server command: /setspawn @a
+[21:59:45] [Server thread/INFO]: Cookie issued server command: /spawnpoint @a
+[21:59:45] [Server thread/INFO]: [Cookie: Set spawn point to -245, 69, -104 [0.0] in minecraft:overworld for Cookie]
+[21:59:50] [Async Chat Thread - #9/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 127,593100ms. Summary: Getting prefix for Cookie
+[21:59:50] [Async Chat Thread - #9/INFO]: [Not Secure] [ADMIN]Cookie: a
+[21:59:54] [Server thread/INFO]: Cookie issued server command: /spawn
+[22:00:05] [Server thread/INFO]: Cookie issued server command: /kill Cookie
+[22:00:05] [Server thread/INFO]: Cookie died
+[22:04:05] [Server thread/INFO]: Cookie issued server command: /spawn
+[22:04:19] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[22:07:14] [Server thread/INFO]: Cookie issued server command: /warp
+[22:07:51] [Server thread/INFO]: Cookie issued server command: /gamemode creative
+[22:07:57] [Server thread/INFO]: Cookie issued server command: /war
+[22:08:01] [Server thread/INFO]: Cookie issued server command: /warps
+[22:08:40] [Async Chat Thread - #11/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 77,888900ms. Summary: Getting prefix for Cookie
+[22:08:40] [Async Chat Thread - #11/INFO]: [Not Secure] [ADMIN]Cookie: 1189.70 70.00 835.70
+[22:08:45] [Server thread/INFO]: Cookie issued server command: /spawm
+[22:08:47] [Server thread/INFO]: Cookie issued server command: /spawn
+[22:08:55] [Server thread/INFO]: Cookie issued server command: /warps
+[22:09:03] [Server thread/INFO]: Cookie issued server command: /plugins
+[22:09:08] [Server thread/INFO]: Cookie issued server command: /version EssentialsSpawn
+[22:09:38] [Server thread/INFO]: Cookie issued server command: /essentialsspawn:setspawn
+[22:09:57] [Server thread/INFO]: Cookie issued server command: /essentialsspawn:espawn
+[22:09:58] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 29,682600ms. Summary: Getting group for Cookie
+[22:10:03] [Server thread/INFO]: Cookie issued server command: /essentialsspawn:espawn
+[22:10:16] [Server thread/INFO]: Cookie issued server command: /essentialsspawn:espawn
+[22:10:16] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 48,522500ms. Summary: Getting group for Cookie
+[22:10:22] [Server thread/INFO]: Cookie issued server command: /plugins
+[22:11:38] [Server thread/INFO]: Cookie issued server command: /difficulty easy
+[22:11:38] [Server thread/INFO]: [Cookie: The difficulty has been set to Easy]
+[22:12:43] [Server thread/INFO]: Cookie issued server command: /gamemode survival
+[22:13:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5141ms or 102 ticks behind
+[22:19:45] [Server thread/INFO]: Cookie issued server command: /version VeinMiner
+[22:19:48] [Server thread/INFO]: Cookie issued server command: /lp editor
+[22:19:58] [luckperms-worker-7/WARN]: [LuckPerms] Command execution [editor] has not completed. Trace: 
+  java.base/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+  java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
+  java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+  java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+  java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
+  java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+  me.lucko.luckperms.common.webeditor.socket.WebEditorSocket.waitForConnect(WebEditorSocket.java:100)
+  me.lucko.luckperms.common.webeditor.WebEditorSession.createSocket(WebEditorSession.java:95)
+  me.lucko.luckperms.common.webeditor.WebEditorSession.open(WebEditorSession.java:86)
+  me.lucko.luckperms.common.commands.misc.EditorCommand.execute(EditorCommand.java:110)
+  me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:55)
+  me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:47)
+  me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:279)
+  me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:183)
+  java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  java.base/java.lang.Thread.run(Thread.java:1583)
+[22:23:24] [Server thread/INFO]: Cookie issued server command: /lp applyedits F8UzrEIKs5
+[22:23:25] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (admin)
+[22:23:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.3.&c[ADMIN]  true
+[22:23:25] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (admin)
+[22:23:25] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.3.&c[ADMIN] true
+[22:23:26] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:23:26] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.1.&7[MEMBER]  true
+[22:23:26] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:23:26] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.1.&7[MEMBER] true
+[22:23:28] [Async Chat Thread - #13/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 25,507200ms. Summary: Getting prefix for Cookie
+[22:23:28] [Async Chat Thread - #13/INFO]: [Not Secure] [ADMIN] Cookie: asdasd
+[22:23:32] [Async Chat Thread - #13/INFO]: [Not Secure] [ADMIN] Cookie: teste
+[22:23:49] [Server thread/INFO]: Cookie issued server command: /lp applyedits 2HoxmkiNMH
+[22:23:57] [Server thread/INFO]: Cookie issued server command: /lp applyedits 2HoxmkiNMH --force
+[22:23:57] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:23:57] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.1.&7[Civil]  true
+[22:23:57] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:23:57] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove prefix.1.&7[MEMBER]  true
+[22:24:02] [Async Chat Thread - #12/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 71,634900ms. Summary: Getting prefix for Cookie
+[22:24:02] [Async Chat Thread - #12/INFO]: [Not Secure] [ADMIN] Cookie: asdasdasd
+[22:25:03] [Server thread/INFO]: Cookie issued server command: /plugins
+[22:27:05] [Server thread/INFO]: Cookie issued server command: /lp applyedits tdqX5QGlOA
+[22:27:10] [Server thread/INFO]: Cookie issued server command: /lp applyedits tdqX5QGlOA --force
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.delwarp true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.edithome true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tp true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.warp true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpaccept true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.back.death true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.editwarp.description true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.delhome true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpa true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.editwarp.relocate true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpdecline true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.huskhomes true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpahere true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.setwarp true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.setspawn true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.editwarp.rename true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.home true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpignore true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpoffline true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tphere true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.tpaall true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.huskhomes.delete true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.sethome true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.editwarp true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.back true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.editwarp.other true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.homelist true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.spawn true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.back.previous true
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:27:11] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add huskhomes.command.warplist true
+[22:27:58] [Server thread/INFO]: Cookie issued server command: /sit
+[22:28:18] [Server thread/INFO]: Cookie issued server command: /sit
+[22:28:22] [Server thread/INFO]: Cookie issued server command: /sit
+[22:29:06] [Server thread/INFO]: Cookie issued server command: /plugins
+[22:29:14] [Server thread/INFO]: Cookie issued server command: /plugins
+[22:29:36] [Server thread/INFO]: Cookie issued server command: /version HuskHomes
+[22:29:47] [Server thread/INFO]: Cookie issued server command: /huskhomes help
+[22:29:56] [Server thread/INFO]: Cookie issued server command: /huskhomes:huskhomes help 2
+[22:29:58] [Server thread/INFO]: Cookie issued server command: /huskhomes:huskhomes help 3
+[22:29:58] [Server thread/INFO]: Cookie issued server command: /huskhomes:huskhomes help 4
+[22:29:59] [Server thread/INFO]: Cookie issued server command: /huskhomes:huskhomes help 5
+[22:35:00] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 39,530700ms. Summary: Getting prefix for Cookie
+[22:35:14] [Server thread/INFO]: Cookie issued server command: /stackmob help
+[22:35:24] [Server thread/INFO]: Cookie issued server command: /stackmob about
+[22:35:54] [Server thread/INFO]: Cookie issued server command: /lp applyedits Z1ZQYUXrip --force
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.back.death true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.back.previous true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.editwarp.description true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.editwarp.other true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.editwarp.relocate true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.editwarp.rename true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.huskhomes true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.huskhomes.delete true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.setspawn true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.spawn true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tp true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpa true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpaall true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpaccept true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpahere true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpdecline true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tphere true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpignore true
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > (Cookie) [G] (default)
+[22:35:56] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove huskhomes.command.tpoffline true
+[22:36:11] [Server thread/INFO]: Cookie issued server command: /lp applyedits MTk3F46P4y
+[22:36:19] [Server thread/INFO]: Cookie issued server command: /lp applyedits MTk3F46P4y --force
+[22:36:38] [Server thread/INFO]: Cookie issued server command: /plugins
+[22:36:41] [Server thread/INFO]: Cookie issued server command: /version PlayTime
+[22:37:50] [Server thread/INFO]: Cookie issued server command: /version HuskHomesGUI
+[22:37:55] [Server thread/INFO]: Cookie issued server command: /save-all
+[22:37:59] [Server thread/INFO]: [Cookie: Saved the game]
+[22:37:59] [Server thread/INFO]: Cookie issued server command: /save-on
+[22:38:06] [Server thread/INFO]: Cookie issued server command: /gamemode spectator
+[22:47:53] [luckperms-command-executor/INFO]: [LP] Web editor data was applied to group admin successfully.
+[22:47:53] [luckperms-command-executor/INFO]: [LP] (1 addition and 1 deletion)
+[22:47:53] [luckperms-command-executor/INFO]: +  prefix.3.&c[Hoster] (true)
+[22:47:53] [luckperms-command-executor/INFO]: -  prefix.3.&c[ADMIN]  (true)
+[22:49:16] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 91,885700ms. Summary: Getting prefix for Cookie
+[22:49:38] [Server thread/INFO]: Cookie issued server command: /time set 0
+[22:51:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5303ms or 106 ticks behind
+[22:51:40] [Server thread/INFO]: Cookie lost connection: Disconnected
+[22:51:41] [Server thread/INFO]: [voicechat] Disconnecting client Cookie
+[22:51:42] [Server thread/INFO]: Cookie left the game
+[22:51:57] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:51:59] [Server thread/INFO]: Saved the game
+[22:52:00] [Server thread/INFO]: Stopping the server
+[22:52:00] [Server thread/INFO]: Stopping server
+[22:52:00] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[22:52:00] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer vBuild 36
+[22:52:00] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
+[22:52:00] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+19-3eceec8
+[22:52:00] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+19-3eceec8
+[22:52:00] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[22:52:01] [Server thread/INFO]: [GSit] Disabling GSit v1.5.3
+[22:52:01] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[22:52:01] [Server thread/INFO]: [HuskHomesGUI] Disabling HuskHomesGUI v2.2
+[22:52:01] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
+[22:52:01] [Server thread/INFO]: [KeepDeathDrop] Disabled!
+[22:52:01] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.8
+[22:52:01] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.1.1
+[22:52:01] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[22:52:01] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.0-23w45a-SNAPSHOT
+[22:52:01] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.1+1.20.2
+[22:52:01] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[22:52:01] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+19-3eceec8
+[22:52:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:52:01] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.5.3-21a9d2d
+[22:52:01] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.5.3-21a9d2d
+[22:52:01] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[22:52:01] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[22:52:01] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[22:52:01] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.28
+[22:52:01] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:52:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.106
+[22:52:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:52:01] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:52:01] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:52:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.0-23w45a-SNAPSHOT
+[22:52:01] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:52:02] [Server thread/INFO]: Saving players
+[22:52:02] [Server thread/INFO]: Saving worlds
+[22:52:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 184 entity chunks, 0 poi chunks in world 'world' in 0,12s
+[22:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:52:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 144 entity chunks, 0 poi chunks in world 'world_nether' in 0,18s
+[22:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:52:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:52:02] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,03s
+[22:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:52:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:52:02] [Server thread/INFO]: Flushing Chunk IO
+[22:52:02] [Server thread/INFO]: Closing Thread Pool
+[22:52:02] [Server thread/INFO]: Closing Server
