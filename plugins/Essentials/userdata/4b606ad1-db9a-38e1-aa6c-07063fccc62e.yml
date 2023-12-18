@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1699843901282
-  login: 1699838645588
+  logout: 1702870867540
+  login: 1702870741457
 money: '0'
 last-account-name: Cookie
 logoutlocation:
   world: e9750ee5-bdf6-434d-bfac-9d9078af6637
   world-name: world
-  x: -228.37265884408157
-  y: 78.25513013451058
-  z: -78.3367694785491
-  yaw: 124.49909210205078
-  pitch: 19.950130462646484
+  x: -228.96009394232314
+  y: 78.8352942775156
+  z: -77.04003583127674
+  yaw: 154.04905700683594
+  pitch: 16.050119400024414
 lastlocation:
   world: e9750ee5-bdf6-434d-bfac-9d9078af6637
   world-name: world

@@ -12,14 +12,18 @@
 
 settings:
   debug: false
-  save-user-cache-on-stop-only: false
+  bungeecord: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  sample-count: 12
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  player-shuffle: 0
-  user-cache-size: 1000
-  netty-threads: 4
+  save-user-cache-on-stop-only: false
   log-villager-deaths: true
   log-named-deaths: true
+  user-cache-size: 1000
+  player-shuffle: 0
   attribute:
     maxHealth:
       max: 2048.0
@@ -27,11 +31,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  sample-count: 12
-  bungeecord: false
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
+  netty-threads: 4
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -43,21 +43,45 @@ advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+commands:
+  silent-commandblock-console: false
+  tab-complete: 0
+  send-namespaced: true
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
+  spam-exclusions:
+  - /skill
+players:
+  disable-saving: false
 world-settings:
   default:
-    seed-trailruins: 83469867
     below-zero-generation-in-existing-chunks: true
-    view-distance: default
-    mob-spawn-range: 8
-    item-despawn-rate: 6000
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
     merge-radius:
       exp: 3.0
       item: 2.5
-    simulation-distance: default
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
+    hopper-amount: 1
+    hopper-can-load-chunks: false
     nerf-spawner-mobs: false
     thunder-chance: 100000
+    view-distance: default
+    arrow-despawn-rate: 1200
+    trident-despawn-rate: 1200
+    simulation-distance: default
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -81,13 +105,8 @@ world-settings:
       cavevines-modifier: 100
       glowberry-modifier: 100
       pitcherplant-modifier: 100
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      display: 128
-      other: 64
+    item-despawn-rate: 6000
+    mob-spawn-range: 8
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -114,11 +133,14 @@ world-settings:
       villagers-active-for-panic: true
       tick-inactive-villagers: true
       ignore-spectators: false
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-    hopper-can-load-chunks: false
+    max-tnt-per-tick: 100
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      display: 128
+      other: 64
     seed-village: 10387312
     seed-desert: 14357617
     seed-igloo: 14357618
@@ -135,42 +157,21 @@ world-settings:
     seed-fossil: 14357921
     seed-portal: 34222645
     seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
     seed-stronghold: default
     max-tick-time:
       tile: 50
       entity: 50
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    max-tnt-per-tick: 100
-    hanging-tick-frequency: 100
-    wither-spawn-sound-radius: 0
-    enable-zombie-pigmen-portal-spawns: true
-    end-portal-sound-radius: 0
     zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    end-portal-sound-radius: 0
+    hanging-tick-frequency: 100
     dragon-death-sound-radius: 0
     verbose: false
-commands:
-  silent-commandblock-console: false
-  tab-complete: 0
-  send-namespaced: true
-  log: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  spam-exclusions:
-  - /skill
-players:
-  disable-saving: false
 config-version: 12
 stats:
   disable-saving: false

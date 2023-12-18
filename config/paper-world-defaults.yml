@@ -20,10 +20,12 @@ anticheat:
     hidden-blocks:
     - copper_ore
     - deepslate_copper_ore
+    - raw_copper_block
     - gold_ore
     - deepslate_gold_ore
     - iron_ore
     - deepslate_iron_ore
+    - raw_iron_block
     - coal_ore
     - deepslate_coal_ore
     - lapis_ore
@@ -56,38 +58,26 @@ chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
-    area_effect_cloud: 8
-    arrow: 10
-    dragon_fireball: 3
-    egg: 8
-    ender_pearl: 8
-    experience_bottle: 3
-    experience_orb: 10
-    eye_of_ender: 8
-    fireball: 8
-    firework_rocket: 8
-    llama_spit: 3
-    potion: 8
-    shulker_bullet: 8
-    small_fireball: 8
-    snowball: 8
-    spectral_arrow: 10
-    trident: 10
-    wither_skull: 4
+    arrow: -1
+    ender_pearl: -1
+    experience_orb: -1
+    fireball: -1
+    small_fireball: -1
+    snowball: -1
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
-  max-auto-save-chunks-per-tick: 8
-  prevent-moving-into-unloaded-chunks: true
+  max-auto-save-chunks-per-tick: 24
+  prevent-moving-into-unloaded-chunks: false
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
-  fix-climbing-bypassing-cramming-rule: true
-  max-entity-collisions: 2
+  fix-climbing-bypassing-cramming-rule: false
+  max-entity-collisions: 8
   only-players-collide: false
 entities:
   armor-stands:
-    do-collision-entity-lookups: false
-    tick: false
+    do-collision-entity-lookups: true
+    tick: true
   behavior:
     allow-spider-world-border-climbing: true
     baby-zombie-movement-modifier: 0.5
@@ -130,7 +120,7 @@ entities:
     player-insomnia-start-ticks: 72000
     should-remove-dragon: false
     spawner-nerfed-mobs-should-jump: false
-    zombie-villager-infection-chance: -1.0
+    zombie-villager-infection-chance: default
     zombies-target-turtle-eggs: true
   entities-target-with-follow-range: false
   markers:
@@ -147,61 +137,36 @@ entities:
   spawning:
     all-chunks-are-slime-chunks: false
     alt-item-despawn-rate:
-      enabled: true
+      enabled: false
       items:
-        acacia_leaves: 300
-        andesite: 300
-        bamboo: 300
-        birch_leaves: 300
-        cactus: 300
         cobblestone: 300
-        dark_oak_leaves: 300
-        diorite: 300
-        dirt: 300
-        granite: 300
-        grass: 300
-        gravel: 300
-        jungle_leaves: 300
-        kelp: 300
-        mangrove_leaves: 300
-        melon_slice: 300
-        netherrack: 300
-        oak_leaves: 300
-        pumpkin: 300
-        red_sand: 300
-        sand: 300
-        scaffolding: 600
-        spruce_leaves: 300
-        sugar_cane: 300
-        twisting_vines: 300
-        weeping_vines: 300
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: '20'
+    creative-arrow-despawn-rate: default
     despawn-ranges:
       ambient:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
       axolotls:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
       creature:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
       misc:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
       monster:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
       underground_water_creature:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
       water_ambient:
-        hard: 56
-        soft: 28
+        hard: 64
+        soft: 32
       water_creature:
-        hard: 56
-        soft: 28
+        hard: 128
+        soft: 32
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -214,8 +179,8 @@ entities:
     - SleepingY
     - SleepingZ
     iron-golems-can-spawn-in-air: false
-    monster-spawn-max-light-level: -1
-    non-player-arrow-despawn-rate: '20'
+    monster-spawn-max-light-level: default
+    non-player-arrow-despawn-rate: default
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
@@ -263,15 +228,15 @@ environment:
     enabled: true
   generate-flat-bedrock: false
   nether-ceiling-void-damage-height: disabled
-  optimize-explosions: true
+  optimize-explosions: false
   portal-create-radius: 16
   portal-search-radius: 128
   portal-search-vanilla-dimension-scaling: true
   treasure-maps:
-    enabled: false
+    enabled: true
     find-already-discovered:
-      loot-tables: 'true'
-      villager-trade: true
+      loot-tables: default
+      villager-trade: false
   water-over-lava-flow-speed: 5
 feature-seeds:
   generate-random-seeds-for-all: false
@@ -281,7 +246,6 @@ fishing-time-range:
 fixes:
   disable-unloaded-chunk-enderpearl-exploit: true
   falling-block-height-nerf: disabled
-  fix-curing-zombie-villager-discount-exploit: true
   fix-items-merging-through-walls: false
   prevent-tnt-from-moving-in-water: false
   split-overstacked-loot: true
@@ -289,7 +253,7 @@ fixes:
 hopper:
   cooldown-when-full: true
   disable-move-event: false
-  ignore-occluding-blocks: true
+  ignore-occluding-blocks: false
 lootables:
   auto-replenish: false
   max-refills: -1
@@ -313,31 +277,28 @@ misc:
   disable-sprint-interruption-on-attack: false
   light-queue-size: 20
   max-leash-distance: 10.0
-  redstone-implementation: ALTERNATE_CURRENT
+  redstone-implementation: VANILLA
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
-  update-pathfinding-on-block-update: false
+  update-pathfinding-on-block-update: true
 scoreboards:
   allow-non-player-entities-on-scoreboards: true
   use-vanilla-world-scoreboard-name-coloring: false
 spawn:
   allow-using-signs-inside-spawn-protection: false
   keep-spawn-loaded: true
-  keep-spawn-loaded-range: 10
+  keep-spawn-loaded-range: 4
 tick-rates:
   behavior:
     villager:
-      acquirepoi: 120
-      validatenearbypoi: 60
+      validatenearbypoi: -1
   container-update: 1
-  grass-spread: 4
-  mob-spawner: 2
+  dry-farmland: 1
+  grass-spread: 1
+  mob-spawner: 1
   sensor:
     villager:
-      nearestbedsensor: 80
-      nearestlivingentitysensor: 40
-      playersensor: 40
-      secondarypoisensor: 80
-      villagerbabiessensor: 40
+      secondarypoisensor: 40
+  wet-farmland: 1
 unsupported-settings:
   fix-invulnerable-end-crystal-exploit: true
