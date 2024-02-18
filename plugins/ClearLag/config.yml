@@ -15,7 +15,7 @@ config-version: 20
 # -- 'use-internal-tps' Should Clearlag use Spigot's /tps? (Updated by minutes, much slower, but more accurate!)
 settings:
   language: English
-  auto-update: false
+  auto-update: true
   enable-api: true
   use-internal-tps: true
 
@@ -355,12 +355,12 @@ item-merger:
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
   enabled: true
-  broadcast-message: '&6[BOT] &aRemoveu +RemoveAmount Entidades!'
+  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
-  autoremoval-interval: 1000
+  autoremoval-interval: 460
   world-filter:
   # - this_world <-This world will be ignored during removal!
-  boat: true
+  boat: false
   falling-block: true
   experience-orb: true
   painting: false
@@ -386,8 +386,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:440 msg:&4[BOT] &cAviso Itens do chão serão removidos em &7+remaining &csegundos!'
-        - 'time:440 msg:&4[BOT] &cAviso Itens do chão serão removidos em &7+remaining &csegundos!'
+        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
 
 #What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:
@@ -418,7 +418,7 @@ command-remove:
 limit:
   enabled: false
   max: 1000
-  check-interval: 200
+  check-interval: 60
   broadcast-message: '&6[ClearLag] &aLimit reached, removed +RemoveAmount Entities!'
   world-filter:
   # - this_world <-This world will be ignored during removal!

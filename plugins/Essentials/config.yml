@@ -5,7 +5,7 @@
 ############################################################
 
 # This is the config file for EssentialsX.
-# This config was generated for version 2.21.0-dev+19-3eceec8.
+# This config was generated for version 2.21.0-dev+42-8a57856.
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
 # If you receive an error when Essentials loads, ensure that:
@@ -24,7 +24,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: 'none'
+ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Users with essentials.nick.hideprefix will not be prefixed with the character(s)
@@ -444,8 +444,22 @@ debug: false
 # If you don't set this, the default locale of the server will be used.
 # For example, to set language to English, set locale to en, to use the file "messages_en.properties".
 # Don't forget to remove the # in front of the line.
-# For more information, visit http://wiki.ess3.net/wiki/Locale
+# For more information, visit https://essentialsx.net/wiki/Locale.html
 #locale: en
+
+# Should EssentialsX use player's language instead of the server's when sending messages?
+# This is useful if you want to use a different language for your server than for your players.
+# For example, if you have your server set to English and a player who speaks French, you can set this to true
+# and EssentialsX will send messages in French to the player and messages in the console as English.
+# If a player's language is not known, the server's language (or one defined above) will be used.
+per-player-locale: false
+
+# Change the default primary and secondary colours used in EssentialsX messages.
+# Some messages may use custom colours, which will need to be edited in the appropriate message files.
+# For more information on customising messages, see https://essentialsx.net/wiki/Locale.html
+message-colors:
+  primary: '#ffaa00'
+  secondary: '#ff5555'
 
 # Turn off god mode when people leave the server.
 remove-god-on-disconnect: false
@@ -907,7 +921,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{DISPLAYNAME}: &f{MESSAGE}'
+  format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 

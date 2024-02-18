@@ -1,52 +1,24 @@
-[23:45:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.0.1/jedis-5.0.1.pom
-[23:45:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
-[23:45:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
-[23:45:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
-[23:45:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.pom
-[23:45:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/52/commons-parent-52.pom
-[23:45:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.0-M1/junit-bom-5.8.0-M1.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20230618/json-20230618.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.10.1/gson-parent-2.10.1.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.pom
-[23:45:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-parent/3.21.9/protobuf-parent-3.21.9.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-bom/3.21.9/protobuf-bom-3.21.9.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.2.0/mariadb-java-client-3.2.0.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/bom/2.18.10/bom-2.18.10.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.18.10/aws-sdk-java-pom-2.18.10.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.pom
-[23:45:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220.pom
-[23:45:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/5.0.1/jedis-5.0.1.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/json/json/20230618/json-20230618.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-4/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/mariadb/jdbc/mariadb-java-client/3.2.0/mariadb-java-client-3.2.0.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.43.0.0/sqlite-jdbc-3.43.0.0.jar
-[23:45:23] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.220/h2-2.2.220.jar
-[23:45:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:45:51] [ServerMain/INFO]: Loaded 1174 recipes
-[23:45:52] [ServerMain/INFO]: Loaded 1271 advancements
-[23:45:53] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[23:45:53] [Server thread/INFO]: Loading properties
-[23:45:53] [Server thread/INFO]: This server is running Paper version git-Paper-331 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: ff26d54)
-[23:45:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:45:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:45:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:39:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:39:18] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[19:39:25] [ServerMain/INFO]: No existing world data, creating new world
+[19:39:37] [ServerMain/INFO]: Loaded 1174 recipes
+[19:39:44] [ServerMain/INFO]: Loaded 1271 advancements
+[19:39:49] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[19:39:49] [Server thread/INFO]: Loading properties
+[19:39:50] [Server thread/INFO]: This server is running Paper version git-Paper-331 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: ff26d54)
+[19:39:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:39:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:39:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:39:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[23:45:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[23:46:01] [Server thread/INFO]: Default game type: SURVIVAL
-[23:46:01] [Server thread/INFO]: Generating keypair
-[23:46:01] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[23:46:01] [Server thread/INFO]: Using default channel type
-[23:46:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[23:46:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[23:46:01] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\PlayTime-3.6.jar' in 'plugins'
+[19:39:56] [Server thread/INFO]: Default game type: SURVIVAL
+[19:39:56] [Server thread/INFO]: Generating keypair
+[19:39:57] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[19:39:57] [Server thread/INFO]: Using default channel type
+[19:39:57] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:39:57] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:39:57] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\PlayTime-3.6.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [PlaceholderAPI]. Please download and install these plugins to run 'PlayTime'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.4.jar:git-Paper-331]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.4.jar:git-Paper-331]
@@ -56,151 +28,297 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1132) ~[paper-1.20.4.jar:git-Paper-331]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321) ~[paper-1.20.4.jar:git-Paper-331]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[23:46:02] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.113
-[23:46:03] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[23:46:03] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.30
-[23:46:03] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[23:46:03] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.5.3-21a9d2d
-[23:46:03] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[23:46:03] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
-[23:46:03] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.1.1
-[23:46:03] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
-[23:46:03] [Server thread/INFO]: [StackMob] Loading server plugin StackMob v5.8.8
-[23:46:03] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
-[23:46:03] [Server thread/INFO]: [HuskHomesGUI] Loading server plugin HuskHomesGUI v2.2
-[23:46:03] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.6.0
-[23:46:04] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[23:46:04] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[23:46:04] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[23:46:04] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer v2023.12
-[23:46:04] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[23:46:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:46:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.113
-[23:46:06] [Server thread/INFO]:         __    
-[23:46:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.113
-[23:46:06] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[23:46:06] [Server thread/INFO]: 
-[23:46:06] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[23:46:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[23:46:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[23:46:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[23:46:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5536ms)
-[23:46:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[23:46:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[23:46:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[23:46:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[23:46:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[23:46:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:46:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:46:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:46:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:46:10] [Server thread/INFO]: Preparing level "world"
-[23:46:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:46:13] [Server thread/INFO]: Time elapsed: 782 ms
-[23:46:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:46:13] [Server thread/INFO]: Time elapsed: 145 ms
-[23:46:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:46:13] [Server thread/INFO]: Time elapsed: 77 ms
-[23:46:13] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.30
-[23:46:13] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
-[23:46:13] [Server thread/INFO]: [voicechat] Compatibility version 17
-[23:46:13] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[23:46:13] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[23:46:13] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[23:46:14] [Server thread/INFO]: [ClearLag] Loading modules...
-[23:46:14] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R3.MinecraftServer)
-[23:46:14] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[23:46:14] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[23:46:14] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[23:46:14] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.5.3-21a9d2d
-[23:46:15] [Server thread/INFO]: [HuskHomes] Initializing plugin config & locale files...
-[23:46:15] [Server thread/INFO]: [HuskHomes] Successfully initialized plugin config & locale files
-[23:46:15] [Server thread/INFO]: [HuskHomes] Initializing SQLite database connection...
-[23:46:16] [Server thread/INFO]: [HuskHomes] Successfully initialized SQLite database connection
-[23:46:16] [Server thread/INFO]: [HuskHomes] Initializing hooks...
-[23:46:16] [Server thread/INFO]: [HuskHomes] Successfully initialized hooks
-[23:46:16] [Server thread/INFO]: [HuskHomes] Initializing events...
-[23:46:16] [Server thread/INFO]: [HuskHomes] Successfully initialized events
-[23:46:16] [Server thread/INFO]: [HuskHomes] Initializing commands...
-[23:46:17] [Server thread/INFO]: [HuskHomes] Successfully initialized commands
-[23:46:17] [Server thread/INFO]: [HuskHomes] Initializing API...
-[23:46:17] [Server thread/INFO]: [HuskHomes] Successfully initialized API
-[23:46:17] [Server thread/INFO]: [HuskHomes] Initializing metrics...
-[23:46:17] [Server thread/INFO]: [HuskHomes] Successfully initialized metrics
-[23:46:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[23:46:17] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[23:46:18] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[23:46:18] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[23:46:20] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[23:46:20] [Server thread/INFO]: [Essentials] Using locale pt_BR
-[23:46:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[23:46:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[23:46:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[23:46:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[23:46:20] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
-[23:46:20] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[23:46:20] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.1.1
-[23:46:20] [Server thread/INFO]: [VeinMiner] Using SQLITE for persistent storage.
-[23:46:20] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[23:46:22] [Server thread/INFO]: [VeinMiner] Unknown or invalid block state string for input: "minecraft:grass". Is it an item?
-[23:46:22] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registering commands
-[23:46:22] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[23:46:22] [Server thread/INFO]: [VeinMiner] Registering events
-[23:46:22] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
-[23:46:22] [Server thread/INFO]: [VeinMiner] Economy found! Hooked successfully.
-[23:46:22] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[23:46:22] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
-[23:46:22] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
-[23:46:23] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
-[23:46:24] [Server thread/INFO]: [TAB] Enabled in 711ms
-[23:46:24] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.8
-[23:46:24] [Server thread/INFO]: [StackMob] StackMob v5.8.8 by antiPerson and contributors.
-[23:46:24] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
-[23:46:24] [Server thread/INFO]: [StackMob] Loading config files...
-[23:46:25] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
-[23:46:25] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
-[23:46:25] [Server thread/INFO]: [StackMob] Detected CraftBukkit NMS version V1_16_R1, native version is V1_20_R2
-[23:46:25] [Server thread/WARN]: [StackMob] You are not running the plugins native version and ProtocolLib could not be found (or has been disabled).
-[23:46:25] [Server thread/WARN]: [StackMob] The display name visibility setting 'NEARBY' will not work unless this is fixed.
-[23:46:25] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
-[23:46:25] [Server thread/INFO]: [KeepDeathDrop] Enabled!
-[23:46:25] [Server thread/INFO]: [HuskHomesGUI] Enabling HuskHomesGUI v2.2
-[23:46:25] [ForkJoinPool.commonPool-worker-1/INFO]: [StackMob] No update is currently available.
-[23:46:26] [Server thread/INFO]: [HuskHomesGUI] Successfully enabled HuskHomes v2.2
-[23:46:26] [Server thread/INFO]: [GSit] Enabling GSit v1.6.0
-[23:46:26] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[23:46:26] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[23:46:26] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
-[23:46:26] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[23:46:26] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
-[23:46:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[23:46:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[23:46:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[23:46:27] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[23:46:27] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer v2023.12
-[23:46:27] [Server thread/INFO]: [ClearLagTimer] 2023.12, a free resource by Norska - Thanks for downloading!
-[23:46:27] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[23:46:28] [Server thread/INFO]: Running delayed init tasks
-[23:46:28] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[23:46:28] [Server thread/INFO]: Done (34.924s)! For help, type "help"
-[23:46:28] [Server thread/INFO]: Timings Reset
-[23:46:28] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Buscando informações da versão...
-[23:46:28] [Server thread/INFO]: [voicechat] Loading plugins
-[23:46:28] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[23:46:28] [Server thread/INFO]: [voicechat] Initializing plugins
-[23:46:28] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
-[23:46:28] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[23:46:28] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
-[23:46:28] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[23:46:28] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[23:46:28] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
-[23:46:28] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
-[23:46:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4712ms or 94 ticks behind
-[23:46:36] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
-[23:46:36] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
+[19:40:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.118
+[19:40:29] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[19:40:29] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.30
+[19:40:29] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[19:40:30] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.4) has not yet been tested! Proceed with caution.
+[19:40:38] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 10000, banned: 1000], type={ type input instanceof interface java.util.Map }}
+  	at ProtocolLib.jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:352)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.createNewRegister(PacketRegistry.java:188)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.initialize(PacketRegistry.java:292)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.PacketRegistry.getClientPacketTypes(PacketRegistry.java:327)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:120)
+  	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:121)
+  	at ProtocolLib.jar//com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:183)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59)
+  	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18)
+  	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39)
+  	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:36)
+  	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.loadPlugins(CraftServer.java:505)
+  	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:273)
+  	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1132)
+  	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+  	at java.base/java.lang.Thread.run(Thread.java:1583)
+  Dump:
+  Parameters: 
+    [NULL]
+  Sender:
+    com.comphenix.protocol.ProtocolLib@c3d76e7[
+      statistics=<null>
+      packetTask=<null>
+      tickCounter=0
+      configExpectedMod=-1
+      updater=com.comphenix.protocol.updater.SpigotUpdater@6ed11956
+      redirectHandler=<null>
+      scheduler=com.comphenix.protocol.scheduler.DefaultScheduler@385e7481
+      commandProtocol=<null>
+      commandPacket=<null>
+      commandFilter=<null>
+      packetLogging=<null>
+      skipDisable=false
+      isEnabled=false
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@5bc05f11
+      server=CraftServer{serverName=Paper,serverVersion=git-Paper-331,minecraftVersion=1.20.4}
+      file=plugins\ProtocolLib.jar
+      description=org.bukkit.plugin.PluginDescriptionFile@22dc31cd
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@22dc31cd
+      dataFolder=plugins\ProtocolLib
+      classLoader=PluginClassLoader{plugin=ProtocolLib v5.1.0, pluginEnabled=false, url=plugins\ProtocolLib.jar}
+      naggable=true
+      newConfig=YamlConfiguration[path='', root='YamlConfiguration']
+      configFile=plugins\ProtocolLib\config.yml
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@3e2db9
+    ]
+  Version:
+    ProtocolLib v5.1.0
+  Java Version:
+    21.0.1
+  Server:
+    git-Paper-331 (MC: 1.20.4)
+
+[19:40:38] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[19:40:38] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+42-8a57856
+[19:40:38] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
+[19:40:38] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.0
+[19:40:38] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[19:40:38] [Server thread/INFO]: [StackMob] Loading server plugin StackMob v5.8.9
+[19:40:38] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
+[19:40:38] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.7.1
+[19:40:39] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[19:40:40] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+42-8a57856
+[19:40:40] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+42-8a57856
+[19:40:40] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer v2023.12
+[19:40:40] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
+[19:40:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.118
+[19:40:45] [Server thread/INFO]:         __    
+[19:40:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.118
+[19:40:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:40:45] [Server thread/INFO]: 
+[19:40:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:40:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:40:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:40:54] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:40:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 15201ms)
+[19:40:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:40:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:40:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:40:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:40:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:40:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[19:40:58] [Server thread/ERROR]: ******************************************************
+[19:40:58] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[19:40:58] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[19:40:58] [Server thread/ERROR]: ******************************************************
+[19:40:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[19:40:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:40:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:40:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:40:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:40:58] [Server thread/INFO]: Preparing level "world"
+[19:40:58] [luckperms-worker-4/WARN]: [LuckPerms] Thread luckperms-worker-4 threw an uncaught exception
+java.lang.RuntimeException: java.lang.BootstrapMethodError: java.lang.IllegalStateException: zip file closed
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.lambda$static$0(GeneratedEventClass.java:69) ~[?:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at me.lucko.luckperms.common.cache.LoadingMap.get(LoadingMap.java:67) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.generate(GeneratedEventClass.java:80) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.preGenerate(GeneratedEventClass.java:88) ~[?:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.BootstrapMethodError: java.lang.IllegalStateException: zip file closed
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.<init>(GeneratedEventClass.java:119) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.lambda$static$0(GeneratedEventClass.java:67) ~[?:?]
+	... 10 more
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
+	at java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:144) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.20.4.jar:git-Paper-331]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.20.4.jar:git-Paper-331]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.20.4.jar:git-Paper-331]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:187) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.<init>(GeneratedEventClass.java:119) ~[?:?]
+	at me.lucko.luckperms.common.event.gen.GeneratedEventClass.lambda$static$0(GeneratedEventClass.java:67) ~[?:?]
+	... 10 more
+[19:41:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:41:57] [Server thread/INFO]: Time elapsed: 246 ms
+[19:41:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:41:57] [Server thread/INFO]: Time elapsed: 78 ms
+[19:41:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:41:57] [Server thread/INFO]: Time elapsed: 86 ms
+[19:41:57] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.30
+[19:41:57] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
+[19:41:57] [Server thread/INFO]: [voicechat] Compatibility version 17
+[19:41:57] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[19:41:57] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[19:41:57] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[19:41:57] [Server thread/INFO]: [ClearLag] Config not found. Generating default config...
+[19:41:58] [Server thread/INFO]: [ClearLag] Loading modules...
+[19:41:58] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R3.MinecraftServer)
+[19:41:58] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[19:41:58] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[19:41:58] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[19:41:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+42-8a57856
+[19:41:58] [Thread-8/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[19:41:59] [Thread-8/INFO]: [ClearLag] No updates found!
+[19:41:59] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[19:42:00] [Server thread/INFO]: [Essentials] Criando configuração baseada no modelo: plugins\Essentials\config.yml
+[19:42:01] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[19:42:01] [Server thread/INFO]: [Essentials] Criando configuração baseada no modelo: plugins\Essentials\kits.yml
+[19:42:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:42:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:42:01] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[19:42:01] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[19:42:01] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[19:42:01] [Server thread/INFO]: [Essentials] Criando configuração baseada no modelo: plugins\Essentials\worth.yml
+[19:42:01] [Server thread/INFO]: [Essentials] Criando configuração baseada no modelo: plugins\Essentials\tpr.yml
+[19:42:02] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[19:42:02] [Server thread/INFO]: [Essentials] Criando configuração baseada no modelo: plugins\Essentials\custom_items.yml
+[19:42:02] [Server thread/INFO]: [Essentials] Using locale pt_BR
+[19:42:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:42:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:42:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:42:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[19:42:04] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
+[19:42:04] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[19:42:04] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.0
+[19:42:04] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[19:42:04] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[19:42:04] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[19:42:05] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[19:42:09] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[19:42:09] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[19:42:09] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[19:42:09] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[19:42:09] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[19:42:09] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[19:42:09] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[19:42:10] [Server thread/INFO]: [VeinMiner] Registering commands
+[19:42:10] [Server thread/INFO]: [VeinMiner] Registering events
+[19:42:10] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[19:42:10] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[19:42:10] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[19:42:10] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[19:42:10] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[19:42:11] [Server thread/INFO]: [TAB] Enabled in 743ms
+[19:42:11] [Server thread/INFO]: [StackMob] Enabling StackMob v5.8.9
+[19:42:12] [Server thread/INFO]: [StackMob] StackMob v5.8.9 by antiPerson and contributors.
+[19:42:12] [Server thread/INFO]: [StackMob] GitHub: https://github.com/Nathat23/StackMob-5 Discord: https://discord.gg/fz9xzuB
+[19:42:12] [Server thread/INFO]: [StackMob] Loading config files...
+[19:42:12] [Server thread/INFO]: [StackMob] Registering hooks and trait checks...
+[19:42:12] [Server thread/INFO]: [StackMob] Registering events, commands and tasks...
+[19:42:13] [Server thread/WARN]: [StackMob] ProtocolLib could not be found (or has been disabled). The display name visibility setting 'NEARBY' will not work unless this is fixed.
+[19:42:13] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
+[19:42:13] [Server thread/INFO]: [KeepDeathDrop] Enabled!
+[19:42:13] [Server thread/INFO]: [GSit] Enabling GSit v1.7.1
+[19:42:13] [ForkJoinPool.commonPool-worker-1/INFO]: [StackMob] A new version is currently available. (5.8.10)
+[19:42:13] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[19:42:13] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[19:42:13] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[19:42:13] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[19:42:13] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[19:42:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+42-8a57856
+[19:42:14] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[19:42:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+42-8a57856
+[19:42:14] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[19:42:14] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer v2023.12
+[19:42:14] [Server thread/INFO]: [ClearLagTimer] 2023.12, a free resource by Norska - Thanks for downloading!
+[19:42:14] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
+[19:42:15] [Server thread/INFO]: Running delayed init tasks
+[19:42:15] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:42:15] [Server thread/INFO]: Done (145.751s)! For help, type "help"
+[19:42:15] [Server thread/INFO]: Timings Reset
+[19:42:15] [Server thread/INFO]: [voicechat] Loading plugins
+[19:42:15] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[19:42:15] [Server thread/INFO]: [voicechat] Initializing plugins
+[19:42:15] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[19:42:15] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[19:42:15] [Server thread/INFO]: [voicechat] Registering events for voicechat_interaction
+[19:42:15] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19:42:15] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Buscando informações da versão...
+[19:42:15] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[19:42:15] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[19:42:15] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
+[19:42:18] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
+[19:42:18] [Server thread/INFO]: [ClearLagTimer] Did not find any plugins to hook into!
+[19:44:38] [Async Chat Thread - #0/INFO]: [Not Secure] [Server] sefsdfasdd
+[19:44:42] [Server thread/INFO]: Stopping the server
+[19:44:42] [Server thread/INFO]: Stopping server
+[19:44:42] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.136
+[19:44:42] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer v2023.12
+[19:44:42] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+42-8a57856
+[19:44:42] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+42-8a57856
+[19:44:42] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[19:44:43] [Server thread/INFO]: [GSit] Disabling GSit v1.7.1
+[19:44:43] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[19:44:43] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
+[19:44:43] [Server thread/INFO]: [KeepDeathDrop] Disabled!
+[19:44:43] [Server thread/INFO]: [StackMob] Disabling StackMob v5.8.9
+[19:44:43] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[19:44:43] [Server thread/INFO]: [TAB] Disabled in 9ms
+[19:44:43] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.0
+[19:44:43] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[19:44:43] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.1+1.20.2
+[19:44:43] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[19:44:43] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+42-8a57856
+[19:44:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[19:44:44] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[19:44:44] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[19:44:45] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.30
+[19:44:45] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[19:44:45] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.118
+[19:44:45] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:44:45] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:44:47] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:44:47] [Server thread/INFO]: Saving players
+[19:44:47] [Server thread/INFO]: Saving worlds
+[19:44:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:44:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:44:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:44:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:44:58] [Server thread/INFO]: [ChunkHolderManager] Saved 735 chunks (68,00%) in world 'world'
+[19:45:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 1 poi chunks in world 'world' in 14,93s
+[19:45:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:45:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:45:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:45:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:45:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world_nether' in 5,20s
+[19:45:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:45:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:45:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:45:20] [Server thread/INFO]: [ChunkHolderManager] Saved 1000 chunks (92,16%) in world 'world_the_end'
+[19:45:20] [Server thread/INFO]: [ChunkHolderManager] Saved 1089 block chunks, 121 entity chunks, 0 poi chunks in world 'world_the_end' in 11,17s
+[19:45:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:45:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:45:20] [Server thread/INFO]: Flushing Chunk IO
+[19:45:20] [Server thread/INFO]: Closing Thread Pool
+[19:45:20] [Server thread/INFO]: Closing Server
