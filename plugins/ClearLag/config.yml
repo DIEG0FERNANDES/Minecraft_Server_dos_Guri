@@ -14,7 +14,7 @@ config-version: 20
 # -- 'language' Clearlag supports multiple languages (https://github.com/bob7l/Clearlag-Languages) translated by the community
 # -- 'use-internal-tps' Should Clearlag use Spigot's /tps? (Updated by minutes, much slower, but more accurate!)
 settings:
-  language: English
+  language: BrazilianPortuguese
   auto-update: true
   enable-api: true
   use-internal-tps: true
@@ -42,7 +42,7 @@ global-broadcasts:
 lag-spike-helper:
   enabled: false
   min-elapsed-time: 500
-  check-interval: 100
+  check-interval: 120
   follow-stack: true
 
 #Limits the amount of item transfers for all the hoppers in a single chunk
@@ -357,7 +357,7 @@ auto-removal:
   enabled: true
   broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
-  autoremoval-interval: 460
+  autoremoval-interval: 600
   world-filter:
   # - this_world <-This world will be ignored during removal!
   boat: false
@@ -386,8 +386,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:500 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:540 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
 
 #What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:
