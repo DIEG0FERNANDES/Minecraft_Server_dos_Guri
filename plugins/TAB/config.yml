@@ -3,8 +3,8 @@ header-footer:
   enabled: true
   header:
   - <#FFFFFF>&m                                                </#FFFF00>
-  - '&3&lServer name'
-  - '&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<'
+  - '&9&lOs Guris'
+  - '&7&l>> %animation:Bem-Vindo%&3 &l%player%&7&l! &7&l<<'
   - '&7Online players: &f%online%'
   - '&6Online staff: &e%staffonline%'
   - ''
@@ -92,7 +92,7 @@ scoreboard:
   respect-other-plugins: true
   scoreboards:
     scoreboard-1.20.3+:
-      title: <#E0B11E>MyServer</#FF0000>
+      title: <#E0B11E>Os Guri</#FF0000>
       display-condition: '%player-version-id%>=765'
       lines:
       - '&7%date%'
@@ -108,7 +108,7 @@ scoreboard:
       - '* &bWorld&7:||%world%'
       - '%animation:MyAnimation1%'
     scoreboard:
-      title: <#E0B11E>MyServer</#FF0000>
+      title: <#E0B11E>Os Guri</#FF0000>
       lines:
       - '&7%date%'
       - '%animation:MyAnimation1%'
