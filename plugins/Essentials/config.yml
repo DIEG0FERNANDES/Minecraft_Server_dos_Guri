@@ -359,22 +359,22 @@ use-nbt-serialization-in-createkit: false
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
-  #- balance
-  #- buy
-  #- sell
-  #- trade
-  #- free
-  #- warp
-  #- kit
+  - color
+  - balance
+  - buy
+  - sell
+  - trade
+  - free
+  - warp
+  - kit
   #- mail
   #- enchant
   #- gamemode
   #- heal
-  #- info
+  - info
   #- spawnmob
   #- repair
-  #- time
+  - time
   #- weather
   #- anvil
   #- cartography
@@ -760,7 +760,7 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
+  default: 4
   vip: 5
   staff: 10
 
@@ -805,11 +805,11 @@ command-costs:
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: 'R$'
 
 # Enable this to make the currency symbol appear at the end of the amount rather than at the start.
 # For example, the euro symbol typically appears after the current amount.
-currency-symbol-suffix: false
+currency-symbol-suffix: true
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
@@ -817,7 +817,7 @@ max-money: 10000000000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.
-min-money: -10000
+min-money: 0
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
 economy-log-enabled: false
