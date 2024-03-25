@@ -1,4 +1,4 @@
-#version: 2.21.0-dev+42-8a57856
+#version: 2.20.1
 # This file is for internal EssentialsX usage.
 # We recommend using custom_items.yml to add custom aliases.
 {
@@ -6172,7 +6172,7 @@
   "begg": "dragon_egg",
   "bossegg": "dragon_egg",
   "degg": "dragon_egg",
-  "dragonegg": "ender_dragon_spawn_egg",
+  "dragonegg": "dragon_egg",
   "endegg": "dragon_egg",
   "enderdragonegg": "dragon_egg",
   "minecraft:dragon_egg": "dragon_egg",
@@ -7808,6 +7808,10 @@
   "wallgr": "granite_wall",
   "wallgranite": "granite_wall",
   "wallgstone": "granite_wall",
+  "grass": {
+    "material": "GRASS"
+  },
+  "minecraft:grass": "grass",
   "grass_block": {
     "material": "GRASS_BLOCK"
   },
@@ -25766,14 +25770,6 @@
   "minecraft:shield": "shield",
   "woodenshield": "shield",
   "woodshield": "shield",
-  "short_grass": {
-    "material": "SHORT_GRASS",
-    "fallbacks": [
-      "GRASS"
-    ]
-  },
-  "minecraft:short_grass": "short_grass",
-  "shortgrass": "short_grass",
   "shroomlight": {
     "material": "SHROOMLIGHT"
   },
@@ -42256,7 +42252,7 @@
   "wither_skeletonsegg": "wither_skeleton_spawn_egg",
   "wither_skeletonspawn": "wither_skeleton_spawn_egg",
   "wither_skeletonspawnegg": "wither_skeleton_spawn_egg",
-  "withersegg": "wither_spawn_egg",
+  "withersegg": "wither_skeleton_spawn_egg",
   "witherskegg": "wither_skeleton_spawn_egg",
   "witherskeletonspawnegg": "wither_skeleton_spawn_egg",
   "withersksegg": "wither_skeleton_spawn_egg",
@@ -43101,4 +43097,4 @@
   "zpmanmspawner": "zombified_piglin_spawner",
   "zpmanspawner": "zombified_piglin_spawner"
 }
-#28b56855b56baea78faae9e104a98284
+#53a4f9a7a746cbd6ceab6815b3b04365
