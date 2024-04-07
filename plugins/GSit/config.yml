@@ -58,8 +58,6 @@ Options:
     
     # Defines the maximum range in which a player can sit down by clicking (0 means unlimited)
     max-distance: 0.0
-    
-    # Defines whether a player should receive a custom message when sitting
     sit-message: true
     
     # Defines whether a player can sit by default without using the sit toggle command
@@ -89,8 +87,6 @@ Options:
     
     # Defines the maximum range in which a player can sit on another player (0 means unlimited)
     max-distance: 0.0
-    
-    # Defines whether a player should receive a custom message when sitting on top of another player
     sit-message: true
     
     # Defines whether a player can sit on another player by default without using the sit playertoggle command
@@ -121,6 +117,9 @@ Options:
   
   
   Crawl:
+    
+    # Defines whether a player can crawl by default by using the double-sneak feature
+    default-crawl-mode: true
     
     # Defines whether a player can get up from crawling by sneaking
     get-up-sneak: true

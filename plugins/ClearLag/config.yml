@@ -42,7 +42,7 @@ global-broadcasts:
 lag-spike-helper:
   enabled: false
   min-elapsed-time: 500
-  check-interval: 120
+  check-interval: 100
   follow-stack: true
 
 #Limits the amount of item transfers for all the hoppers in a single chunk
@@ -355,9 +355,9 @@ item-merger:
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
   enabled: true
-  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
+  broadcast-message: '&6[ClearLag] &aRemovido +RemoveAmount Entidades!'
   broadcast-removal: true
-  autoremoval-interval: 600
+  autoremoval-interval: 620
   world-filter:
   # - this_world <-This world will be ignored during removal!
   boat: false
@@ -386,8 +386,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:500 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:540 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
 
 #What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:
@@ -419,7 +419,7 @@ limit:
   enabled: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[ClearLag] &aLimit reached, removed +RemoveAmount Entities!'
+  broadcast-message: '&6[ClearLag] &aLimite realisado, removido +RemoveAmount Entidades!'
   world-filter:
   # - this_world <-This world will be ignored during removal!
   broadcast-removal: true

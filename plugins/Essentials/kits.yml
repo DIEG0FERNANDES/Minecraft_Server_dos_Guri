@@ -18,10 +18,11 @@ kits:
   tools:
     delay: 10
     items:
-      - stonesword 1
-      - stoneshovel 1
-      - stonepickaxe 1
-      - stoneaxe 1
+      - woodensword 1
+      - woodenshovel 1
+      - woodenpickaxe 1
+      - woodenaxe 1
+      - /broadcast {USERNAME} este newbie pegou ferramentas iniciais!
   dtools:
     delay: 600
     items:

@@ -24,7 +24,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Users with essentials.nick.hideprefix will not be prefixed with the character(s)
@@ -147,7 +147,7 @@ drop-items-if-full: false
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the duration (in seconds) between each time a player is notified of mail they have.
 # Useful for servers with a lot of mail traffic.
@@ -374,8 +374,8 @@ enabledSigns:
   - info
   #- spawnmob
   #- repair
-  - time
-  #- weather
+  #- time
+  - weather
   #- anvil
   #- cartography
   #- disposal
@@ -409,7 +409,7 @@ unprotected-sign-names:
 # Backups can also be triggered manually with /backup.
 backup:
   # Interval in minutes.
-  interval: 30
+  interval: 20
   # If true, the backup task will run even if there are no players online.
   always-run: false
   # Unless you add a valid backup command or script here, this feature will be useless.
@@ -426,7 +426,7 @@ per-warp-permission: false
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Admins: owner admin
+    Admins: owner admin hoster
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -454,7 +454,7 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 300
+auto-afk: 100
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
@@ -466,7 +466,7 @@ auto-afk-kick: -1
 # Other players or monsters can't push the player out of AFK mode then.
 # This will also enable temporary god mode for the AFK player.
 # The player has to use the command /afk to leave the AFK mode.
-freeze-afk-players: false
+freeze-afk-players: true
 
 # When the player is AFK, should he be able to pickup items?
 # Enable this, when you don't want people idling in mob traps.
@@ -497,7 +497,7 @@ sleep-ignores-vanished-player: true
 # Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-afk-list-name: "none"
+afk-list-name: '4'
 
 # When a player enters or exits AFK mode, should the AFK notification be broadcast
 # to the entire server, or just to the player?
@@ -505,7 +505,7 @@ afk-list-name: "none"
 broadcast-afk-message: true
 
 # You can disable the death messages of Minecraft here.
-death-messages: true
+death-messages: false
 
 # How should essentials handle players with the essentials.keepinv permission who have items with
 # curse of vanishing when they die?
@@ -760,7 +760,7 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 4
+  default: 3
   vip: 5
   staff: 10
 
@@ -779,7 +779,7 @@ compass-towards-home-perm: false
 spawn-if-no-home: true
 
 # Should players be asked to provide confirmation for homes which they attempt to overwrite?
-confirm-home-overwrite: false
+confirm-home-overwrite: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -792,7 +792,7 @@ confirm-home-overwrite: false
 # You can control the values of items that are sold to the server by using the /setworth command.
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 0
+starting-balance: 0.10
 
 # Defines the cost to use the given commands PER USE.
 # Some commands like /repair have sub-costs, check the wiki for more information.
@@ -827,7 +827,7 @@ economy-log-enabled: false
 economy-log-update-enabled: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.001
+minimum-pay-amount: 0.05
 
 # Enable this to block users who try to /pay another user which ignore them.
 pay-excludes-ignore-list: false
@@ -903,7 +903,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '{DISPLAYNAME}: {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -1140,7 +1140,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&dBem-vindo {DISPLAYNAME}&d ao server dos guri!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
