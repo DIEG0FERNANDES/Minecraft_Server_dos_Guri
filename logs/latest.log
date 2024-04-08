@@ -1,35 +1,35 @@
-[18:25:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:25:57] [ServerMain/INFO]: Loaded 1174 recipes
-[18:25:58] [ServerMain/INFO]: Loaded 1271 advancements
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: java.lang.NullPointerException: Cannot invoke "org.bukkit.Server.getTPS()" because "org.bukkit.Bukkit.server" is null
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at org.bukkit.Bukkit.getTPS(Bukkit.java:2357)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at com.destroystokyo.paper.gui.RAMDetails.update(RAMDetails.java:62)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at com.destroystokyo.paper.gui.GuiStatsComponent.lambda$new$0(GuiStatsComponent.java:27)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-[18:26:04] [AWT-EventQueue-0/INFO]: [STDERR]: 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-[18:26:05] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[18:26:05] [Server thread/INFO]: Loading properties
-[18:26:05] [Server thread/INFO]: This server is running Paper version git-Paper-477 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 1207162)
-[18:26:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:26:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:26:09] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:15:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:16:03] [ServerMain/INFO]: Loaded 1174 recipes
+[20:16:04] [ServerMain/INFO]: Loaded 1271 advancements
+[20:16:06] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:16:06] [Server thread/INFO]: Loading properties
+[20:16:06] [AWT-EventQueue-0/WARN]: Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException: Cannot invoke "org.bukkit.Server.getTPS()" because "org.bukkit.Bukkit.server" is null
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at org.bukkit.Bukkit.getTPS(Bukkit.java:2357)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at com.destroystokyo.paper.gui.RAMDetails.update(RAMDetails.java:62)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at com.destroystokyo.paper.gui.GuiStatsComponent.lambda$new$0(GuiStatsComponent.java:27)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+[20:16:06] [AWT-EventQueue-0/WARN]: 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[20:16:06] [Server thread/INFO]: This server is running Paper version git-Paper-477 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 1207162)
+[20:16:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:16:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:16:10] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:26:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:26:10] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+[20:16:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:16:12] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -64,33 +64,33 @@ java.io.IOException: Identificador inválido
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-477]
-[18:26:10] [Server thread/INFO]: Default game type: SURVIVAL
-[18:26:10] [Server thread/INFO]: Generating keypair
-[18:26:11] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
-[18:26:11] [Server thread/INFO]: Using default channel type
-[18:26:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:26:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:26:13] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[18:26:13] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[18:26:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:26:15] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[18:26:15] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[18:26:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:26:17] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.118
-[18:26:18] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[18:26:18] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
-[18:26:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1021780]
-[18:26:22] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[18:26:22] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v4.5.1
-[18:26:22] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.4) has not yet been tested! Proceed with caution.
-[18:26:22] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot find listener thread in MinecraftServer.
+[20:16:12] [Server thread/INFO]: Default game type: SURVIVAL
+[20:16:12] [Server thread/INFO]: Generating keypair
+[20:16:13] [Server thread/INFO]: Starting Minecraft server on 26.210.198.12:25565
+[20:16:13] [Server thread/INFO]: Using default channel type
+[20:16:13] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:16:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:16:16] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:16:16] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:16:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:16:20] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:16:22] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.118
+[20:16:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:16:23] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:16:23] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:16:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@56826afc]
+[20:16:27] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:16:27] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v4.5.1
+[20:16:27] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.4) has not yet been tested! Proceed with caution.
+[20:16:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:16:28] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot find listener thread in MinecraftServer.
   If this problem hasn't already been reported, please open a ticket
   at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
   Stack Trace:
   java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 0, banned: 0], type={
-    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.Entity}], 
+    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.EntityLiving}], 
     methods=[{modifiers=[required: 0, banned: 0], params=[{Type: Exact class java.lang.String, Index: null}], paramCount=1}], 
-    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.Entity instanceof input, Index: 2}], paramCount=3}]
+    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.EntityLiving instanceof input, Index: 2}], paramCount=3}]
   }}
   	at ProtocolLib.jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:460)
   	at ProtocolLib.jar//com.comphenix.protocol.utility.MinecraftReflection.getPlayerConnectionClass(MinecraftReflection.java:1065)
@@ -115,34 +115,34 @@ java.io.IOException: Identificador inválido
   	at java.base/java.lang.Thread.run(Thread.java:1583)
   Dump:
   Parameters: 
-    net.minecraft.server.dedicated.DedicatedServer@4ebb591d[
+    net.minecraft.server.dedicated.DedicatedServer@3c3d128b[
       serverCommandQueue=[]
       p=<null>
       r=<null>
-      s=net.minecraft.server.dedicated.DedicatedServerSettings@7f2b2307
+      s=net.minecraft.server.dedicated.DedicatedServerSettings@5bf73e64
       t=net.minecraft.server.gui.ServerGUI[,0,0,854x480,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=854,height=480]]
       u=<null>
-      g=net.minecraft.world.level.storage.Convertable$ConversionSession@4519830
-      h=net.minecraft.world.level.storage.WorldNBTStorage@4899fb8d
-      z=[net.minecraft.server.gui.PlayerListBox$$Lambda/0x0000021a01c05cd8@4deb661b]
-      A=net.minecraft.util.profiling.metrics.profiling.InactiveMetricsRecorder@22d60531
-      B=net.minecraft.util.profiling.GameProfilerDisabled@2a4e8943
-      C=net.minecraft.server.MinecraftServer$$Lambda/0x0000021a01bb6520@2d0c5a14
-      D=net.minecraft.server.MinecraftServer$$Lambda/0x0000021a01bb6750@3bc13a10
+      g=net.minecraft.world.level.storage.Convertable$ConversionSession@54c0fd1c
+      h=net.minecraft.world.level.storage.WorldNBTStorage@38461dae
+      z=[net.minecraft.server.gui.PlayerListBox$$Lambda/0x0000021a90c837d8@35e7dfe5]
+      A=net.minecraft.util.profiling.metrics.profiling.InactiveMetricsRecorder@aa11cdc
+      B=net.minecraft.util.profiling.GameProfilerDisabled@59da3889
+      C=net.minecraft.server.MinecraftServer$$Lambda/0x0000021a90bb3340@51f9e571
+      D=net.minecraft.server.MinecraftServer$$Lambda/0x0000021a90bb3570@5a6a005c
       E=false
       F=<null>
       G=false
-      H=net.minecraft.server.network.ServerConnection@77f6cf33
-      I=net.minecraft.server.Main$$Lambda/0x0000021a01bb53b8@3865f723
+      H=net.minecraft.server.network.ServerConnection@50b9c5dd
+      I=net.minecraft.server.Main$$Lambda/0x0000021a90bb21d8@4ef570d6
       J=<null>
       K=<null>
-      L=net.minecraft.world.level.levelgen.LegacyRandomSource@91b7b9
-      M=com.mojang.datafixers.DataFixerUpper@17da8467
+      L=net.minecraft.world.level.levelgen.LegacyRandomSource@7f95d9ec
+      M=com.mojang.datafixers.DataFixerUpper@1a837508
       N=26.210.198.12
       O=25565
-      P=net.minecraft.core.LayeredRegistryAccess@2f78ef7a
+      P=net.minecraft.core.LayeredRegistryAccess@61623dad
       Q={}
-      R=net.minecraft.server.dedicated.DedicatedPlayerList@15a25db4
+      R=net.minecraft.server.dedicated.DedicatedPlayerList@6305c3b9
       S=true
       isRestarting=false
       T=false
@@ -157,75 +157,75 @@ java.io.IOException: Identificador inválido
       ab=0
       ac={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
       ad=0
-      tickTimes5s=net.minecraft.server.MinecraftServer$TickTimes@51820f0f
-      tickTimes10s=net.minecraft.server.MinecraftServer$TickTimes@3f5f6b8b
-      tickTimes60s=net.minecraft.server.MinecraftServer$TickTimes@245ea00f
-      ae=java.security.KeyPair@384e3db7
+      tickTimes5s=net.minecraft.server.MinecraftServer$TickTimes@64677b9f
+      tickTimes10s=net.minecraft.server.MinecraftServer$TickTimes@5acd313d
+      tickTimes60s=net.minecraft.server.MinecraftServer$TickTimes@3de8f51f
+      ae=java.security.KeyPair@9b239d4
       af=<null>
       ag=false
       ah=false
       ai=0
-      j=Services[sessionService=com.destroystokyo.paper.profile.PaperMinecraftSessionService@26b6aeec, servicesKeySet=com.mojang.authlib.yggdrasil.ServicesKeySet$$Lambda/0x0000021a01942000@75954814, profileRepository=com.destroystokyo.paper.profile.PaperGameProfileRepository@445fa598, profileCache=net.minecraft.server.players.UserCache@bcd2986, paperConfigurations=io.papermc.paper.configuration.PaperConfigurations@189f37dd]
+      j=Services[sessionService=com.destroystokyo.paper.profile.PaperMinecraftSessionService@6a5c6b74, servicesKeySet=com.mojang.authlib.yggdrasil.ServicesKeySet$$Lambda/0x0000021a909470d0@1d2e29a5, profileRepository=com.destroystokyo.paper.profile.PaperGameProfileRepository@2c1d7208, profileCache=net.minecraft.server.players.UserCache@3c9fe1d7, paperConfigurations=io.papermc.paper.configuration.PaperConfigurations@35912afb]
       aj=0
       ak=Thread[#35,Server thread,7,main]
-      al=16264943998800
+      al=22869961708100
       am=0
       an=false
-      ao=net.minecraft.server.packs.repository.ResourcePackRepository@74db3c80
-      ap=net.minecraft.server.ScoreboardServer@5a53f53d
+      ao=net.minecraft.server.packs.repository.ResourcePackRepository@7138563a
+      ap=net.minecraft.server.ScoreboardServer@77927579
       aq=<null>
-      ar=net.minecraft.server.bossevents.BossBattleCustomData@4d153e62
-      as=net.minecraft.server.CustomFunctionData@6007247c
+      ar=net.minecraft.server.bossevents.BossBattleCustomData@2494f293
+      as=net.minecraft.server.CustomFunctionData@172ef9bd
       at=false
       au=0.0
-      av=java.util.concurrent.ThreadPoolExecutor@4dc4be0e[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 97]
+      av=java.util.concurrent.ThreadPoolExecutor@1d5da10e[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 97]
       aw=<null>
-      ax=ReloadableResources[resourceManager=net.minecraft.server.packs.resources.ResourceManager@2538df5c, managers=net.minecraft.server.DataPackResources@79198e1d]
-      ay=net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager@129b4405
-      az=net.minecraft.server.ServerTickRateManager@558c5ffd
-      k=net.minecraft.world.level.storage.WorldDataServer@24480257
+      ax=ReloadableResources[resourceManager=net.minecraft.server.packs.resources.ResourceManager@73737f9c, managers=net.minecraft.server.DataPackResources@735ce1d0]
+      ay=net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager@6cfd574b
+      az=net.minecraft.server.ServerTickRateManager@60042a03
+      k=net.minecraft.world.level.storage.WorldDataServer@1364e437
       aA=false
-      worldLoader=a[resources=net.minecraft.server.packs.resources.ResourceManager@2538df5c, dataConfiguration=WorldDataConfiguration[dataPacks=net.minecraft.world.level.DataPackConfiguration@7cd52364, enabledFeatures=net.minecraft.world.flag.FeatureFlagSet@98c4e4d1], datapackWorldgen=net.minecraft.core.IRegistryCustom$a@672c0e92, datapackDimensions=net.minecraft.core.IRegistryCustom$a@1726a597]
+      worldLoader=a[resources=net.minecraft.server.packs.resources.ResourceManager@73737f9c, dataConfiguration=WorldDataConfiguration[dataPacks=net.minecraft.world.level.DataPackConfiguration@17cbd13, enabledFeatures=net.minecraft.world.flag.FeatureFlagSet@98c4e4d1], datapackWorldgen=net.minecraft.core.IRegistryCustom$a@73482bf1, datapackDimensions=net.minecraft.core.IRegistryCustom$a@399d1142]
       server=CraftServer{serverName=Paper,serverVersion=git-Paper-477,minecraftVersion=1.20.4}
       options=joptsimple.OptionSet@3c2e3c63
-      console=com.destroystokyo.paper.console.TerminalConsoleCommandSender@3a25a676
+      console=com.destroystokyo.paper.console.TerminalConsoleCommandSender@53f77ec
       processQueue=[]
       autosavePeriod=6000
-      vanillaCommandDispatcher=net.minecraft.commands.CommandDispatcher@7be7380f
+      vanillaCommandDispatcher=net.minecraft.commands.CommandDispatcher@3fe9607b
       forceTicks=false
       recentTps={0.0,0.0,0.0}
-      paperConfigurations=io.papermc.paper.configuration.PaperConfigurations@189f37dd
+      paperConfigurations=io.papermc.paper.configuration.PaperConfigurations@35912afb
       isIteratingOverLevels=false
       shutdownThread=<null>
       abnormalExit=false
       hasStopped=false
       hasLoggedStop=false
       hasFullyShutdown=false
-      stopLock=java.lang.Object@5a7258b6
+      stopLock=java.lang.Object@3fa3ebdd
       lastTick=0
       catchupTime=0
-      tps1=net.minecraft.server.MinecraftServer$RollingAverage@2a17e866
-      tps5=net.minecraft.server.MinecraftServer$RollingAverage@3659446b
-      tps15=net.minecraft.server.MinecraftServer$RollingAverage@1708c6af
+      tps1=net.minecraft.server.MinecraftServer$RollingAverage@110176e6
+      tps5=net.minecraft.server.MinecraftServer$RollingAverage@1b1d140e
+      tps15=net.minecraft.server.MinecraftServer$RollingAverage@3d05c16c
       isOversleep=false
-      chatExecutor=java.util.concurrent.ThreadPoolExecutor@1546b315[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+      chatExecutor=java.util.concurrent.ThreadPoolExecutor@5135ba74[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
       b=0
       b=Server
       d=[]
       e=0
     ]
   Sender:
-    com.comphenix.protocol.injector.player.InjectedServerConnection@36b06361[
+    com.comphenix.protocol.injector.player.InjectedServerConnection@74ba128d[
       listFields=[]
       replacedLists=[]
-      netLoginInjector=com.comphenix.protocol.injector.player.NetLoginInjector@67dce6a6
-      socketInjector=com.comphenix.protocol.injector.server.InputStreamReflectLookup@410de56
+      netLoginInjector=com.comphenix.protocol.injector.player.NetLoginInjector@67a7b3d7
+      socketInjector=com.comphenix.protocol.injector.server.InputStreamReflectLookup@3b630f99
       socketType=LISTENER_THREAD
       server=CraftServer{serverName=Paper,serverVersion=git-Paper-477,minecraftVersion=1.20.4}
-      reporter=com.comphenix.protocol.ProtocolLib$1@4ba059c5
+      reporter=com.comphenix.protocol.ProtocolLib$1@3e64e0d5
       hasAttempted=true
       hasSuccess=false
-      minecraftServer=net.minecraft.server.dedicated.DedicatedServer@4ebb591d
+      minecraftServer=net.minecraft.server.dedicated.DedicatedServer@3c3d128b
     ]
   Version:
     ProtocolLib v4.5.1
@@ -234,14 +234,14 @@ java.io.IOException: Identificador inválido
   Server:
     git-Paper-477 (MC: 1.20.4)
 
-[18:26:22] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
+[20:16:28] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot load ProtocolLib.
   If this problem hasn't already been reported, please open a ticket
   at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
   Stack Trace:
   FieldAccessException: Unable to find a field that matches {modifiers=[required: 0, banned: 0], type={
-    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.Entity}], 
+    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.EntityLiving}], 
     methods=[{modifiers=[required: 0, banned: 0], params=[{Type: Exact class java.lang.String, Index: null}], paramCount=1}], 
-    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.Entity instanceof input, Index: 2}], paramCount=3}]
+    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.EntityLiving instanceof input, Index: 2}], paramCount=3}]
   }}. Workaround failed too.
   	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.ProxyPacketInjector.initialize(ProxyPacketInjector.java:191)
   	at ProtocolLib.jar//com.comphenix.protocol.injector.packet.ProxyPacketInjector.<init>(ProxyPacketInjector.java:164)
@@ -260,9 +260,9 @@ java.io.IOException: Identificador inválido
   	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
   	at java.base/java.lang.Thread.run(Thread.java:1583)
   Caused by: java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 0, banned: 0], type={
-    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.Entity}], 
+    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.EntityLiving}], 
     methods=[{modifiers=[required: 0, banned: 0], params=[{Type: Exact class java.lang.String, Index: null}], paramCount=1}], 
-    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.Entity instanceof input, Index: 2}], paramCount=3}]
+    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.EntityLiving instanceof input, Index: 2}], paramCount=3}]
   }}
   	at ProtocolLib.jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:460)
   	at ProtocolLib.jar//com.comphenix.protocol.utility.MinecraftReflection.getPlayerConnectionClass(MinecraftReflection.java:1065)
@@ -275,14 +275,14 @@ java.io.IOException: Identificador inválido
   Parameters: 
     [NULL]
   Sender:
-    com.comphenix.protocol.ProtocolLib@566c9db8[
+    com.comphenix.protocol.ProtocolLib@355703ca[
       statistics=<null>
       backgroundCompiler=<null>
       packetTask=-1
       tickCounter=0
-      unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@1a0c28cd
+      unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@33d8fe5d
       configExpectedMod=-1
-      updater=com.comphenix.protocol.updater.SpigotUpdater@302da405
+      updater=com.comphenix.protocol.updater.SpigotUpdater@1c0bf017
       redirectHandler=<null>
       commandProtocol=<null>
       commandPacket=<null>
@@ -290,18 +290,18 @@ java.io.IOException: Identificador inválido
       packetLogging=<null>
       skipDisable=false
       isEnabled=false
-      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@28f03e51
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@366452f9
       server=CraftServer{serverName=Paper,serverVersion=git-Paper-477,minecraftVersion=1.20.4}
       file=plugins\ProtocolLib.jar
-      description=org.bukkit.plugin.PluginDescriptionFile@45dbaacf
-      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@45dbaacf
+      description=org.bukkit.plugin.PluginDescriptionFile@2209dbe4
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@2209dbe4
       dataFolder=plugins\ProtocolLib
       classLoader=PluginClassLoader{plugin=ProtocolLib v4.5.1, pluginEnabled=false, url=plugins\ProtocolLib.jar}
       naggable=true
       newConfig=YamlConfiguration[path='', root='YamlConfiguration']
       configFile=plugins\ProtocolLib\config.yml
-      logger=com.destroystokyo.paper.utils.PaperPluginLogger@9d7e04e
-      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@1142be69
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@331f3473
+      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@5fa51f0f
       allowsLifecycleRegistration=true
     ]
   Version:
@@ -311,26 +311,26 @@ java.io.IOException: Identificador inválido
   Server:
     git-Paper-477 (MC: 1.20.4)
 
-[18:26:22] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[18:26:22] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[18:26:23] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
-[18:26:23] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.10
-[18:26:23] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[18:26:23] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[18:26:23] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.2
-[18:26:23] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[18:26:23] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.33-SNAPSHOT (build 3367)
-[18:26:23] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
-[18:26:23] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.0
-[18:26:23] [Server thread/INFO]: [VeinMiner] Found WorldGuard. Registering custom region flag.
-[18:26:23] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
-[18:26:23] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v3.12.5
-[18:26:23] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
-[18:26:23] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.8.0
-[18:26:24] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[18:26:24] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[18:26:24] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
-[18:26:24] [Server thread/ERROR]: [emotecraft] Error initializing plugin 'emotecraft-2.2.5-bukkit.jar' in folder 'plugins' (Is it up to date?)
+[20:16:28] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[20:16:28] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[20:16:28] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[20:16:28] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.10
+[20:16:28] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:16:28] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[20:16:28] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.2
+[20:16:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[20:16:28] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.33-SNAPSHOT (build 3367)
+[20:16:28] [Server thread/INFO]: [voicechat_interaction] Loading server plugin voicechat_interaction vv1.3.1+1.20.2
+[20:16:28] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.0
+[20:16:28] [Server thread/INFO]: [VeinMiner] Found WorldGuard. Registering custom region flag.
+[20:16:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[20:16:28] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v3.12.5
+[20:16:29] [Server thread/INFO]: [KeepDeathDrop] Loading server plugin KeepDeathDrop v1.0.7
+[20:16:29] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.8.0
+[20:16:29] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[20:16:29] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[20:16:29] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.5
+[20:16:29] [Server thread/ERROR]: [emotecraft] Error initializing plugin 'emotecraft-2.2.5-bukkit.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "com.comphenix.protocol.ProtocolManager.addPacketListener(com.comphenix.protocol.events.PacketListener)" because "this.protocolManager" is null
 	at io.github.kosmx.emotes.bukkit.BukkitWrapper.registerProtocolListener(BukkitWrapper.java:62) ~[emotecraft-2.2.5-bukkit.jar:?]
 	at io.github.kosmx.emotes.bukkit.BukkitWrapper.onLoad(BukkitWrapper.java:44) ~[emotecraft-2.2.5-bukkit.jar:?]
@@ -343,36 +343,36 @@ java.lang.NullPointerException: Cannot invoke "com.comphenix.protocol.ProtocolMa
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-477]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-477]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:26:24] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer v2023.12
-[18:26:24] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
-[18:26:24] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
-[18:26:24] [Server thread/INFO]: [ChestShop] WorldGuard version 7.0.9+5934e49 loaded.
-[18:26:24] [Server thread/INFO]: [ChestShop] GriefPrevention version 16.18.2 loaded.
-[18:26:24] [Server thread/INFO]: [BetterPrefix] Loading server plugin BetterPrefix v5.4
-[18:26:24] [Server thread/INFO]: [BeautyQuests] Loading server plugin BeautyQuests v1.0.2
-[18:26:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:26:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.118
-[18:26:27] [Server thread/INFO]:         __    
-[18:26:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.118
-[18:26:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:26:27] [Server thread/INFO]: 
-[18:26:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:26:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:26:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:26:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:26:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 8087ms)
-[18:26:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[18:26:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:26:33] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:26:33] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[18:26:33] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[18:26:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
-[18:26:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:26:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[18:26:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
-[18:26:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
-[18:26:42] [Server thread/INFO]: Error Cannot enable ProtocolLib. (java.lang.ExceptionInInitializerError) occured in ProtocolLib v4.5.1.
-[18:26:42] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot enable ProtocolLib.
+[20:16:29] [Server thread/INFO]: [ClearLagTimer] Loading server plugin ClearLagTimer v2023.12
+[20:16:29] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
+[20:16:29] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
+[20:16:29] [Server thread/INFO]: [ChestShop] WorldGuard version 7.0.9+5934e49 loaded.
+[20:16:29] [Server thread/INFO]: [ChestShop] GriefPrevention version 16.18.2 loaded.
+[20:16:29] [Server thread/INFO]: [BetterPrefix] Loading server plugin BetterPrefix v5.4
+[20:16:29] [Server thread/INFO]: [BeautyQuests] Loading server plugin BeautyQuests v1.0.2
+[20:16:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:16:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.118
+[20:16:32] [Server thread/INFO]:         __    
+[20:16:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.118
+[20:16:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:16:32] [Server thread/INFO]: 
+[20:16:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:16:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:16:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:16:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:16:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 7072ms)
+[20:16:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:16:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:16:37] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:16:37] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:16:37] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:16:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:16:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:16:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:16:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:16:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[20:16:44] [Server thread/INFO]: Error Cannot enable ProtocolLib. (java.lang.ExceptionInInitializerError) occured in ProtocolLib v4.5.1.
+[20:16:44] [Server thread/ERROR]:   [ProtocolLib] INTERNAL ERROR: Cannot enable ProtocolLib.
   If this problem hasn't already been reported, please open a ticket
   at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
   Stack Trace:
@@ -389,9 +389,9 @@ java.lang.NullPointerException: Cannot invoke "com.comphenix.protocol.ProtocolMa
   	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
   	at java.base/java.lang.Thread.run(Thread.java:1583)
   Caused by: java.lang.IllegalArgumentException: Unable to find a field that matches {modifiers=[required: 0, banned: 0], type={
-    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.Entity}], 
+    fields=[{modifiers=[required: 0, banned: 0], type=Exact class net.minecraft.world.entity.EntityLiving}], 
     methods=[{modifiers=[required: 0, banned: 0], params=[{Type: Exact class java.lang.String, Index: null}], paramCount=1}], 
-    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.Entity instanceof input, Index: 2}], paramCount=3}]
+    constructors=[{modifiers=[required: 0, banned: 0], params=[{Type: class net.minecraft.server.dedicated.DedicatedServer instanceof input, Index: 0}, {Type: class net.minecraft.world.entity.EntityLiving instanceof input, Index: 2}], paramCount=3}]
   }}
   	at ProtocolLib.jar//com.comphenix.protocol.reflect.FuzzyReflection.getField(FuzzyReflection.java:460)
   	at ProtocolLib.jar//com.comphenix.protocol.utility.MinecraftReflection.getPlayerConnectionClass(MinecraftReflection.java:1065)
@@ -406,14 +406,14 @@ java.lang.NullPointerException: Cannot invoke "com.comphenix.protocol.ProtocolMa
   	... 11 more
   Dump:
   Sender:
-    com.comphenix.protocol.ProtocolLib@566c9db8[
+    com.comphenix.protocol.ProtocolLib@355703ca[
       statistics=<null>
       backgroundCompiler=<null>
       packetTask=-1
       tickCounter=0
-      unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@1a0c28cd
+      unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@33d8fe5d
       configExpectedMod=-1
-      updater=com.comphenix.protocol.updater.SpigotUpdater@302da405
+      updater=com.comphenix.protocol.updater.SpigotUpdater@1c0bf017
       redirectHandler=<null>
       commandProtocol=<null>
       commandPacket=<null>
@@ -421,18 +421,18 @@ java.lang.NullPointerException: Cannot invoke "com.comphenix.protocol.ProtocolMa
       packetLogging=<null>
       skipDisable=false
       isEnabled=true
-      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@28f03e51
+      loader=io.papermc.paper.plugin.manager.DummyBukkitPluginLoader@366452f9
       server=CraftServer{serverName=Paper,serverVersion=git-Paper-477,minecraftVersion=1.20.4}
       file=plugins\ProtocolLib.jar
-      description=org.bukkit.plugin.PluginDescriptionFile@45dbaacf
-      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@45dbaacf
+      description=org.bukkit.plugin.PluginDescriptionFile@2209dbe4
+      pluginMeta=org.bukkit.plugin.PluginDescriptionFile@2209dbe4
       dataFolder=plugins\ProtocolLib
       classLoader=PluginClassLoader{plugin=ProtocolLib v4.5.1, pluginEnabled=true, url=plugins\ProtocolLib.jar}
       naggable=true
       newConfig=YamlConfiguration[path='', root='YamlConfiguration']
       configFile=plugins\ProtocolLib\config.yml
-      logger=com.destroystokyo.paper.utils.PaperPluginLogger@9d7e04e
-      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@1142be69
+      logger=com.destroystokyo.paper.utils.PaperPluginLogger@331f3473
+      lifecycleEventManager=io.papermc.paper.plugin.lifecycle.event.PaperLifecycleEventManager@5fa51f0f
       allowsLifecycleRegistration=true
     ]
   Version:
@@ -442,288 +442,434 @@ java.lang.NullPointerException: Cannot invoke "com.comphenix.protocol.ProtocolMa
   Server:
     git-Paper-477 (MC: 1.20.4)
 
-[18:26:42] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1
-[18:26:42] [Server thread/INFO]: Preparing level "world"
-[18:26:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:26:45] [Server thread/INFO]: Time elapsed: 529 ms
-[18:26:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:26:46] [Server thread/INFO]: Time elapsed: 174 ms
-[18:26:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:26:46] [Server thread/INFO]: Time elapsed: 194 ms
-[18:26:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[18:26:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
-[18:26:46] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[18:26:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[18:26:47] [Server thread/INFO]: [WorldGuard] Loading region data...
-[18:26:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[18:26:49] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[18:26:49] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[18:26:49] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
-[18:26:49] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.3.0+6678-55745ad.
-[18:26:49] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
-[18:26:49] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[18:26:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9]
-[18:26:49] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.5.
-[18:26:49] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.10
-[18:26:49] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
-[18:26:49] [Server thread/INFO]: [voicechat] Compatibility version 18
-[18:26:50] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[18:26:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.10]
-[18:26:50] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[18:26:50] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[18:26:50] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[18:26:50] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[18:26:50] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[18:26:50] [Server thread/INFO]: [ClearLag] Loading modules...
-[18:26:50] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R3.MinecraftServer)
-[18:26:50] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[18:26:51] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[18:26:51] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[18:26:51] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.2
-[18:26:51] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[18:26:51] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[18:26:51] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[18:26:51] [Thread-10/INFO]: [ClearLag] No updates found!
-[18:26:51] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[18:26:51] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[18:26:51] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[18:26:52] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[18:26:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[18:26:52] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:26:53] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[18:26:53] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[18:26:55] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[18:26:55] [Server thread/INFO]: [Essentials] Using locale pt_BR
-[18:26:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:26:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:26:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[18:26:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[18:26:55] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3367)
-[18:26:55] [Server thread/INFO]: [Citizens] Loading external libraries
-[18:26:57] [Server thread/INFO]: [Citizens] Detected system language [[{0}]]. If you'd like you can contribute to Citizens translations via our Discord! https://discord.gg/Q6pZGSR
-[18:26:58] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[18:26:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[18:26:58] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[18:26:58] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
-[18:26:58] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
-[18:26:58] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.0
-[18:26:58] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[18:26:58] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
-[18:26:58] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
-[18:26:58] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
-[18:26:58] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
-[18:26:58] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
-[18:26:58] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 9 unique blocks.
-[18:26:58] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
-[18:26:58] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
-[18:26:58] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
-[18:26:59] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[18:26:59] [Server thread/INFO]: [VeinMiner] Registering commands
-[18:26:59] [Server thread/INFO]: [VeinMiner] Registering events
-[18:26:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: veinminer [2.2.0]
-[18:26:59] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
-[18:26:59] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[18:26:59] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
-[18:26:59] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
-[18:26:59] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
-[18:27:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
-[18:27:00] [Server thread/INFO]: [TAB] Enabled in 735ms
-[18:27:00] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
-[18:27:02] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
-[18:27:02] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
-[18:27:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
-[18:27:02] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
-[18:27:02] [Server thread/INFO]: [KeepDeathDrop] Enabled!
-[18:27:02] [Server thread/INFO]: [GSit] Enabling GSit v1.8.0
-[18:27:02] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[18:27:02] [Server thread/INFO]: [GSit] Link with GriefPrevention successful!
-[18:27:02] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
-[18:27:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.8.0]
-[18:27:02] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
-[18:27:02] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
-[18:27:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[18:27:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[18:27:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[18:27:02] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[18:27:02] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
-[18:27:02] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
-[18:27:02] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer v2023.12
-[18:27:03] [Server thread/INFO]: [ClearLagTimer] 2023.12, a free resource by Norska - Thanks for downloading!
-[18:27:03] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
-[18:27:03] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
-[18:27:04] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
-[18:27:05] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
-[18:27:05] [Server thread/INFO]: [ChestShop] Vault loaded!
-[18:27:05] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
-[18:27:05] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
-[18:27:05] [Server thread/INFO]: [BetterPrefix] Enabling BetterPrefix v5.4
-[18:27:05] [Server thread/INFO]: [BetterPrefix] Loaded config.yml
-[18:27:05] [Server thread/INFO]: [BeautyQuests] Enabling BeautyQuests v1.0.2
-[18:27:05] [Server thread/INFO]: [BeautyQuests] ------------ BeautyQuests ------------
-[18:27:05] [Server thread/INFO]: [BeautyQuests] Loaded valid Minecraft version 1_20_R3.
-[18:27:06] [Server thread/INFO]: [BeautyQuests] Loaded language en_US (0.123s)!
-[18:27:06] [Server thread/INFO]: [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
-[18:27:06] [Server thread/INFO]: [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
-[18:27:06] [Server thread/INFO]: [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
-[18:27:08] [Server thread/INFO]: [BeautyQuests] Adding citizens as a npc factory
-[18:27:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: beautyquests [1.0.2]
-[18:27:08] [Server thread/INFO]: [BeautyQuests] Placeholders registered !
-[18:27:08] [Server thread/INFO]: [WorldGuard] Registering session handler fr.skytasul.quests.integrations.worldguard.WorldGuardEntryHandler
-[18:27:09] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[18:27:09] [Server thread/INFO]: Running delayed init tasks
-[18:27:10] [Craft Scheduler Thread - 11 - BetterPrefix/INFO]: [BetterPrefix] There is not a new update available.
-[18:27:10] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[18:27:10] [Server thread/INFO]: [BetterPrefix] was enabled successfully!
-[18:27:10] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[18:27:10] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Buscando informações da versão...
-[18:27:10] [Server thread/INFO]: [BeautyQuests] You are using the latest version of BeautyQuests.
-[18:27:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[18:27:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[18:27:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.2]
-[18:27:10] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[18:27:10] [Server thread/INFO]: Done (65.695s)! For help, type "help"
-[18:27:10] [Server thread/INFO]: Timings Reset
-[18:27:09] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:27:10] [Server thread/INFO]: [BeautyQuests] 0 quests loaded (0.102s)!
-[18:27:10] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
-[18:27:10] [Server thread/INFO]: [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 52
-[18:27:10] [Server thread/INFO]: [voicechat] Loading plugins
-[18:27:10] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[18:27:10] [Server thread/INFO]: [voicechat] Initializing plugins
-[18:27:09] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[18:27:10] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[18:27:10] [Server thread/INFO]: [voicechat] Registering events for 'voicechat_interaction'
-[18:27:10] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
-[18:27:11] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
-[18:27:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2773ms or 55 ticks behind
-[18:27:15] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
-[18:27:15] [Server thread/INFO]: [ClearLagTimer] Hooked into PlaceholderAPI!
-[18:27:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clearlagtimer [2023.12]
-[18:27:15] [Server thread/INFO]: [ClearLagTimer] Successfully performed 1 hooks!
-[18:31:55] [User Authenticator #0/INFO]: UUID of player DiegooCookie is 1e57773c-c05c-456c-9c51-59b3d5b035e0
-[18:31:58] [Server thread/INFO]: DiegooCookie joined the game
-[18:31:58] [Server thread/INFO]: DiegooCookie[/26.210.198.12:62084] logged in with entity id 223 at ([world]-11.809866193056298, 66.99442662744718, -22.608558693339834)
-[18:31:59] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 65,648700ms. Summary: Getting prefix for DiegooCookie
-[18:32:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2659ms or 53 ticks behind
-[18:32:01] [Server thread/INFO]: [voicechat] Received secret request of DiegooCookie (18)
-[18:32:01] [Server thread/INFO]: [voicechat] Sent secret to DiegooCookie
-[18:32:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1e57773c-c05c-456c-9c51-59b3d5b035e0
-[18:32:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1e57773c-c05c-456c-9c51-59b3d5b035e0
-[18:32:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DiegooCookie (1e57773c-c05c-456c-9c51-59b3d5b035e0) successfully connected to voice chat
-[18:32:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13948ms or 278 ticks behind
-[18:33:11] [Server thread/INFO]: DiegooCookie lost connection: Disconnected
-[18:33:11] [Server thread/INFO]: [voicechat] Disconnecting client DiegooCookie
-[18:33:12] [Server thread/INFO]: DiegooCookie left the game
-[18:33:19] [Server thread/INFO]: Saving the game (this may take a moment!)
-[18:33:20] [Server thread/INFO]: Saved the game
-[18:33:21] [Server thread/INFO]: Stopping the server
-[18:33:21] [Server thread/WARN]: java.lang.Throwable: Server stopped
-[18:33:21] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1055)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.halt(MinecraftServer.java:1050)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.commands.StopCommand.lambda$register$2(StopCommand.java:16)
-[18:33:21] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:336)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:318)
-[18:33:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:43)
-[18:33:21] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
-[18:33:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
-[18:33:21] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
-[18:33:21] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
-[18:33:21] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[18:33:21] [Server thread/INFO]: Stopping server
-[18:33:21] [Server thread/INFO]: [BeautyQuests] Disabling BeautyQuests v1.0.2
-[18:33:21] [Server thread/INFO]: [BeautyQuests] Periodic saves task stopped.
-[18:33:21] [Server thread/INFO]: [WorldGuard] Unregistering session handler fr.skytasul.quests.integrations.worldguard.WorldGuardEntryHandler
-[18:33:21] [Server thread/INFO]: [BetterPrefix] Disabling BetterPrefix v5.4
-[18:33:21] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.12.2 (build 353)
-[18:33:21] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.136
-[18:33:21] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer v2023.12
-[18:33:21] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
-[18:33:21] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
-[18:33:21] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
-[18:33:21] [Server thread/INFO]: [GSit] Disabling GSit v1.8.0
-[18:33:21] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[18:33:21] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
-[18:33:21] [Server thread/INFO]: [KeepDeathDrop] Disabled!
-[18:33:21] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.5
-[18:33:21] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
-[18:33:21] [Server thread/INFO]: [TAB] Disabled in 0ms
-[18:33:21] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.0
-[18:33:21] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[18:33:21] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.1+1.20.2
-[18:33:21] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
-[18:33:21] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3367)
-[18:33:21] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[18:33:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[18:33:21] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.2
-[18:33:21] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[18:33:21] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[18:33:21] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[18:33:21] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[18:33:21] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.10
-[18:33:21] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[18:33:22] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
-[18:33:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
-[18:33:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[18:33:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
-[18:33:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:33:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[18:33:22] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.118
-[18:33:22] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:33:22] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:33:22] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:33:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[18:33:22] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[18:33:22] [Server thread/INFO]: Saving players
-[18:33:22] [Server thread/INFO]: Saving worlds
-[18:33:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 115 entity chunks, 0 poi chunks in world 'world' in 0,09s
-[18:33:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:33:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
-[18:33:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:33:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:33:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[18:33:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:33:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:33:22] [Server thread/INFO]: Flushing Chunk IO
-[18:33:22] [Server thread/INFO]: Closing Thread Pool
-[18:33:22] [Server thread/INFO]: Closing Server
-[18:33:22] [Thread-1/WARN]: java.lang.Throwable: Server stopped
-[18:33:22] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
-[18:33:22] [Thread-1/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1055)
-[18:33:22] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
+[20:16:44] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1
+[20:16:45] [Server thread/INFO]: Preparing level "world"
+[20:16:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:16:48] [Server thread/INFO]: Time elapsed: 267 ms
+[20:16:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:16:48] [Server thread/INFO]: Time elapsed: 76 ms
+[20:16:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:16:48] [Server thread/INFO]: Time elapsed: 72 ms
+[20:16:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:16:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:16:48] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:16:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:16:49] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:16:49] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[20:16:50] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:16:50] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[20:16:50] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[20:16:50] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.3.0+6678-55745ad.
+[20:16:50] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[20:16:50] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[20:16:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9]
+[20:16:50] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.5.
+[20:16:51] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.10
+[20:16:51] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.4-R0.1
+[20:16:51] [Server thread/INFO]: [voicechat] Compatibility version 18
+[20:16:51] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[20:16:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.10]
+[20:16:51] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[20:16:51] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[20:16:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:16:51] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:16:51] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[20:16:52] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:16:52] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R3.MinecraftServer)
+[20:16:52] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:16:52] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:16:52] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:16:52] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.2
+[20:16:52] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[20:16:52] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[20:16:52] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[20:16:53] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[20:16:53] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[20:16:53] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[20:16:53] [Thread-10/INFO]: [ClearLag] No updates found!
+[20:16:53] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[20:16:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[20:16:55] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:16:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:16:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:16:58] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[20:16:59] [Server thread/INFO]: [Essentials] Using locale pt_BR
+[20:16:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:16:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:16:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:16:59] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:16:59] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.33-SNAPSHOT (build 3367)
+[20:16:59] [Server thread/INFO]: [Citizens] Loading external libraries
+[20:17:00] [Server thread/INFO]: [Citizens] Detected system language [[{0}]]. If you'd like you can contribute to Citizens translations via our Discord! https://discord.gg/Q6pZGSR
+[20:17:01] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[20:17:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[20:17:01] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[20:17:01] [Server thread/INFO]: [voicechat_interaction] Enabling voicechat_interaction vv1.3.1+1.20.2
+[20:17:01] [Server thread/INFO]: [voicechat_interaction] Successfully registered voicechat_interaction plugin
+[20:17:01] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.0
+[20:17:01] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[20:17:01] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[20:17:01] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 9 unique blocks.
+[20:17:01] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[20:17:01] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registering commands
+[20:17:01] [Server thread/INFO]: [VeinMiner] Registering events
+[20:17:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: veinminer [2.2.0]
+[20:17:01] [Server thread/INFO]: [VeinMiner] Vault found. Attempting to enable economy support...
+[20:17:01] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[20:17:01] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[20:17:02] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[20:17:02] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[20:17:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[20:17:03] [Server thread/INFO]: [TAB] Enabled in 540ms
+[20:17:03] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
+[20:17:04] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[20:17:04] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[20:17:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
+[20:17:04] [Server thread/INFO]: [KeepDeathDrop] Enabling KeepDeathDrop v1.0.7
+[20:17:04] [Server thread/INFO]: [KeepDeathDrop] Enabled!
+[20:17:04] [Server thread/INFO]: [GSit] Enabling GSit v1.8.0
+[20:17:04] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[20:17:04] [Server thread/INFO]: [GSit] Link with GriefPrevention successful!
+[20:17:04] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[20:17:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.8.0]
+[20:17:04] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[20:17:04] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[20:17:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[20:17:04] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[20:17:04] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[20:17:04] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[20:17:04] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.5
+[20:17:04] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
+[20:17:04] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer v2023.12
+[20:17:04] [Server thread/INFO]: [ClearLagTimer] 2023.12, a free resource by Norska - Thanks for downloading!
+[20:17:05] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
+[20:17:05] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
+[20:17:06] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
+[20:17:07] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
+[20:17:07] [Server thread/INFO]: [ChestShop] Vault loaded!
+[20:17:07] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
+[20:17:07] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
+[20:17:07] [Server thread/INFO]: [BetterPrefix] Enabling BetterPrefix v5.4
+[20:17:07] [Server thread/INFO]: [BetterPrefix] Loaded config.yml
+[20:17:07] [Server thread/INFO]: [BeautyQuests] Enabling BeautyQuests v1.0.2
+[20:17:07] [Server thread/INFO]: [BeautyQuests] ------------ BeautyQuests ------------
+[20:17:07] [Server thread/INFO]: [BeautyQuests] Loaded valid Minecraft version 1_20_R3.
+[20:17:08] [Server thread/INFO]: [BeautyQuests] Loaded language en_US (0.218s)!
+[20:17:08] [Server thread/INFO]: [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[20:17:08] [Server thread/INFO]: [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[20:17:08] [Server thread/INFO]: [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[20:17:10] [Server thread/INFO]: [BeautyQuests] Adding citizens as a npc factory
+[20:17:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: beautyquests [1.0.2]
+[20:17:10] [Server thread/INFO]: [BeautyQuests] Placeholders registered !
+[20:17:10] [Server thread/INFO]: [WorldGuard] Registering session handler fr.skytasul.quests.integrations.worldguard.WorldGuardEntryHandler
+[20:17:11] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:17:12] [Server thread/INFO]: Running delayed init tasks
+[20:17:12] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:17:12] [Server thread/INFO]: [BetterPrefix] was enabled successfully!
+[20:17:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[20:17:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[20:17:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.2]
+[20:17:12] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[20:17:12] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Buscando informações da versão...
+[20:17:12] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[20:17:12] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:17:12] [Server thread/INFO]: Done (66.393s)! For help, type "help"
+[20:17:12] [Server thread/INFO]: Timings Reset
+[20:17:12] [Server thread/INFO]: [BeautyQuests] 0 quests loaded (0.063s)!
+[20:17:12] [Craft Scheduler Thread - 11 - BetterPrefix/INFO]: [BetterPrefix] There is not a new update available.
+[20:17:12] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:17:12] [Server thread/INFO]: [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 51
+[20:17:12] [Server thread/INFO]: [voicechat] Loading plugins
+[20:17:12] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[20:17:12] [Server thread/INFO]: [voicechat] Initializing plugins
+[20:17:12] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
+[20:17:12] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[20:17:12] [Server thread/INFO]: [voicechat] Registering events for 'voicechat_interaction'
+[20:17:12] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 26.210.198.12
+[20:17:12] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 26.210.198.12:24454
+[20:17:13] [Server thread/INFO]: [BeautyQuests] You are using the latest version of BeautyQuests.
+[20:17:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2605ms or 52 ticks behind
+[20:17:17] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...
+[20:17:17] [Server thread/INFO]: [ClearLagTimer] Hooked into PlaceholderAPI!
+[20:17:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clearlagtimer [2023.12]
+[20:17:17] [Server thread/INFO]: [ClearLagTimer] Successfully performed 1 hooks!
+[20:25:54] [User Authenticator #0/INFO]: UUID of player DiegooCookie is 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[20:25:58] [Server thread/INFO]: DiegooCookie joined the game
+[20:25:58] [Server thread/INFO]: DiegooCookie[/26.210.198.12:62492] logged in with entity id 224 at ([world]-16.462308006628373, 66.99442662744718, -19.865764431404035)
+[20:25:59] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 52,695800ms. Summary: Getting prefix for DiegooCookie
+[20:25:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3038ms or 60 ticks behind
+[20:26:08] [Server thread/INFO]: [voicechat] Received secret request of DiegooCookie (18)
+[20:26:08] [Server thread/INFO]: [voicechat] Sent secret to DiegooCookie
+[20:26:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[20:26:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[20:26:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DiegooCookie (1e57773c-c05c-456c-9c51-59b3d5b035e0) successfully connected to voice chat
+[20:26:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2701ms or 54 ticks behind
+[20:28:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2587ms or 51 ticks behind
+[20:32:22] [Craft Scheduler Thread - 74 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[20:40:04] [Server thread/INFO]: DiegooCookie issued server command: /gms
+[20:40:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3221ms or 64 ticks behind
+[20:43:11] [Server thread/INFO]: DiegooCookie issued server command: /gmsp
+[20:46:58] [Server thread/INFO]: DiegooCookie issued server command: /gms
+[20:47:25] [Craft Scheduler Thread - 140 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[20:47:43] [Server thread/INFO]: DiegooCookie issued server command: /gmsp
+[20:47:48] [Server thread/INFO]: DiegooCookie issued server command: /timeset 0
+[20:47:55] [Server thread/INFO]: DiegooCookie issued server command: /time set 0
+[20:48:01] [Server thread/INFO]: DiegooCookie issued server command: /gms
+[20:48:09] [Server thread/INFO]: DiegooCookie has made the advancement [Monster Hunter]
+[20:52:31] [Server thread/INFO]: DiegooCookie issued server command: /afk
+[20:52:32] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 90,965800ms. Summary: Getting prefix for DiegooCookie
+[21:02:25] [Craft Scheduler Thread - 195 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[21:13:12] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Dropping voice chat packets! Your Server might be overloaded!
+[21:13:12] [VoiceChatPacketProcessingThread/ERROR]: [voicechat] Packet queue has 57 packets
+[21:16:13] [Server thread/INFO]: DiegooCookie lost connection: Disconnected
+[21:16:13] [Server thread/INFO]: [voicechat] Disconnecting client DiegooCookie
+[21:16:13] [Server thread/INFO]: DiegooCookie left the game
+[21:17:26] [Craft Scheduler Thread - 259 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[21:24:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2923ms or 58 ticks behind
+[21:25:24] [User Authenticator #1/INFO]: UUID of player DiegooCookie is 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:25:25] [Server thread/INFO]: DiegooCookie joined the game
+[21:25:25] [Server thread/INFO]: DiegooCookie[/26.210.198.12:62622] logged in with entity id 3843 at ([world]-19.03357102140355, 64.0, -16.268948464189055)
+[21:25:43] [Server thread/INFO]: [voicechat] Received secret request of DiegooCookie (18)
+[21:25:43] [Server thread/INFO]: [voicechat] Sent secret to DiegooCookie
+[21:25:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:25:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:25:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DiegooCookie (1e57773c-c05c-456c-9c51-59b3d5b035e0) successfully connected to voice chat
+[21:26:09] [Server thread/INFO]: DiegooCookie issued server command: /gmsp
+[21:27:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3216ms or 64 ticks behind
+[21:27:35] [Server thread/INFO]: DiegooCookie issued server command: /gms
+[21:28:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4082ms or 81 ticks behind
+[21:28:48] [Server thread/WARN]: DiegooCookie moved too quickly! -8.70611644864357,-7.0,11.148914030221253
+[21:29:08] [Netty Server IO #1/WARN]: java.net.SocketException: Connection reset
+[21:29:08] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+[21:29:08] [Netty Server IO #1/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:29:08] [Netty Server IO #1/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:29:08] [Netty Server IO #1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:29:08] [Server thread/INFO]: DiegooCookie lost connection: Disconnected
+[21:29:09] [Server thread/INFO]: [voicechat] Disconnecting client DiegooCookie
+[21:29:09] [Server thread/INFO]: DiegooCookie left the game
+[21:31:50] [User Authenticator #2/INFO]: UUID of player DiegooCookie is 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:31:52] [Server thread/INFO]: DiegooCookie joined the game
+[21:31:52] [Server thread/INFO]: DiegooCookie[/26.210.198.12:62665] logged in with entity id 4137 at ([world]-26.847935910444484, 64.0, -21.158018668896357)
+[21:31:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2760ms or 55 ticks behind
+[21:32:12] [Server thread/INFO]: [voicechat] Received secret request of DiegooCookie (18)
+[21:32:12] [Server thread/INFO]: [voicechat] Sent secret to DiegooCookie
+[21:32:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:32:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:32:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DiegooCookie (1e57773c-c05c-456c-9c51-59b3d5b035e0) successfully connected to voice chat
+[21:32:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4282ms or 85 ticks behind
+[21:32:44] [Craft Scheduler Thread - 330 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[21:35:13] [Netty Server IO #3/WARN]: java.net.SocketException: Connection reset
+[21:35:13] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+[21:35:13] [Netty Server IO #3/WARN]: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:35:13] [Netty Server IO #3/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:35:13] [Netty Server IO #3/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:35:13] [Server thread/INFO]: DiegooCookie lost connection: Disconnected
+[21:35:13] [Server thread/INFO]: [voicechat] Disconnecting client DiegooCookie
+[21:35:13] [Server thread/INFO]: DiegooCookie left the game
+[21:40:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2637ms or 52 ticks behind
+[21:47:46] [Craft Scheduler Thread - 396 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[21:48:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2820ms or 56 ticks behind
+[21:49:12] [User Authenticator #3/INFO]: UUID of player DiegooCookie is 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:49:15] [Server thread/INFO]: DiegooCookie joined the game
+[21:49:15] [Server thread/INFO]: DiegooCookie[/26.210.198.12:62988] logged in with entity id 4610 at ([world]-17.632246493140475, 64.0, -16.87962544542154)
+[21:49:16] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 39,140500ms. Summary: Getting prefix for DiegooCookie
+[21:49:25] [Server thread/INFO]: [voicechat] Received secret request of DiegooCookie (18)
+[21:49:26] [Server thread/INFO]: [voicechat] Sent secret to DiegooCookie
+[21:49:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:49:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1e57773c-c05c-456c-9c51-59b3d5b035e0
+[21:49:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DiegooCookie (1e57773c-c05c-456c-9c51-59b3d5b035e0) successfully connected to voice chat
+[21:50:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2680ms or 53 ticks behind
+[21:59:38] [Server thread/INFO]: DiegooCookie issued server command: /time set 0
+[21:59:40] [Server thread/INFO]: DiegooCookie issued server command: /gmc
+[22:00:09] [Server thread/INFO]: DiegooCookie issued server command: /gms
+[22:01:20] [Server thread/INFO]: DiegooCookie issued server command: /gmc
+[22:01:31] [Server thread/INFO]: DiegooCookie issued server command: /gms
+[22:02:51] [Craft Scheduler Thread - 459 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[22:05:21] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 50,910100ms. Summary: Getting prefix for DiegooCookie
+[22:10:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3633ms or 72 ticks behind
+[22:10:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3309ms or 66 ticks behind
+[22:11:28] [Server thread/INFO]: DiegooCookie issued server command: /sethome
+[22:11:42] [Server thread/INFO]: DiegooCookie issued server command: /time set sunrise
+[22:11:45] [Server thread/INFO]: DiegooCookie has made the advancement [Sweet Dreams]
+[22:13:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-477 (MC: 1.20.4) ---
+[22:13:08] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[22:13:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:13:08] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:13:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:13:09] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:13:09] [Paper Watchdog Thread/ERROR]: 	PID: 35 | Suspended: false | Native: true | State: RUNNABLE
+[22:13:09] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:13:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12482ms or 249 ticks behind
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/sun.nio.fs.WindowsNativeDispatcher.SetEndOfFile(Native Method)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/sun.nio.fs.WindowsChannelFactory.open(WindowsChannelFactory.java:330)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/sun.nio.fs.WindowsChannelFactory.newFileChannel(WindowsChannelFactory.java:168)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:229)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.nio.file.Files.newOutputStream(Files.java:227)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:140)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:616)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:607)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1503)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1546)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000021a90bb0430.run(Unknown Source)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.Thread.runWith(Thread.java:1596)
+[22:13:10] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.1/java.lang.Thread.run(Thread.java:1583)
+[22:13:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:13:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:13:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:15:16] [Server thread/INFO]: DiegooCookie issued server command: /home]
+[22:15:19] [Server thread/INFO]: DiegooCookie issued server command: /home
+[22:16:46] [Server thread/INFO]: DiegooCookie issued server command: /setwarp bee's
+[22:18:10] [Craft Scheduler Thread - 518 - BeautyQuests/INFO]: [BeautyQuests] Datas saved ~ periodic save
+[22:19:05] [Server thread/INFO]: DiegooCookie issued server command: /back
+[22:20:21] [Server thread/INFO]: DiegooCookie issued server command: /setwarp dungeon
+[22:20:24] [Server thread/INFO]: DiegooCookie issued server command: /home
+[22:22:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3642ms or 72 ticks behind
+[22:25:07] [Server thread/INFO]: DiegooCookie issued server command: /back
+[22:26:33] [Server thread/INFO]: DiegooCookie issued server command: /claimlist
+[22:26:44] [Server thread/INFO]: DiegooCookie issued server command: /deleteallclaims
+[22:26:50] [Server thread/INFO]: DiegooCookie issued server command: /deleteallclaims DiegooCookie
+[22:26:50] [Server thread/INFO]: [GriefPrevention] DiegooCookie deleted all claims belonging to DiegooCookie.
+[22:29:29] [Server thread/INFO]: DiegooCookie lost connection: Disconnected
+[22:29:29] [Server thread/INFO]: [voicechat] Disconnecting client DiegooCookie
+[22:29:30] [Server thread/INFO]: DiegooCookie left the game
+[22:29:42] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:29:42] [Server thread/INFO]: Saved the game
+[22:29:49] [Server thread/INFO]: Stopping the server
+[22:29:49] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[22:29:49] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1055)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.halt(MinecraftServer.java:1050)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.commands.StopCommand.lambda$register$2(StopCommand.java:16)
+[22:29:49] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:336)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:318)
+[22:29:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:43)
+[22:29:49] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[22:29:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
+[22:29:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchServerCommand(CraftServer.java:984)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1525)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226)
+[22:29:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:29:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:29:49] [Server thread/INFO]: Stopping server
+[22:29:49] [Server thread/INFO]: [BeautyQuests] Disabling BeautyQuests v1.0.2
+[22:29:49] [Server thread/INFO]: [BeautyQuests] Periodic saves task stopped.
+[22:29:49] [Server thread/INFO]: [WorldGuard] Unregistering session handler fr.skytasul.quests.integrations.worldguard.WorldGuardEntryHandler
+[22:29:50] [Server thread/INFO]: [BetterPrefix] Disabling BetterPrefix v5.4
+[22:29:50] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.12.2 (build 353)
+[22:29:50] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.136
+[22:29:50] [Server thread/INFO]: [ClearLagTimer] Disabling ClearLagTimer v2023.12
+[22:29:50] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.5
+[22:29:50] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[22:29:50] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[22:29:50] [Server thread/INFO]: [GSit] Disabling GSit v1.8.0
+[22:29:50] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[22:29:50] [Server thread/INFO]: [KeepDeathDrop] Disabling KeepDeathDrop v1.0.7
+[22:29:50] [Server thread/INFO]: [KeepDeathDrop] Disabled!
+[22:29:50] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.5
+[22:29:50] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[22:29:50] [Server thread/INFO]: [TAB] Disabled in 14ms
+[22:29:50] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.2.0
+[22:29:50] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[22:29:50] [Server thread/INFO]: [voicechat_interaction] Disabling voicechat_interaction vv1.3.1+1.20.2
+[22:29:50] [Server thread/INFO]: [voicechat_interaction] Successfully unregistered voicechat_interaction plugin
+[22:29:50] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.33-SNAPSHOT (build 3367)
+[22:29:50] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[22:29:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:29:50] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.2
+[22:29:50] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[22:29:50] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[22:29:50] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[22:29:50] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[22:29:50] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.10
+[22:29:50] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[22:29:50] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[22:29:50] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[22:29:50] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:29:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[22:29:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:29:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:29:50] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.118
+[22:29:50] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:29:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:29:51] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:29:51] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[22:29:51] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:29:51] [Server thread/INFO]: Saving players
+[22:29:51] [Server thread/INFO]: Saving worlds
+[22:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Saved 12 block chunks, 249 entity chunks, 0 poi chunks in world 'world' in 0,17s
+[22:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
+[22:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:29:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[22:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:29:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:29:51] [Server thread/INFO]: Flushing Chunk IO
+[22:29:51] [Server thread/INFO]: Closing Thread Pool
+[22:29:51] [Server thread/INFO]: Closing Server
+[22:29:51] [Thread-1/WARN]: java.lang.Throwable: Server stopped
+[22:29:51] [Thread-1/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[22:29:51] [Thread-1/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1055)
+[22:29:51] [Thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
